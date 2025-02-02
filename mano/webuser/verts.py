@@ -6,28 +6,20 @@ By using this software you agree to the terms of the MANO/SMPL+H Model license h
 More information about MANO/SMPL+H is available at http://mano.is.tue.mpg.de.
 For comments or questions, please email us at: mano@tue.mpg.de
 
-
 About this file:
 ================
 This file defines a wrapper for the loading functions of the MANO model.
-
-Modules included:
-- load_model:
-  loads the MANO model from a given file location (i.e. a .pkl file location),
-  or a dictionary object.
-
 '''
 
-
-import chumpy
+import numpy as np
+import jax.numpy as jnp
+import scipy.sparse as sp
 import mano.webuser.lbs as lbs
 from mano.webuser.posemapper import posemap
-import scipy.sparse as sp
-from chumpy.ch import MatVecMult
 
 
-def ischumpy(x):
-    return hasattr(x, 'dterms')
+def is_jax_numpy(x):
+    return isinstance(x, jnp.ndarray)
 
 
 def verts_decorated(trans,
@@ -44,39 +36,37 @@ def verts_decorated(trans,
                     shapedirs=None,
                     want_Jtr=False):
 
-    for which in [
-            trans, pose, v_template, weights, posedirs, betas, shapedirs
-    ]:
+    for which in [trans, pose, v_template, weights, posedirs, betas, shapedirs]:
         if which is not None:
-            assert ischumpy(which)
+            assert isinstance(which, (np.ndarray, jnp.ndarray))
 
     v = v_template
 
     if shapedirs is not None:
         if betas is None:
-            betas = chumpy.zeros(shapedirs.shape[-1])
-        v_shaped = v + shapedirs.dot(betas)
+            betas = jnp.zeros(shapedirs.shape[-1])  # Replace chumpy.zeros
+        v_shaped = v + shapedirs @ betas
     else:
         v_shaped = v
 
     if posedirs is not None:
-        v_posed = v_shaped + posedirs.dot(posemap(bs_type)(pose))
+        v_posed = v_shaped + posedirs @ posemap(bs_type)(pose)
     else:
         v_posed = v_shaped
 
     v = v_posed
 
     if sp.issparse(J_regressor):
-        J_tmpx = MatVecMult(J_regressor, v_shaped[:, 0])
-        J_tmpy = MatVecMult(J_regressor, v_shaped[:, 1])
-        J_tmpz = MatVecMult(J_regressor, v_shaped[:, 2])
-        J = chumpy.vstack((J_tmpx, J_tmpy, J_tmpz)).T
+        J_tmpx = J_regressor @ v_shaped[:, 0]
+        J_tmpy = J_regressor @ v_shaped[:, 1]
+        J_tmpz = J_regressor @ v_shaped[:, 2]
+        J = jnp.vstack((J_tmpx, J_tmpy, J_tmpz)).T
     else:
-        assert (ischumpy(J))
+        assert isinstance(J, (np.ndarray, jnp.ndarray))
 
-    assert (bs_style == 'lbs')
+    assert bs_style == 'lbs'
     result, Jtr = lbs.verts_core(
-        pose, v, J, weights, kintree_table, want_Jtr=True, xp=chumpy)
+        pose, v, J, weights, kintree_table, want_Jtr=True, xp=jnp)
 
     tr = trans.reshape((1, 3))
     result = result + tr
@@ -111,14 +101,8 @@ def verts_core(pose,
                kintree_table,
                bs_style,
                want_Jtr=False,
-               xp=chumpy):
+               xp=jnp):
 
-    if xp == chumpy:
-        assert (hasattr(pose, 'dterms'))
-        assert (hasattr(v, 'dterms'))
-        assert (hasattr(J, 'dterms'))
-        assert (hasattr(weights, 'dterms'))
-
-    assert (bs_style == 'lbs')
+    assert bs_style == 'lbs'
     result = lbs.verts_core(pose, v, J, weights, kintree_table, want_Jtr, xp)
     return result
