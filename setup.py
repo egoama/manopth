@@ -1,8 +1,7 @@
 from setuptools import find_packages, setup
 import warnings
 
-DEPENDENCY_PACKAGE_NAMES = ["matplotlib", "torch", "tqdm", "numpy", "cv2",
-                            "chumpy"]
+DEPENDENCY_PACKAGE_NAMES = ["matplotlib", "torch", "tqdm", "numpy", "cv2"]
 
 
 def check_dependencies():
