@@ -6,119 +6,100 @@ By using this software you agree to the terms of the MANO/SMPL+H Model license h
 More information about MANO/SMPL+H is available at http://mano.is.tue.mpg.de.
 For comments or questions, please email us at: mano@tue.mpg.de
 
-
 About this file:
 ================
 This file defines a wrapper for the loading functions of the MANO model.
-
-Modules included:
-- load_model:
-  loads the MANO model from a given file location (i.e. a .pkl file location),
-  or a dictionary object.
-
 '''
+
+import numpy as np
+import jax.numpy as jnp
+import pickle
+import scipy.sparse as sp
+from mano.webuser.posemapper import posemap
+from mano.webuser.verts import verts_core
 
 
 def ready_arguments(fname_or_dict, posekey4vposed='pose'):
-    import numpy as np
-    import pickle
-    import chumpy as ch
-    from chumpy.ch import MatVecMult
-    from mano.webuser.posemapper import posemap
-
     if not isinstance(fname_or_dict, dict):
-        dd = pickle.load(open(fname_or_dict, 'rb'), encoding='latin1')
-        # dd = pickle.load(open(fname_or_dict, 'rb'))
+        with open(fname_or_dict, 'rb') as f:
+            dd = pickle.load(f, encoding='latin1')
     else:
         dd = fname_or_dict
 
     want_shapemodel = 'shapedirs' in dd
     nposeparms = dd['kintree_table'].shape[1] * 3
 
-    if 'trans' not in dd:
-        dd['trans'] = np.zeros(3)
-    if 'pose' not in dd:
-        dd['pose'] = np.zeros(nposeparms)
+    dd.setdefault('trans', np.zeros(3))
+    dd.setdefault('pose', np.zeros(nposeparms))
+
     if 'shapedirs' in dd and 'betas' not in dd:
         dd['betas'] = np.zeros(dd['shapedirs'].shape[-1])
 
-    for s in [
-            'v_template', 'weights', 'posedirs', 'pose', 'trans', 'shapedirs',
-            'betas', 'J'
-    ]:
-        if (s in dd) and not hasattr(dd[s], 'dterms'):
-            dd[s] = ch.array(dd[s])
+    for s in ['v_template', 'weights', 'posedirs', 'pose', 'trans', 'shapedirs', 'betas', 'J']:
+        if s in dd:
+            dd[s] = jnp.array(dd[s])  # Replace chumpy with jax.numpy
 
-    assert (posekey4vposed in dd)
+    assert posekey4vposed in dd
+
     if want_shapemodel:
-        dd['v_shaped'] = dd['shapedirs'].dot(dd['betas']) + dd['v_template']
+        dd['v_shaped'] = dd['shapedirs'] @ dd['betas'] + dd['v_template']
         v_shaped = dd['v_shaped']
-        J_tmpx = MatVecMult(dd['J_regressor'], v_shaped[:, 0])
-        J_tmpy = MatVecMult(dd['J_regressor'], v_shaped[:, 1])
-        J_tmpz = MatVecMult(dd['J_regressor'], v_shaped[:, 2])
-        dd['J'] = ch.vstack((J_tmpx, J_tmpy, J_tmpz)).T
+
+        # Replace MatVecMult with numpy matrix multiplication
+        J_tmpx = dd['J_regressor'] @ v_shaped[:, 0]
+        J_tmpy = dd['J_regressor'] @ v_shaped[:, 1]
+        J_tmpz = dd['J_regressor'] @ v_shaped[:, 2]
+        dd['J'] = jnp.vstack((J_tmpx, J_tmpy, J_tmpz)).T
+
         pose_map_res = posemap(dd['bs_type'])(dd[posekey4vposed])
-        dd['v_posed'] = v_shaped + dd['posedirs'].dot(pose_map_res)
+        dd['v_posed'] = v_shaped + dd['posedirs'] @ pose_map_res
     else:
         pose_map_res = posemap(dd['bs_type'])(dd[posekey4vposed])
-        dd_add = dd['posedirs'].dot(pose_map_res)
-        dd['v_posed'] = dd['v_template'] + dd_add
+        dd['v_posed'] = dd['v_template'] + dd['posedirs'] @ pose_map_res
 
     return dd
 
 
 def load_model(fname_or_dict, ncomps=6, flat_hand_mean=False, v_template=None):
-    ''' This model loads the fully articulable HAND SMPL model,
-    and replaces the pose DOFS by ncomps from PCA'''
+    ''' Loads the fully articulable HAND SMPL model and replaces chumpy with numpy/jax. '''
 
-    from mano.webuser.verts import verts_core
-    import numpy as np
-    import chumpy as ch
-    import pickle
-    import scipy.sparse as sp
     np.random.seed(1)
 
     if not isinstance(fname_or_dict, dict):
-        smpl_data = pickle.load(open(fname_or_dict, 'rb'), encoding='latin1')
-        # smpl_data = pickle.load(open(fname_or_dict, 'rb'))
+        with open(fname_or_dict, 'rb') as f:
+            smpl_data = pickle.load(f, encoding='latin1')
     else:
         smpl_data = fname_or_dict
 
-    rot = 3  # for global orientation!!!
+    rot = 3  # for global orientation
 
     hands_components = smpl_data['hands_components']
-    hands_mean = np.zeros(hands_components.shape[
-        1]) if flat_hand_mean else smpl_data['hands_mean']
+    hands_mean = np.zeros(hands_components.shape[1]) if flat_hand_mean else smpl_data['hands_mean']
     hands_coeffs = smpl_data['hands_coeffs'][:, :ncomps]
 
     selected_components = np.vstack((hands_components[:ncomps]))
     hands_mean = hands_mean.copy()
 
-    pose_coeffs = ch.zeros(rot + selected_components.shape[0])
-    full_hand_pose = pose_coeffs[rot:(rot + ncomps)].dot(selected_components)
+    pose_coeffs = jnp.zeros(rot + selected_components.shape[0])  # Replace chumpy.zeros
+    full_hand_pose = pose_coeffs[rot:(rot + ncomps)] @ selected_components
 
-    smpl_data['fullpose'] = ch.concatenate((pose_coeffs[:rot],
-                                            hands_mean + full_hand_pose))
+    smpl_data['fullpose'] = jnp.concatenate((pose_coeffs[:rot], hands_mean + full_hand_pose))
     smpl_data['pose'] = pose_coeffs
 
     Jreg = smpl_data['J_regressor']
     if not sp.issparse(Jreg):
-        smpl_data['J_regressor'] = (sp.csc_matrix(
-            (Jreg.data, (Jreg.row, Jreg.col)), shape=Jreg.shape))
+        smpl_data['J_regressor'] = sp.csc_matrix((Jreg.data, (Jreg.row, Jreg.col)), shape=Jreg.shape)
 
-    # slightly modify ready_arguments to make sure that it uses the fullpose
-    # (which will NOT be pose) for the computation of posedirs
+    # Modify ready_arguments to use fullpose instead of pose
     dd = ready_arguments(smpl_data, posekey4vposed='fullpose')
 
-    # create the smpl formula with the fullpose,
-    # but expose the PCA coefficients as smpl.pose for compatibility
     args = {
         'pose': dd['fullpose'],
         'v': dd['v_posed'],
         'J': dd['J'],
         'weights': dd['weights'],
         'kintree_table': dd['kintree_table'],
-        'xp': ch,
+        'xp': jnp,  # Replacing chumpy with jax.numpy
         'want_Jtr': True,
         'bs_style': dd['bs_style'],
     }
@@ -130,7 +111,7 @@ def load_model(fname_or_dict, ncomps=6, flat_hand_mean=False, v_template=None):
 
     if meta is not None:
         for field in ['Jtr', 'A', 'A_global', 'A_weighted']:
-            if (hasattr(meta, field)):
+            if hasattr(meta, field):
                 setattr(result, field, getattr(meta, field))
 
     setattr(result, 'Jtr', meta)
@@ -147,4 +128,4 @@ def load_model(fname_or_dict, ncomps=6, flat_hand_mean=False, v_template=None):
 
 
 if __name__ == '__main__':
-    load_model()
+    load_model("path/to/your/model.pkl")
