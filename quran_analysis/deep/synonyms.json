@@ -1,0 +1,521 @@
+[
+ {
+  "pair": "عام/سنة",
+  "verses": [
+   6,
+   6
+  ],
+  "classifier": {
+   "loo_acc": 0.75,
+   "majority_baseline": 0.5,
+   "perm_null_mean": 0.577,
+   "p": 0.2292
+  },
+  "negative_context_share": [
+   0.17,
+   0.5
+  ],
+  "negative_context_fisher_p": 0.5455,
+  "meccan_share": [
+   0.33,
+   0.5
+  ],
+  "distinctive_ctx_a": [
+   "ذا",
+   "بعد",
+   "كل",
+   "الله",
+   "الذي",
+   "ناس"
+  ],
+  "distinctive_ctx_b": [
+   "الف",
+   "يوم",
+   "ما",
+   "عذاب",
+   "رب",
+   "عد"
+  ],
+  "examples_a": [
+   "2:259",
+   "9:28",
+   "9:37",
+   "9:126",
+   "12:49",
+   "31:14"
+  ],
+  "examples_b": [
+   "2:96",
+   "5:26",
+   "22:47",
+   "32:5",
+   "46:15",
+   "70:4"
+  ]
+ },
+ {
+  "pair": "غيث/مطر",
+  "verses": [
+   3,
+   5
+  ],
+  "classifier": null,
+  "negative_context_share": [
+   0.33,
+   0.2
+  ],
+  "negative_context_fisher_p": 1.0,
+  "meccan_share": [
+   0.67,
+   0.8
+  ],
+  "distinctive_ctx_a": [
+   "علم",
+   "ما",
+   "نزل",
+   "الله",
+   "اي",
+   "تدري"
+  ],
+  "distinctive_ctx_b": [
+   "اتي",
+   "ساء",
+   "منذر",
+   "كان",
+   "مجرم",
+   "نظر"
+  ],
+  "examples_a": [
+   "31:34",
+   "42:28",
+   "57:20"
+  ],
+  "examples_b": [
+   "4:102",
+   "7:84",
+   "25:40",
+   "26:173",
+   "27:58"
+  ]
+ },
+ {
+  "pair": "خوف/خشية",
+  "verses": [
+   98,
+   37
+  ],
+  "classifier": {
+   "loo_acc": 0.785,
+   "majority_baseline": 0.726,
+   "perm_null_mean": 0.546,
+   "p": 0.0033
+  },
+  "negative_context_share": [
+   0.24,
+   0.11
+  ],
+  "negative_context_fisher_p": 0.098,
+  "meccan_share": [
+   0.61,
+   0.57
+  ],
+  "distinctive_ctx_a": [
+   "يحزن",
+   "يوم",
+   "عذاب",
+   "امن",
+   "قوم",
+   "قال"
+  ],
+  "distinctive_ctx_b": [
+   "من",
+   "الله",
+   "ناس",
+   "ذا",
+   "الذي",
+   "كان"
+  ],
+  "examples_a": [
+   "2:38",
+   "2:62",
+   "2:112",
+   "2:155",
+   "2:182",
+   "2:229"
+  ],
+  "examples_b": [
+   "2:74",
+   "2:150",
+   "3:173",
+   "4:25",
+   "4:77",
+   "5:3"
+  ]
+ },
+ {
+  "pair": "قلب/فؤاد",
+  "verses": [
+   123,
+   14
+  ],
+  "classifier": {
+   "loo_acc": 0.759,
+   "majority_baseline": 0.898,
+   "perm_null_mean": 0.671,
+   "p": 0.0233
+  },
+  "negative_context_share": [
+   0.22,
+   0.07
+  ],
+  "negative_context_fisher_p": 0.2999,
+  "meccan_share": [
+   0.31,
+   1.0
+  ],
+  "distinctive_ctx_a": [
+   "الله",
+   "من",
+   "قال",
+   "كان",
+   "الذي",
+   "امن"
+  ],
+  "distinctive_ctx_b": [
+   "بصر",
+   "سمع",
+   "شكر",
+   "ما",
+   "جعل",
+   "قليل"
+  ],
+  "examples_a": [
+   "2:7",
+   "2:10",
+   "2:74",
+   "2:88",
+   "2:93",
+   "2:97"
+  ],
+  "examples_b": [
+   "6:110",
+   "6:113",
+   "11:120",
+   "14:37",
+   "14:43",
+   "16:78"
+  ]
+ },
+ {
+  "pair": "إنسان/بشر",
+  "verses": [
+   69,
+   37
+  ],
+  "classifier": {
+   "loo_acc": 0.83,
+   "majority_baseline": 0.651,
+   "perm_null_mean": 0.519,
+   "p": 0.0033
+  },
+  "negative_context_share": [
+   0.03,
+   0.16
+  ],
+  "negative_context_fisher_p": 0.0206,
+  "meccan_share": [
+   0.86,
+   0.89
+  ],
+  "distinctive_ctx_a": [
+   "خلق",
+   "ما",
+   "اذا",
+   "كل",
+   "كفور",
+   "دعا"
+  ],
+  "distinctive_ctx_b": [
+   "قال",
+   "مثل",
+   "الله",
+   "ذا",
+   "الذي",
+   "شاء"
+  ],
+  "examples_a": [
+   "2:60",
+   "4:28",
+   "7:82",
+   "7:160",
+   "10:12",
+   "11:9"
+  ],
+  "examples_b": [
+   "3:47",
+   "3:79",
+   "5:18",
+   "6:91",
+   "11:27",
+   "12:31"
+  ]
+ },
+ {
+  "pair": "جاء/أتى",
+  "verses": [
+   238,
+   216
+  ],
+  "classifier": {
+   "loo_acc": 0.692,
+   "majority_baseline": 0.524,
+   "perm_null_mean": 0.497,
+   "p": 0.0033
+  },
+  "negative_context_share": [
+   0.23,
+   0.25
+  ],
+  "negative_context_fisher_p": 0.5106,
+  "meccan_share": [
+   0.76,
+   0.75
+  ],
+  "distinctive_ctx_a": [
+   "ما",
+   "اذا",
+   "لما",
+   "رسول",
+   "بينه",
+   "قال"
+  ],
+  "distinctive_ctx_b": [
+   "يوم",
+   "عذاب",
+   "ا",
+   "صادق",
+   "قبل",
+   "سماء"
+  ],
+  "examples_a": [
+   "2:71",
+   "2:87",
+   "2:89",
+   "2:92",
+   "2:101",
+   "2:120"
+  ],
+  "examples_b": [
+   "2:23",
+   "2:25",
+   "2:38",
+   "2:85",
+   "2:106",
+   "2:109"
+  ]
+ },
+ {
+  "pair": "نظر/رأى",
+  "verses": [
+   73,
+   243
+  ],
+  "classifier": {
+   "loo_acc": 0.82,
+   "majority_baseline": 0.769,
+   "perm_null_mean": 0.611,
+   "p": 0.0033
+  },
+  "negative_context_share": [
+   0.14,
+   0.28
+  ],
+  "negative_context_fisher_p": 0.0131,
+  "meccan_share": [
+   0.79,
+   0.77
+  ],
+  "distinctive_ctx_a": [
+   "كيف",
+   "كان",
+   "عاقبه",
+   "قبل",
+   "ارض",
+   "سار"
+  ],
+  "distinctive_ctx_b": [
+   "ا",
+   "الله",
+   "قال",
+   "ما",
+   "كفر",
+   "لما"
+  ],
+  "examples_a": [
+   "2:50",
+   "2:104",
+   "2:210",
+   "2:259",
+   "3:77",
+   "3:137"
+  ],
+  "examples_b": [
+   "2:144",
+   "2:165",
+   "2:166",
+   "2:243",
+   "2:246",
+   "2:258"
+  ]
+ },
+ {
+  "pair": "حلف/أقسم",
+  "verses": [
+   11,
+   22
+  ],
+  "classifier": {
+   "loo_acc": 0.758,
+   "majority_baseline": 0.667,
+   "perm_null_mean": 0.493,
+   "p": 0.0166
+  },
+  "negative_context_share": [
+   0.45,
+   0.09
+  ],
+  "negative_context_fisher_p": 0.0274,
+  "meccan_share": [
+   0.0,
+   0.82
+  ],
+  "distinctive_ctx_a": [
+   "الله",
+   "قوم",
+   "كاذب",
+   "رسول",
+   "كان",
+   "ما"
+  ],
+  "distinctive_ctx_b": [
+   "جهد",
+   "ذا",
+   "يمين",
+   "امن",
+   "رب",
+   "قال"
+  ],
+  "examples_a": [
+   "4:62",
+   "5:89",
+   "9:42",
+   "9:56",
+   "9:62",
+   "9:74"
+  ],
+  "examples_b": [
+   "5:53",
+   "5:106",
+   "5:107",
+   "6:109",
+   "7:49",
+   "14:44"
+  ]
+ },
+ {
+  "pair": "بعث/أرسل",
+  "verses": [
+   50,
+   127
+  ],
+  "classifier": {
+   "loo_acc": 0.746,
+   "majority_baseline": 0.718,
+   "perm_null_mean": 0.549,
+   "p": 0.0033
+  },
+  "negative_context_share": [
+   0.16,
+   0.15
+  ],
+  "negative_context_fisher_p": 0.8209,
+  "meccan_share": [
+   0.7,
+   0.85
+  ],
+  "distinctive_ctx_a": [
+   "يوم",
+   "الله",
+   "كان",
+   "ذا",
+   "بعد",
+   "قال"
+  ],
+  "distinctive_ctx_b": [
+   "قوم",
+   "قبل",
+   "ريح",
+   "نذير",
+   "يد",
+   "سماء"
+  ],
+  "examples_a": [
+   "2:56",
+   "2:129",
+   "2:213",
+   "2:246",
+   "2:247",
+   "2:259"
+  ],
+  "examples_b": [
+   "2:119",
+   "2:151",
+   "4:64",
+   "4:79",
+   "4:80",
+   "5:70"
+  ]
+ },
+ {
+  "pair": "مرض/سقم",
+  "verses": [
+   22,
+   2
+  ],
+  "classifier": null,
+  "negative_context_share": [
+   0.5,
+   0.0
+  ],
+  "negative_context_fisher_p": 0.4819,
+  "meccan_share": [
+   0.09,
+   1.0
+  ],
+  "distinctive_ctx_a": [
+   "الذي",
+   "الله",
+   "قلب",
+   "ما",
+   "كان",
+   "من"
+  ],
+  "distinctive_ctx_b": [
+   "نبذ",
+   "عراء",
+   "قال"
+  ],
+  "examples_a": [
+   "2:10",
+   "2:184",
+   "2:185",
+   "2:196",
+   "4:43",
+   "4:102"
+  ],
+  "examples_b": [
+   "37:89",
+   "37:145"
+  ]
+ }
+]

@@ -1,0 +1,534 @@
+{
+ "A_orthography_control": {
+  "quran_uthmani": {
+   "symbols": 200000,
+   "share_mutaharrik": 0.618,
+   "runs5_per1000": 5.94
+  },
+  "quran_quoted_in_hadith_orthography": {
+   "symbols": 139557,
+   "share_mutaharrik": 0.618,
+   "runs5_per1000": 7.29
+  },
+  "hadith_prose_same_orthography": {
+   "symbols": 200000,
+   "share_mutaharrik": 0.65,
+   "runs5_per1000": 22.77
+  },
+  "ratio_prose_over_quran_runs5": {
+   "point": 3.18,
+   "ci95": [
+    2.87,
+    3.51
+   ],
+   "n_quote_units": 3736
+  }
+ },
+ "B_sound_meaning": {
+  "quran": {
+   "n_punish": 602,
+   "n_mercy": 693,
+   "harsh_share_punish": 0.1029,
+   "harsh_share_mercy": 0.0961,
+   "diff": 0.0068,
+   "p": 0.011,
+   "sonorant_punish": 0.6327,
+   "sonorant_mercy": 0.6424,
+   "cohen_d": 0.144
+  },
+  "hadith_control": {
+   "n_punish": 1546,
+   "n_mercy": 3062,
+   "harsh_share_punish": 0.1315,
+   "harsh_share_mercy": 0.1294,
+   "diff": 0.0021,
+   "p": 0.2466,
+   "cohen_d": 0.036
+  }
+ },
+ "C_rhyme_vs_topic": {
+  "cohesion_same_rhyme": 0.0533,
+  "cohesion_at_rhyme_switch": 0.0433,
+  "n_switch": 2082,
+  "n_same": 4040,
+  "p": 0.0005,
+  "length_stratified_mean_drop": 0.0157
+ },
+ "D_near_synonyms": [
+  {
+   "pair": "عام/سنه",
+   "n": [
+    7,
+    19
+   ],
+   "loo_acc": 0.792,
+   "null_acc": 0.728,
+   "p": 0.0846,
+   "punish_share": [
+    0.0,
+    0.16
+   ],
+   "mercy_share": [
+    0.14,
+    0.05
+   ],
+   "ctx_a": [
+    "بعد",
+    "كل",
+    "ذا",
+    "ناس"
+   ],
+   "ctx_b": [
+    "قبل",
+    "خلا",
+    "وجد",
+    "ارض",
+    "كان"
+   ],
+   "meccan_share": [
+    0.43,
+    0.47
+   ]
+  },
+  {
+   "pair": "غيث/مطر",
+   "n": [
+    3,
+    5
+   ],
+   "loo_acc": null,
+   "null_acc": null,
+   "p": null,
+   "punish_share": [
+    0.33,
+    0.2
+   ],
+   "mercy_share": [
+    0.67,
+    0.0
+   ],
+   "ctx_a": [
+    "نزل",
+    "علم",
+    "ما",
+    "الله"
+   ],
+   "ctx_b": [
+    "امطرت",
+    "اتي",
+    "منذر",
+    "ساء",
+    "كان"
+   ],
+   "meccan_share": [
+    0.67,
+    0.8
+   ]
+  },
+  {
+   "pair": "خوف/خشي",
+   "n": [
+    112,
+    40
+   ],
+   "loo_acc": 0.877,
+   "null_acc": 0.739,
+   "p": 0.005,
+   "punish_share": [
+    0.16,
+    0.03
+   ],
+   "mercy_share": [
+    0.21,
+    0.23
+   ],
+   "ctx_a": [
+    "خاف",
+    "يحزن",
+    "امن",
+    "ارض",
+    "عذاب"
+   ],
+   "ctx_b": [
+    "خشيه",
+    "ناس",
+    "مشفق",
+    "رضي",
+    "من"
+   ],
+   "meccan_share": [
+    0.62,
+    0.55
+   ]
+  },
+  {
+   "pair": "قلب/فواد",
+   "n": [
+    130,
+    0
+   ],
+   "loo_acc": null,
+   "null_acc": null,
+   "p": null,
+   "punish_share": [
+    0.1,
+    0.0
+   ],
+   "mercy_share": [
+    0.12,
+    0.0
+   ],
+   "ctx_a": [
+    "الله",
+    "استمع",
+    "عند",
+    "ذا",
+    "اتي"
+   ],
+   "ctx_b": [],
+   "meccan_share": [
+    0.32,
+    0.0
+   ]
+  },
+  {
+   "pair": "انسان/بشر",
+   "n": [
+    69,
+    77
+   ],
+   "loo_acc": 0.986,
+   "null_acc": 0.493,
+   "p": 0.005,
+   "punish_share": [
+    0.03,
+    0.13
+   ],
+   "mercy_share": [
+    0.16,
+    0.18
+   ],
+   "ctx_a": [
+    "خلق",
+    "كفور",
+    "شيطان",
+    "شر",
+    "اعرض"
+   ],
+   "ctx_b": [
+    "الله",
+    "مؤمن",
+    "مثل",
+    "امن",
+    "ملك"
+   ],
+   "meccan_share": [
+    0.86,
+    0.75
+   ]
+  },
+  {
+   "pair": "جاء/اتي",
+   "n": [
+    262,
+    482
+   ],
+   "loo_acc": 0.991,
+   "null_acc": 0.623,
+   "p": 0.005,
+   "punish_share": [
+    0.12,
+    0.13
+   ],
+   "mercy_share": [
+    0.13,
+    0.18
+   ],
+   "ctx_a": [
+    "لما",
+    "اذا",
+    "بينه",
+    "كذب",
+    "حق"
+   ],
+   "ctx_b": [
+    "اقام",
+    "زكاه",
+    "سماء",
+    "فضل",
+    "دنيا"
+   ],
+   "meccan_share": [
+    0.76,
+    0.63
+   ]
+  },
+  {
+   "pair": "نظر/راي",
+   "n": [
+    115,
+    297
+   ],
+   "loo_acc": 0.949,
+   "null_acc": 0.713,
+   "p": 0.005,
+   "punish_share": [
+    0.16,
+    0.17
+   ],
+   "mercy_share": [
+    0.04,
+    0.11
+   ],
+   "ctx_a": [
+    "كيف",
+    "عاقبه",
+    "سار",
+    "ينظر",
+    "قبل"
+   ],
+   "ctx_b": [
+    "اري",
+    "ا",
+    "لما",
+    "الله",
+    "كتاب"
+   ],
+   "meccan_share": [
+    0.77,
+    0.74
+   ]
+  },
+  {
+   "pair": "حلف/قسم",
+   "n": [
+    12,
+    31
+   ],
+   "loo_acc": 0.86,
+   "null_acc": 0.705,
+   "p": 0.005,
+   "punish_share": [
+    0.42,
+    0.03
+   ],
+   "mercy_share": [
+    0.08,
+    0.16
+   ],
+   "ctx_a": [
+    "الله",
+    "قوم",
+    "كاذب",
+    "تولي",
+    "اراد"
+   ],
+   "ctx_b": [
+    "اقسم",
+    "جهد",
+    "امن",
+    "غير",
+    "قسمه"
+   ],
+   "meccan_share": [
+    0.08,
+    0.81
+   ]
+  },
+  {
+   "pair": "بعث/رسل",
+   "n": [
+    64,
+    429
+   ],
+   "loo_acc": 0.947,
+   "null_acc": 0.888,
+   "p": 0.005,
+   "punish_share": [
+    0.08,
+    0.12
+   ],
+   "mercy_share": [
+    0.09,
+    0.14
+   ],
+   "ctx_a": [
+    "مبعوث",
+    "يوم",
+    "عظام",
+    "مات",
+    "تراب"
+   ],
+   "ctx_b": [
+    "رسول",
+    "ارسل",
+    "قبل",
+    "امن",
+    "مرسل"
+   ],
+   "meccan_share": [
+    0.73,
+    0.56
+   ]
+  },
+  {
+   "pair": "ضياء/نور",
+   "n": [
+    3,
+    33
+   ],
+   "loo_acc": null,
+   "null_acc": null,
+   "p": null,
+   "punish_share": [
+    0.0,
+    0.18
+   ],
+   "mercy_share": [
+    0.0,
+    0.27
+   ],
+   "ctx_a": [
+    "اتي"
+   ],
+   "ctx_b": [
+    "الذي",
+    "ظلمه",
+    "ذا",
+    "رب",
+    "اخرج"
+   ],
+   "meccan_share": [
+    1.0,
+    0.36
+   ]
+  },
+  {
+   "pair": "عباد/عبيد",
+   "n": [
+    0,
+    0
+   ],
+   "loo_acc": null,
+   "null_acc": null,
+   "p": null,
+   "punish_share": [
+    0.0,
+    0.0
+   ],
+   "mercy_share": [
+    0.0,
+    0.0
+   ],
+   "ctx_a": [],
+   "ctx_b": [],
+   "meccan_share": [
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "pair": "مرض/سقم",
+   "n": [
+    23,
+    2
+   ],
+   "loo_acc": null,
+   "null_acc": null,
+   "p": null,
+   "punish_share": [
+    0.22,
+    0.0
+   ],
+   "mercy_share": [
+    0.22,
+    0.0
+   ],
+   "ctx_a": [
+    "الذي",
+    "الله",
+    "قلب",
+    "مريض",
+    "ما"
+   ],
+   "ctx_b": [
+    "سقيم"
+   ],
+   "meccan_share": [
+    0.13,
+    1.0
+   ]
+  }
+ ],
+ "E_ring": {
+  "surahs": 86,
+  "mirror_above_distance_baseline": 30,
+  "sign_test_p": 1,
+  "top_mirror_surahs": [
+   [
+    55,
+    0.0538
+   ],
+   [
+    96,
+    0.0491
+   ],
+   [
+    48,
+    0.0234
+   ],
+   [
+    92,
+    0.0146
+   ],
+   [
+    59,
+    0.0142
+   ],
+   [
+    46,
+    0.0137
+   ],
+   [
+    42,
+    0.0123
+   ],
+   [
+    11,
+    0.0117
+   ]
+  ],
+  "opening_closing": {
+   "surahs": 86,
+   "obs_above_null_mean": 27,
+   "sign_p": 1,
+   "significant_p_lt_0.05": [
+    [
+     38,
+     0.058,
+     0.011
+    ],
+    [
+     45,
+     0.111,
+     0.019
+    ],
+    [
+     59,
+     0.08,
+     0.036
+    ],
+    [
+     68,
+     0.042,
+     0.017
+    ],
+    [
+     71,
+     0.034,
+     0.038
+    ]
+   ]
+  }
+ }
+}
