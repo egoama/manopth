@@ -1,0 +1,1 @@
+{"final4_cadence_top": [["1100", 0.73], ["0100", 0.104], ["1010", 0.085], ["0110", 0.053], ["1110", 0.023], ["00", 0.002]], "length_symmetry_meccan": {"mean_rel_diff_adjacent": 0.348, "shuffled": 0.408}, "length_symmetry_medinan": {"mean_rel_diff_adjacent": 0.457, "shuffled": 0.487}}
