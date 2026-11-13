@@ -1,0 +1,165 @@
+{
+ "A_divine_name_endings": {
+  "n": 190,
+  "classes": 5,
+  "loo_acc": 0.453,
+  "majority": 0.374,
+  "perm_null_mean": 0.262,
+  "p": 0.005,
+  "ending_counts": {
+   "عليم حكيم": 29,
+   "سميع عليم": 32,
+   "عزيز حكيم": 47,
+   "غفور رحيم": 71,
+   "عزيز رحيم": 13
+  },
+  "distinctive_context": {
+   "عليم حكيم": [
+    "قبل",
+    "ذا",
+    "بين",
+    "اي",
+    "ايه",
+    "كان"
+   ],
+   "سميع عليم": [
+    "اذ",
+    "قول",
+    "شيطان",
+    "تقبل",
+    "قواعد",
+    "سكن"
+   ],
+   "عزيز حكيم": [
+    "ارض",
+    "سماء",
+    "سبح",
+    "اخر",
+    "جعل",
+    "كتاب"
+   ],
+   "غفور رحيم": [
+    "من",
+    "تاب",
+    "الذي",
+    "استغفر",
+    "اتي",
+    "غفر"
+   ],
+   "عزيز رحيم": [
+    "رب",
+    "غيب",
+    "عالم",
+    "توكل",
+    "رحم",
+    "نصر"
+   ]
+  },
+  "prediction_for_5_38": "سميع عليم",
+  "true_5_38": "عزيز حكيم"
+ },
+ "B_narrative_tailoring": {
+  "host_surahs": 7,
+  "moses_pharaoh_verses": 107,
+  "own_host_most_similar": 0.383,
+  "chance_level": 0.143,
+  "positive_margin_share": 0.776,
+  "sign_test_p": 8.57770862513633e-09
+ },
+ "C_character_voices": {
+  "n": 82,
+  "classes": 2,
+  "loo_acc": 0.659,
+  "majority": 0.732,
+  "perm_null_mean": 0.568,
+  "p": 0.0945,
+  "feature_share_by_group": {
+   "P": {
+    "INTG": 0.233,
+    "IMPV": 0.433,
+    "VOC": 0.15,
+    "NEG": 0.383,
+    "EMPH": 0.117,
+    "1S": 0.483,
+    "1P": 0.383,
+    "2MP": 0.4,
+    "PRO": 0.05,
+    "n": 60
+   },
+   "O": {
+    "INTG": 0.227,
+    "IMPV": 0.182,
+    "VOC": 0.182,
+    "NEG": 0.273,
+    "EMPH": 0.5,
+    "1S": 0.364,
+    "1P": 0.409,
+    "2MP": 0.5,
+    "PRO": 0.0,
+    "n": 22
+   }
+  },
+  "speakers": {
+   "موسي": 33,
+   "ابراهيم": 7,
+   "عيسي": 3,
+   "ملا": 11,
+   "صالح": 2,
+   "فرعون": 9,
+   "نوح": 5,
+   "هود": 1,
+   "لوط": 1,
+   "شعيب": 3,
+   "يوسف": 3,
+   "ابليس": 2,
+   "هارون": 2
+  }
+ },
+ "D_emotional_arc": {
+  "surahs": 95,
+  "mean_tone_first3": 0.039,
+  "mean_tone_middle": 0.013,
+  "mean_tone_last3": 0.105,
+  "last_minus_middle": [
+   0.093,
+   0.0026
+  ],
+  "first_minus_middle": [
+   0.026,
+   0.2354
+  ]
+ },
+ "E_divine_I_vs_We": {
+  "I": {
+   "n": 84,
+   "mercy": 0.19,
+   "punish": 0.167,
+   "meccan": 0.845
+  },
+  "We": {
+   "n": 514,
+   "mercy": 0.14,
+   "punish": 0.154,
+   "meccan": 0.819
+  }
+ },
+ "A_robust_no_same_root": {
+  "n": 188,
+  "loo_acc": 0.436,
+  "majority": 0.372,
+  "perm_null_mean": 0.263,
+  "p": 0.0033
+ },
+ "C_feature_tests": {
+  "EMPH": {
+   "prophets": "7/60",
+   "opponents": "11/22",
+   "fisher_p": 0.00053
+  },
+  "IMPV": {
+   "prophets": "26/60",
+   "opponents": "4/22",
+   "fisher_p": 0.0416
+  }
+ }
+}
