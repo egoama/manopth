@@ -1,0 +1,128 @@
+{
+ "A_chronology": {
+  "roughness_traditional": 1225.6,
+  "p_vs_random": 0.0001999600079984003,
+  "p_within_meccan_medinan_shuffle": 0.0001999600079984003,
+  "roughness_mushaf": 1045.7,
+  "p_mushaf_vs_random": 0.0001999600079984003,
+  "spearman_with_revelation_order": {
+   "median_verse_len": 0.701,
+   "share_mutaharrik": 0.2,
+   "rhyme_entropy": 0.098,
+   "alladhi_rate": 0.212,
+   "2nd_person_share": 0.203,
+   "nun_rhyme_share": 0.238,
+   "lexical_richness": 0.391
+  },
+  "outliers_top8": [
+   [
+    107,
+    "الماعون",
+    17,
+    8.28
+   ],
+   [
+    102,
+    "التكاثر",
+    16,
+    4.82
+   ],
+   [
+    103,
+    "العصر",
+    13,
+    4.53
+   ],
+   [
+    1,
+    "الفاتحة",
+    5,
+    4.48
+   ],
+   [
+    110,
+    "النصر",
+    114,
+    4.43
+   ],
+   [
+    55,
+    "الرحمن",
+    97,
+    4.41
+   ],
+   [
+    114,
+    "الناس",
+    21,
+    4.21
+   ],
+   [
+    104,
+    "الهمزة",
+    32,
+    4.14
+   ]
+  ]
+ },
+ "B_euphony": {
+  "quran_uthmani": {
+   "pairs": 71193,
+   "same_place_O/E": 1.025,
+   "identical_O/E": 0.854,
+   "guttural_same_place_O/E": 0.792
+  },
+  "quran_quotes_hadith_orthography": {
+   "pairs": 30351,
+   "same_place_O/E": 1.032,
+   "identical_O/E": 0.893,
+   "guttural_same_place_O/E": 1.081
+  },
+  "hadith_prose": {
+   "pairs": 288193,
+   "same_place_O/E": 1.009,
+   "identical_O/E": 1.035,
+   "guttural_same_place_O/E": 0.676
+  },
+  "poetry": {
+   "pairs": 253961,
+   "same_place_O/E": 0.958,
+   "identical_O/E": 0.803,
+   "guttural_same_place_O/E": 0.748
+  },
+  "ci95_same_place": {
+   "quran_quotes": [
+    1.02,
+    1.055
+   ],
+   "hadith_prose": [
+    1.002,
+    1.022
+   ],
+   "poetry": [
+    0.943,
+    0.965
+   ]
+  },
+  "within_word_same_place_O/E": {
+   "quran": 0.624,
+   "hadith": 0.634,
+   "poetry": 0.642
+  }
+ },
+ "C_internal_balance": {
+  "two_segment_verses": 1618,
+  "mean_balance_waqf": 0.562,
+  "mean_balance_random_cut": 0.431,
+  "share_balance_ge_0.8_waqf": 0.19,
+  "share_ge_0.8_random": 0.129
+ },
+ "D_rhyme_pressure": {
+  "hapax_rate_final_word": 0.0893,
+  "hapax_rate_other_positions": 0.0273,
+  "ratio": 3.27,
+  "nouns_only_ratio": 3.61,
+  "final_hapax_verses": 555,
+  "final_hapax_matching_local_rhyme": 0.93
+ }
+}

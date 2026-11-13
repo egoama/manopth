@@ -1,0 +1,183 @@
+{
+ "A_chronology_no_length": {
+  "features": [
+   "share_mutaharrik",
+   "rhyme_entropy",
+   "alladhi_rate",
+   "2nd_person_share",
+   "nun_rhyme_share",
+   "impv_rate",
+   "cond_rate",
+   "emph_rate"
+  ],
+  "traditional": [
+   1712.9,
+   0.041191761647670466
+  ],
+  "traditional_within_groups": [
+   1712.9,
+   0.1295740851829634
+  ],
+  "mushaf": [
+   1574.7,
+   0.0001999600079984003
+  ],
+  "mushaf_within_groups": [
+   1574.7,
+   0.0007998400319936012
+  ],
+  "meccan_only_traditional": [
+   1407.8,
+   0.12297540491901619
+  ]
+ },
+ "disputed_surahs": {
+  "loo_accuracy_undisputed": 0.865,
+  "n_undisputed": 96,
+  "classification": [
+   [
+    1,
+    "الفاتحة",
+    "meccan",
+    "meccan-like",
+    0.88
+   ],
+   [
+    13,
+    "الرعد",
+    "medinan",
+    "medinan-like",
+    -0.06
+   ],
+   [
+    22,
+    "الحج",
+    "medinan",
+    "meccan-like",
+    0.3
+   ],
+   [
+    47,
+    "محمد",
+    "medinan",
+    "medinan-like",
+    -0.05
+   ],
+   [
+    55,
+    "الرحمن",
+    "medinan",
+    "meccan-like",
+    0.59
+   ],
+   [
+    57,
+    "الحديد",
+    "medinan",
+    "medinan-like",
+    -0.15
+   ],
+   [
+    61,
+    "الصف",
+    "medinan",
+    "medinan-like",
+    -0.2
+   ],
+   [
+    64,
+    "التغابن",
+    "medinan",
+    "medinan-like",
+    -0.85
+   ],
+   [
+    76,
+    "الانسان",
+    "medinan",
+    "meccan-like",
+    1.28
+   ],
+   [
+    83,
+    "المطففين",
+    "meccan",
+    "meccan-like",
+    1.55
+   ],
+   [
+    97,
+    "القدر",
+    "meccan",
+    "meccan-like",
+    1.61
+   ],
+   [
+    98,
+    "البينة",
+    "medinan",
+    "meccan-like",
+    0.59
+   ],
+   [
+    99,
+    "الزلزلة",
+    "medinan",
+    "meccan-like",
+    0.16
+   ],
+   [
+    107,
+    "الماعون",
+    "meccan",
+    "meccan-like",
+    0.31
+   ],
+   [
+    110,
+    "النصر",
+    "medinan",
+    "meccan-like",
+    0.53
+   ],
+   [
+    112,
+    "الإخلاص",
+    "meccan",
+    "meccan-like",
+    1.24
+   ],
+   [
+    113,
+    "الفلق",
+    "meccan",
+    "meccan-like",
+    1.56
+   ],
+   [
+    114,
+    "الناس",
+    "meccan",
+    "meccan-like",
+    1.04
+   ]
+  ]
+ },
+ "C_balance_robust": {
+  "waqf": 0.562,
+  "conjunction_cut": 0.52,
+  "n_waqf": 1618,
+  "n_conj": 1417
+ },
+ "D_poetry_baseline": {
+  "hapax_final": 0.1647,
+  "hapax_other": 0.0623,
+  "ratio": 2.65,
+  "note": "word-form hapax over 150k lines"
+ },
+ "D_quran_wordform": {
+  "hapax_final": 0.1607,
+  "hapax_other": 0.1022,
+  "ratio": 1.57
+ }
+}

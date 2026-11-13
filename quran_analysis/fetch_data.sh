@@ -8,3 +8,5 @@ curl -sS -o morph.txt https://raw.githubusercontent.com/mustafa0x/quran-morpholo
 # Comparison corpora for linguistics/ (hadith: Bukhari vocalized; poetry: APCD)
 git clone -q --depth 1 https://github.com/mhashim6/Open-Hadith-Data hadith
 git clone -q --depth 1 https://github.com/Gheith-Abandah/classify-arabic-poetry apcd && mkdir -p apcd_x && unzip -o -q apcd/APCD_plus_porse_all.zip -d apcd_x
+# Revelation order (Egyptian standard) for deeper/: quran-meta npm package
+curl -sS -o qmeta.tgz https://registry.npmjs.org/quran-meta/-/quran-meta-7.0.0.tgz && mkdir -p qmeta && tar xzf qmeta.tgz -C qmeta
