@@ -1,0 +1,107 @@
+{
+ "A_stylometry_orthography_neutral": {
+  "train": "Quran quotes in hadith books vs hadith prose (same orthography, honorifics removed)",
+  "n_chunks": [
+   719,
+   1500,
+   800
+  ],
+  "accuracy": 0.815,
+  "hadith_qudsi_classified_as_quran": 0.065,
+  "uthmani_quran_classified_as_quran": 0.43
+ },
+ "B_mutashabih_sign_test": {
+  "verse_tests": 60,
+  "own_only": 38,
+  "swapped_only": 5,
+  "both": 10,
+  "neither": 7,
+  "sign_test_p": 2.4995097192004323e-07,
+  "examples": [
+   [
+    "56:25",
+    "تاثيما",
+    "78:35",
+    "كذبا"
+   ],
+   [
+    "10:1",
+    "الحكيم",
+    "12:1",
+    "المبين"
+   ],
+   [
+    "9:33",
+    "المشركون",
+    "48:28",
+    "شهيدا"
+   ],
+   [
+    "15:19",
+    "موزون",
+    "50:7",
+    "بهيج"
+   ],
+   [
+    "15:45",
+    "وعيون",
+    "52:17",
+    "ونعيم"
+   ],
+   [
+    "7:59",
+    "عظيم",
+    "23:23",
+    "تتقون"
+   ],
+   [
+    "2:39",
+    "خلدون",
+    "64:10",
+    "المصير"
+   ],
+   [
+    "51:15",
+    "وعيون",
+    "54:54",
+    "ونهر"
+   ],
+   [
+    "2:39",
+    "خلدون",
+    "5:86",
+    "الجحيم"
+   ],
+   [
+    "17:83",
+    "يوسا",
+    "41:51",
+    "عريض"
+   ],
+   [
+    "2:27",
+    "الخسرون",
+    "13:25",
+    "الدار"
+   ],
+   [
+    "89:6",
+    "بعاد",
+    "105:1",
+    "الفيل"
+   ]
+  ]
+ },
+ "C_long_range_within_surah": {
+  "alpha_length": 0.702,
+  "within_surah_shuffle_mean": 0.647,
+  "within_surah_shuffle_max": 0.674,
+  "alpha_rhyme_nun": 0.922,
+  "rhyme_within_surah_shuffle_mean": 0.789,
+  "rhyme_within_shuffle_max": 0.801
+ },
+ "D_formulaic_fair": {
+  "quran": 0.053,
+  "hadith_without_honorifics": 0.045
+ }
+}
