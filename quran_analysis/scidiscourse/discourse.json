@@ -1,0 +1,83 @@
+{
+ "nature_verses": 925,
+ "categories": {
+  "other": [
+   520,
+   0.562
+  ],
+  "parable_simile": [
+   192,
+   0.208
+  ],
+  "sign_invitation": [
+   81,
+   0.088
+  ],
+  "eschatological": [
+   68,
+   0.074
+  ],
+  "narrative": [
+   64,
+   0.069
+  ]
+ },
+ "by_type": {
+  "medinan": {
+   "other": 126,
+   "parable_simile": 56,
+   "eschatological": 24,
+   "sign_invitation": 12,
+   "narrative": 11
+  },
+  "meccan": {
+   "other": 394,
+   "parable_simile": 136,
+   "eschatological": 44,
+   "narrative": 53,
+   "sign_invitation": 69
+  }
+ },
+ "examples": {
+  "other": [
+   "2:11",
+   "2:19",
+   "2:20",
+   "2:22",
+   "2:24",
+   "2:27"
+  ],
+  "parable_simile": [
+   "2:17",
+   "2:33",
+   "2:35",
+   "2:36",
+   "2:59",
+   "2:61"
+  ],
+  "eschatological": [
+   "2:25",
+   "2:257",
+   "3:27",
+   "3:37",
+   "3:49",
+   "3:180"
+  ],
+  "sign_invitation": [
+   "2:50",
+   "2:164",
+   "2:259",
+   "3:113",
+   "3:190",
+   "6:97"
+  ],
+  "narrative": [
+   "2:60",
+   "2:126",
+   "2:173",
+   "2:251",
+   "2:258",
+   "2:260"
+  ]
+ }
+}
