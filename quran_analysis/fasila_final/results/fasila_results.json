@@ -1,0 +1,1319 @@
+{
+ "audit": {
+  "candidates": 193,
+  "cross_surah": 159,
+  "eligible": 30,
+  "exclusions": {
+   "excluded: identical final word": 108,
+   "excluded: same surah (shared surah rhyme)": 34,
+   "excluded: identical final phoneme (not discriminable)": 21
+  }
+ },
+ "graph_summary": {
+  "n_components": 21,
+  "component_sizes_pairs": {
+   "0": 1,
+   "1": 2,
+   "2": 3,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 2,
+   "7": 2,
+   "8": 1,
+   "9": 5,
+   "10": 1,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 1,
+   "16": 1,
+   "17": 1,
+   "18": 1,
+   "19": 1,
+   "20": 1
+  },
+  "verses_in_multiple_pairs": {
+   "20:116": 2,
+   "2:39": 3,
+   "48:28": 2,
+   "10:1": 2,
+   "15:45": 2,
+   "52:17": 3,
+   "54:54": 3,
+   "51:15": 2
+  }
+ },
+ "primary": {
+  "label": "primary D1 k=3",
+  "pairs_tested": 30,
+  "favour_own": 22,
+  "favour_swapped": 3,
+  "ties": 5,
+  "share_own_of_decisive": 0.88,
+  "share_own_ci95_component_bootstrap": [
+   0.727,
+   1.0
+  ],
+  "sign_test_p_pair_iid": 0.00015652179718017578,
+  "component_signflip_p": 0.0008399916000839992,
+  "component_signflip_mode": "MC 100000",
+  "n_components": 21,
+  "verse_own_match": "48/60",
+  "verse_own_rate": 0.8,
+  "verse_own_ci95_component_bootstrap": [
+   0.66,
+   0.912
+  ],
+  "verse_swapped_match": "15/60",
+  "verse_swapped_rate": 0.25,
+  "own_minus_swapped_ci95": [
+   0.333,
+   0.75
+  ],
+  "verse_own_wilson_iid": [
+   0.682,
+   0.882
+  ]
+ },
+ "one_pair_per_verse": {
+  "label": "one pair per verse D1 k=3",
+  "pairs_tested": 22,
+  "favour_own": 17,
+  "favour_swapped": 1,
+  "ties": 4,
+  "share_own_of_decisive": 0.944,
+  "share_own_ci95_component_bootstrap": [
+   0.824,
+   1.0
+  ],
+  "sign_test_p_pair_iid": 0.00014495849609375,
+  "component_signflip_p": 0.00014999850001499985,
+  "component_signflip_mode": "MC 100000",
+  "n_components": 21,
+  "verse_own_match": "36/44",
+  "verse_own_rate": 0.818,
+  "verse_own_ci95_component_bootstrap": [
+   0.667,
+   0.935
+  ],
+  "verse_swapped_match": "8/44",
+  "verse_swapped_rate": 0.182,
+  "own_minus_swapped_ci95": [
+   0.452,
+   0.81
+  ],
+  "verse_own_wilson_iid": [
+   0.68,
+   0.905
+  ]
+ },
+ "definitions_grid": {
+  "D1_final_phoneme": {
+   "1": {
+    "tested": 30,
+    "own": 23,
+    "swapped": 0,
+    "ties": 7,
+    "p": 2.384185791015625e-07
+   },
+   "2": {
+    "tested": 30,
+    "own": 22,
+    "swapped": 2,
+    "ties": 6,
+    "p": 3.5881996154785156e-05
+   },
+   "3": {
+    "tested": 30,
+    "own": 22,
+    "swapped": 3,
+    "ties": 5,
+    "p": 0.00015652179718017578,
+    "p_holm_primary_family": 0.000435
+   },
+   "5": {
+    "tested": 30,
+    "own": 20,
+    "swapped": 3,
+    "ties": 7,
+    "p": 0.00048828125
+   },
+   "7": {
+    "tested": 30,
+    "own": 20,
+    "swapped": 3,
+    "ties": 7,
+    "p": 0.00048828125
+   }
+  },
+  "D2_final_two": {
+   "1": {
+    "tested": 30,
+    "own": 18,
+    "swapped": 1,
+    "ties": 11,
+    "p": 7.62939453125e-05
+   },
+   "2": {
+    "tested": 30,
+    "own": 17,
+    "swapped": 1,
+    "ties": 12,
+    "p": 0.00014495849609375
+   },
+   "3": {
+    "tested": 30,
+    "own": 17,
+    "swapped": 1,
+    "ties": 12,
+    "p": 0.00014495849609375,
+    "p_holm_primary_family": 0.000435
+   },
+   "5": {
+    "tested": 30,
+    "own": 18,
+    "swapped": 3,
+    "ties": 9,
+    "p": 0.0014896392822265625
+   },
+   "7": {
+    "tested": 30,
+    "own": 18,
+    "swapped": 2,
+    "ties": 10,
+    "p": 0.0004024505615234375
+   }
+  },
+  "D3_final_syllable": {
+   "1": {
+    "tested": 30,
+    "own": 23,
+    "swapped": 1,
+    "ties": 6,
+    "p": 2.9802322387695312e-06
+   },
+   "2": {
+    "tested": 30,
+    "own": 21,
+    "swapped": 1,
+    "ties": 8,
+    "p": 1.0967254638671875e-05
+   },
+   "3": {
+    "tested": 30,
+    "own": 21,
+    "swapped": 1,
+    "ties": 8,
+    "p": 1.0967254638671875e-05,
+    "p_holm_primary_family": 4.4e-05
+   },
+   "5": {
+    "tested": 30,
+    "own": 23,
+    "swapped": 3,
+    "ties": 4,
+    "p": 8.797645568847656e-05
+   },
+   "7": {
+    "tested": 30,
+    "own": 22,
+    "swapped": 2,
+    "ties": 6,
+    "p": 3.5881996154785156e-05
+   }
+  },
+  "D4_ending_pattern": {
+   "1": {
+    "tested": 19,
+    "own": 19,
+    "swapped": 0,
+    "ties": 0,
+    "p": 3.814697265625e-06
+   },
+   "2": {
+    "tested": 19,
+    "own": 18,
+    "swapped": 0,
+    "ties": 1,
+    "p": 7.62939453125e-06
+   },
+   "3": {
+    "tested": 19,
+    "own": 18,
+    "swapped": 0,
+    "ties": 1,
+    "p": 7.62939453125e-06,
+    "p_holm_primary_family": 3.8e-05
+   },
+   "5": {
+    "tested": 19,
+    "own": 17,
+    "swapped": 0,
+    "ties": 2,
+    "p": 1.52587890625e-05
+   },
+   "7": {
+    "tested": 19,
+    "own": 17,
+    "swapped": 0,
+    "ties": 2,
+    "p": 1.52587890625e-05
+   }
+  },
+  "D5_prosodic_tail": {
+   "1": {
+    "tested": 30,
+    "own": 22,
+    "swapped": 0,
+    "ties": 8,
+    "p": 4.76837158203125e-07
+   },
+   "2": {
+    "tested": 30,
+    "own": 21,
+    "swapped": 2,
+    "ties": 7,
+    "p": 6.604194641113281e-05
+   },
+   "3": {
+    "tested": 30,
+    "own": 21,
+    "swapped": 3,
+    "ties": 6,
+    "p": 0.0002771615982055664,
+    "p_holm_primary_family": 0.000435
+   },
+   "5": {
+    "tested": 30,
+    "own": 20,
+    "swapped": 4,
+    "ties": 6,
+    "p": 0.001543879508972168
+   },
+   "7": {
+    "tested": 30,
+    "own": 20,
+    "swapped": 4,
+    "ties": 6,
+    "p": 0.001543879508972168
+   }
+  }
+ },
+ "null_models": {
+  "N0_global": {
+   "verses_used": 49,
+   "observed_own_match": 0.796,
+   "null_mean": 0.356,
+   "null_95": [
+    0.245,
+    0.469
+   ],
+   "p_ge_obs": 0.0
+  },
+  "N1a_partner_surah": {
+   "verses_used": 49,
+   "observed_own_match": 0.796,
+   "null_mean": 0.245,
+   "null_95": [
+    0.184,
+    0.327
+   ],
+   "p_ge_obs": 0.0
+  },
+  "N1b_same_surah_outside_neighbourhood_DIAGNOSTIC": {
+   "verses_used": 49,
+   "observed_own_match": 0.796,
+   "null_mean": 0.774,
+   "null_95": [
+    0.673,
+    0.878
+   ],
+   "p_ge_obs": 0.418
+  },
+  "N2_phonologically_matched": {
+   "verses_used": 49,
+   "observed_own_match": 0.796,
+   "null_mean": 0.53,
+   "null_95": [
+    0.408,
+    0.633
+   ],
+   "p_ge_obs": 0.0,
+   "matched_on": "final-consonant sonorant class, pre-final vowel length, final-word length bucket; outcome = exact final phoneme (not matched)"
+  },
+  "N3_morphology_matched": {
+   "verses_used": 46,
+   "observed_own_match": 0.783,
+   "null_mean": 0.501,
+   "null_95": [
+    0.391,
+    0.609
+   ],
+   "p_ge_obs": 0.0,
+   "matched_on": "verse-final word morphology: POS/subtype, number-gender, case, definiteness (Quranic Arabic Corpus tags); pool = other verse-final words with same signature",
+   "verses_insufficient_pool": 3
+  },
+  "N3_pool_sizes": {
+   "2:27": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "NOM",
+     "DET"
+    ],
+    "pool": 136
+   },
+   "2:34": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "GEN",
+     "DET"
+    ],
+    "pool": 419
+   },
+   "2:39": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "NOM",
+     ""
+    ],
+    "pool": 256
+   },
+   "3:189": {
+    "signature": [
+     "N|",
+     "M",
+     "NOM",
+     "INDEF"
+    ],
+    "pool": 69
+   },
+   "5:10": {
+    "signature": [
+     "N|",
+     "F",
+     "GEN",
+     "DET"
+    ],
+    "pool": 56
+   },
+   "5:86": {
+    "signature": [
+     "N|",
+     "F",
+     "GEN",
+     "DET"
+    ],
+    "pool": 56
+   },
+   "7:59": {
+    "signature": [
+     "N|ADJ",
+     "MS",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 117
+   },
+   "7:115": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "ACC",
+     "DET"
+    ],
+    "pool": 111
+   },
+   "9:33": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "NOM",
+     "DET"
+    ],
+    "pool": 136
+   },
+   "10:1": {
+    "signature": [
+     "N|ADJ",
+     "MS",
+     "GEN",
+     "DET"
+    ],
+    "pool": 65
+   },
+   "12:1": {
+    "signature": [
+     "N|ACT_PCPL",
+     "M",
+     "GEN",
+     "DET"
+    ],
+    "pool": 13
+   },
+   "13:25": {
+    "signature": [
+     "N|",
+     "FS",
+     "GEN",
+     "DET"
+    ],
+    "pool": 10
+   },
+   "15:1": {
+    "signature": [
+     "N|ACT_PCPL",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 102
+   },
+   "15:19": {
+    "signature": [
+     "N|PASS_PCPL",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 37
+   },
+   "15:45": {
+    "signature": [
+     "N|",
+     "FP",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 6
+   },
+   "17:61": {
+    "signature": [
+     "N|",
+     "M",
+     "ACC",
+     "INDEF"
+    ],
+    "pool": 386
+   },
+   "17:83": {
+    "signature": [
+     "N|",
+     "MS",
+     "ACC",
+     "INDEF"
+    ],
+    "pool": 98
+   },
+   "20:65": {
+    "signature": [
+     "V|",
+     "",
+     "",
+     ""
+    ],
+    "pool": 1563
+   },
+   "20:71": {
+    "signature": [
+     "N|",
+     "",
+     "NOM",
+     ""
+    ],
+    "pool": 11
+   },
+   "20:116": {
+    "signature": [
+     "V|",
+     "",
+     "",
+     ""
+    ],
+    "pool": 1563
+   },
+   "20:128": {
+    "signature": [
+     "N|",
+     "P",
+     "GEN",
+     "DET"
+    ],
+    "pool": 2
+   },
+   "23:23": {
+    "signature": [
+     "V|",
+     "",
+     "",
+     ""
+    ],
+    "pool": 1563
+   },
+   "26:49": {
+    "signature": [
+     "N|",
+     "MP",
+     "ACC",
+     ""
+    ],
+    "pool": 50
+   },
+   "32:26": {
+    "signature": [
+     "V|",
+     "",
+     "",
+     ""
+    ],
+    "pool": 1563
+   },
+   "38:2": {
+    "signature": [
+     "N|VN",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 18
+   },
+   "41:51": {
+    "signature": [
+     "N|ADJ",
+     "MS",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 117
+   },
+   "48:28": {
+    "signature": [
+     "N|ADJ",
+     "MS",
+     "ACC",
+     "INDEF"
+    ],
+    "pool": 200
+   },
+   "50:7": {
+    "signature": [
+     "N|ADJ",
+     "MS",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 117
+   },
+   "50:40": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "DET"
+    ],
+    "pool": 161
+   },
+   "51:15": {
+    "signature": [
+     "N|",
+     "FP",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 6
+   },
+   "51:46": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "ACC",
+     ""
+    ],
+    "pool": 246
+   },
+   "52:17": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 94
+   },
+   "52:49": {
+    "signature": [
+     "N|",
+     "MP",
+     "GEN",
+     "DET"
+    ],
+    "pool": 202
+   },
+   "53:30": {
+    "signature": [
+     "V|",
+     "",
+     "",
+     ""
+    ],
+    "pool": 1563
+   },
+   "53:52": {
+    "signature": [
+     "N|",
+     "MS",
+     "ACC",
+     ""
+    ],
+    "pool": 2
+   },
+   "54:54": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 94
+   },
+   "56:25": {
+    "signature": [
+     "N|VN",
+     "M",
+     "ACC",
+     "INDEF"
+    ],
+    "pool": 75
+   },
+   "61:9": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "NOM",
+     "DET"
+    ],
+    "pool": 136
+   },
+   "64:10": {
+    "signature": [
+     "N|",
+     "",
+     "NOM",
+     "DET"
+    ],
+    "pool": 22
+   },
+   "68:7": {
+    "signature": [
+     "N|ACT_PCPL",
+     "MP",
+     "GEN",
+     "DET"
+    ],
+    "pool": 419
+   },
+   "77:14": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "DET"
+    ],
+    "pool": 161
+   },
+   "78:35": {
+    "signature": [
+     "N|VN",
+     "F",
+     "ACC",
+     "INDEF"
+    ],
+    "pool": 0
+   },
+   "82:17": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "DET"
+    ],
+    "pool": 161
+   },
+   "85:9": {
+    "signature": [
+     "N|",
+     "MS",
+     "NOM",
+     "INDEF"
+    ],
+    "pool": 79
+   },
+   "85:19": {
+    "signature": [
+     "N|VN",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 18
+   },
+   "89:6": {
+    "signature": [
+     "N|PN",
+     "",
+     "GEN",
+     ""
+    ],
+    "pool": 22
+   },
+   "90:4": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 94
+   },
+   "95:4": {
+    "signature": [
+     "N|VN",
+     "M",
+     "GEN",
+     "INDEF"
+    ],
+    "pool": 18
+   },
+   "105:1": {
+    "signature": [
+     "N|",
+     "M",
+     "GEN",
+     "DET"
+    ],
+    "pool": 161
+   }
+  },
+  "pair_level_N0": {
+   "mean_pairs_favour_own": 20.51,
+   "mean_pairs_favour_alternative": 1.41,
+   "share_own_mean": 0.937,
+   "share_own_95": [
+    0.842,
+    1.0
+   ]
+  },
+  "pair_level_N3": {
+   "mean_pairs_favour_own": 14.86,
+   "mean_pairs_favour_alternative": 2.33,
+   "share_own_mean": 0.866,
+   "share_own_95": [
+    0.765,
+    1.0
+   ]
+  }
+ },
+ "robustness_grid": [
+  {
+   "shared_seq": 2,
+   "threshold": 0.6,
+   "min_words": 4,
+   "candidates": 455,
+   "eligible": 99,
+   "own": 80,
+   "swapped": 4,
+   "ties": 15,
+   "p": 2.0972709481945113e-19
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.6,
+   "min_words": 5,
+   "candidates": 380,
+   "eligible": 77,
+   "own": 60,
+   "swapped": 4,
+   "ties": 13,
+   "p": 7.363044635805283e-14
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.6,
+   "min_words": 6,
+   "candidates": 300,
+   "eligible": 54,
+   "own": 43,
+   "swapped": 2,
+   "ties": 9,
+   "p": 5.88897819397971e-11
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.65,
+   "min_words": 4,
+   "candidates": 312,
+   "eligible": 58,
+   "own": 45,
+   "swapped": 3,
+   "ties": 10,
+   "p": 1.312585595769633e-10
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.65,
+   "min_words": 5,
+   "candidates": 255,
+   "eligible": 43,
+   "own": 30,
+   "swapped": 3,
+   "ties": 10,
+   "p": 1.4011748135089874e-06
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.65,
+   "min_words": 6,
+   "candidates": 205,
+   "eligible": 31,
+   "own": 22,
+   "swapped": 1,
+   "ties": 8,
+   "p": 5.7220458984375e-06
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.7,
+   "min_words": 4,
+   "candidates": 238,
+   "eligible": 41,
+   "own": 33,
+   "swapped": 3,
+   "ties": 5,
+   "p": 2.2721360437572002e-07
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.7,
+   "min_words": 5,
+   "candidates": 192,
+   "eligible": 30,
+   "own": 22,
+   "swapped": 3,
+   "ties": 5,
+   "p": 0.00015652179718017578
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.7,
+   "min_words": 6,
+   "candidates": 152,
+   "eligible": 19,
+   "own": 15,
+   "swapped": 1,
+   "ties": 3,
+   "p": 0.000518798828125
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.75,
+   "min_words": 4,
+   "candidates": 183,
+   "eligible": 29,
+   "own": 26,
+   "swapped": 0,
+   "ties": 3,
+   "p": 2.9802322387695312e-08
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.75,
+   "min_words": 5,
+   "candidates": 142,
+   "eligible": 19,
+   "own": 16,
+   "swapped": 0,
+   "ties": 3,
+   "p": 3.0517578125e-05
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.75,
+   "min_words": 6,
+   "candidates": 114,
+   "eligible": 11,
+   "own": 10,
+   "swapped": 0,
+   "ties": 1,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.8,
+   "min_words": 4,
+   "candidates": 119,
+   "eligible": 13,
+   "own": 10,
+   "swapped": 0,
+   "ties": 3,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.8,
+   "min_words": 5,
+   "candidates": 111,
+   "eligible": 13,
+   "own": 10,
+   "swapped": 0,
+   "ties": 3,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 2,
+   "threshold": 0.8,
+   "min_words": 6,
+   "candidates": 83,
+   "eligible": 5,
+   "own": 4,
+   "swapped": 0,
+   "ties": 1,
+   "p": 0.125
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.6,
+   "min_words": 4,
+   "candidates": 431,
+   "eligible": 100,
+   "own": 82,
+   "swapped": 4,
+   "ties": 14,
+   "p": 5.763476560721547e-20
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.6,
+   "min_words": 5,
+   "candidates": 373,
+   "eligible": 80,
+   "own": 63,
+   "swapped": 4,
+   "ties": 13,
+   "p": 1.1067861037383775e-14
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.6,
+   "min_words": 6,
+   "candidates": 301,
+   "eligible": 57,
+   "own": 46,
+   "swapped": 2,
+   "ties": 9,
+   "p": 8.363087999896379e-12
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.65,
+   "min_words": 4,
+   "candidates": 292,
+   "eligible": 58,
+   "own": 45,
+   "swapped": 3,
+   "ties": 10,
+   "p": 1.312585595769633e-10
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.65,
+   "min_words": 5,
+   "candidates": 250,
+   "eligible": 44,
+   "own": 31,
+   "swapped": 3,
+   "ties": 10,
+   "p": 7.660128176212311e-07
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.65,
+   "min_words": 6,
+   "candidates": 205,
+   "eligible": 32,
+   "own": 23,
+   "swapped": 1,
+   "ties": 8,
+   "p": 2.9802322387695312e-06
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.7,
+   "min_words": 4,
+   "candidates": 228,
+   "eligible": 41,
+   "own": 33,
+   "swapped": 3,
+   "ties": 5,
+   "p": 2.2721360437572002e-07
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.7,
+   "min_words": 5,
+   "candidates": 193,
+   "eligible": 30,
+   "own": 22,
+   "swapped": 3,
+   "ties": 5,
+   "p": 0.00015652179718017578
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.7,
+   "min_words": 6,
+   "candidates": 154,
+   "eligible": 19,
+   "own": 15,
+   "swapped": 1,
+   "ties": 3,
+   "p": 0.000518798828125
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.75,
+   "min_words": 4,
+   "candidates": 174,
+   "eligible": 29,
+   "own": 26,
+   "swapped": 0,
+   "ties": 3,
+   "p": 2.9802322387695312e-08
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.75,
+   "min_words": 5,
+   "candidates": 144,
+   "eligible": 19,
+   "own": 16,
+   "swapped": 0,
+   "ties": 3,
+   "p": 3.0517578125e-05
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.75,
+   "min_words": 6,
+   "candidates": 116,
+   "eligible": 11,
+   "own": 10,
+   "swapped": 0,
+   "ties": 1,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.8,
+   "min_words": 4,
+   "candidates": 120,
+   "eligible": 13,
+   "own": 10,
+   "swapped": 0,
+   "ties": 3,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.8,
+   "min_words": 5,
+   "candidates": 112,
+   "eligible": 13,
+   "own": 10,
+   "swapped": 0,
+   "ties": 3,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 3,
+   "threshold": 0.8,
+   "min_words": 6,
+   "candidates": 84,
+   "eligible": 5,
+   "own": 4,
+   "swapped": 0,
+   "ties": 1,
+   "p": 0.125
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.6,
+   "min_words": 4,
+   "candidates": 330,
+   "eligible": 74,
+   "own": 59,
+   "swapped": 4,
+   "ties": 11,
+   "p": 1.3821257506541063e-13
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.6,
+   "min_words": 5,
+   "candidates": 307,
+   "eligible": 72,
+   "own": 57,
+   "swapped": 4,
+   "ties": 11,
+   "p": 4.85494457136415e-13
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.6,
+   "min_words": 6,
+   "candidates": 270,
+   "eligible": 58,
+   "own": 47,
+   "swapped": 2,
+   "ties": 9,
+   "p": 4.355626970209414e-12
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.65,
+   "min_words": 4,
+   "candidates": 237,
+   "eligible": 48,
+   "own": 35,
+   "swapped": 3,
+   "ties": 10,
+   "p": 6.677873898297548e-08
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.65,
+   "min_words": 5,
+   "candidates": 221,
+   "eligible": 46,
+   "own": 33,
+   "swapped": 3,
+   "ties": 10,
+   "p": 2.2721360437572002e-07
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.65,
+   "min_words": 6,
+   "candidates": 186,
+   "eligible": 34,
+   "own": 25,
+   "swapped": 1,
+   "ties": 8,
+   "p": 8.046627044677734e-07
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.7,
+   "min_words": 4,
+   "candidates": 187,
+   "eligible": 32,
+   "own": 24,
+   "swapped": 3,
+   "ties": 5,
+   "p": 4.9233436584472656e-05
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.7,
+   "min_words": 5,
+   "candidates": 173,
+   "eligible": 31,
+   "own": 23,
+   "swapped": 3,
+   "ties": 5,
+   "p": 8.797645568847656e-05
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.7,
+   "min_words": 6,
+   "candidates": 144,
+   "eligible": 20,
+   "own": 16,
+   "swapped": 1,
+   "ties": 3,
+   "p": 0.000274658203125
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.75,
+   "min_words": 4,
+   "candidates": 136,
+   "eligible": 19,
+   "own": 16,
+   "swapped": 0,
+   "ties": 3,
+   "p": 3.0517578125e-05
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.75,
+   "min_words": 5,
+   "candidates": 128,
+   "eligible": 19,
+   "own": 16,
+   "swapped": 0,
+   "ties": 3,
+   "p": 3.0517578125e-05
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.75,
+   "min_words": 6,
+   "candidates": 107,
+   "eligible": 11,
+   "own": 10,
+   "swapped": 0,
+   "ties": 1,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.8,
+   "min_words": 4,
+   "candidates": 111,
+   "eligible": 13,
+   "own": 10,
+   "swapped": 0,
+   "ties": 3,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.8,
+   "min_words": 5,
+   "candidates": 103,
+   "eligible": 13,
+   "own": 10,
+   "swapped": 0,
+   "ties": 3,
+   "p": 0.001953125
+  },
+  {
+   "shared_seq": 4,
+   "threshold": 0.8,
+   "min_words": 6,
+   "candidates": 82,
+   "eligible": 5,
+   "own": 4,
+   "swapped": 0,
+   "ties": 1,
+   "p": 0.125
+  }
+ ],
+ "counterexamples_n": 8,
+ "expert_package_items": 30
+}
