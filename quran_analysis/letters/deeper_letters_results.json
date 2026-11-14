@@ -1,0 +1,62 @@
+{
+ "1_weighted_null": {
+  "p_uniform(previous)": 0.0255,
+  "p_frequency_weighted": 0.0018,
+  "samples": 200000,
+  "frequency_ranks_of_muqattaat": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   11,
+   12,
+   14,
+   15,
+   18,
+   22,
+   26
+  ],
+  "top14_most_frequent": "النميوهربتكعفق",
+  "overlap_with_top14": 10
+ },
+ "2_massey_order": {
+  "combos": [
+   "الم",
+   "المص",
+   "الر",
+   "المر",
+   "كهيعص",
+   "طه",
+   "طسم",
+   "طس",
+   "يس",
+   "ص",
+   "حم",
+   "عسق",
+   "ق",
+   "ن"
+  ],
+  "consistent_with_single_order": true,
+  "p_random_within_combo_orders": 0.00117,
+  "one_consistent_order": "انكحطلهيعسمقرص",
+  "pairs_in_descending_frequency": "28/38"
+ },
+ "3_book_after_initials": {
+  "initial_surahs_mentioning_book_in_v1_3": "26/29",
+  "other_surahs": "22/85",
+  "fisher_p": 1.275146444285302e-09,
+  "initial_surahs_without": [
+   29,
+   30,
+   68
+  ]
+ },
+ "4_coverage": {
+  "share_of_all_letters_from_14_muqattaat": 0.748,
+  "expected_if_random_14": 0.5,
+  "max_possible_top14": 0.88
+ }
+}
