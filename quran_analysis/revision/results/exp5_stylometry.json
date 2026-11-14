@@ -1,0 +1,118 @@
+{
+ "units": {
+  "Q": 432,
+  "H": 38660,
+  "D": 472
+ },
+ "quran_vs_hadith_leave_one_collection_out": {
+  "delta": {
+   "balanced_accuracy": 0.509,
+   "ci95": [
+    0.501,
+    0.518
+   ],
+   "macro_f1": 0.515,
+   "confusion_[Q,H]x[Q,H]": [
+    [
+     8,
+     424
+    ],
+    [
+     3,
+     38657
+    ]
+   ],
+   "majority_baseline_accuracy": 0.989
+  },
+  "lr": {
+   "balanced_accuracy": 0.767,
+   "ci95": [
+    0.734,
+    0.796
+   ],
+   "macro_f1": 0.491,
+   "confusion_[Q,H]x[Q,H]": [
+    [
+     307,
+     125
+    ],
+    [
+     6864,
+     31796
+    ]
+   ],
+   "majority_baseline_accuracy": 0.989
+  },
+  "nb": {
+   "balanced_accuracy": 0.741,
+   "ci95": [
+    0.697,
+    0.788
+   ],
+   "macro_f1": 0.547,
+   "confusion_[Q,H]x[Q,H]": [
+    [
+     240,
+     192
+    ],
+    [
+     2878,
+     35782
+    ]
+   ],
+   "majority_baseline_accuracy": 0.989
+  }
+ },
+ "qudsi_by_collection": {
+  "Musnad_Ahmad_Ibn-Hanbal": {
+   "n_qudsi": 201,
+   "share_classified_quran": 0.313
+  },
+  "Sahih_Al-Bukhari": {
+   "n_qudsi": 70,
+   "share_classified_quran": 0.171
+  },
+  "Sahih_Muslim": {
+   "n_qudsi": 60,
+   "share_classified_quran": 0.333
+  },
+  "Sunan_Abu-Dawud": {
+   "n_qudsi": 23,
+   "share_classified_quran": 0.217
+  },
+  "Sunan_Al-Darimi": {
+   "n_qudsi": 13,
+   "share_classified_quran": 0.077
+  },
+  "Sunan_Al-Nasai": {
+   "n_qudsi": 27,
+   "share_classified_quran": 0.333
+  },
+  "Sunan_Al-Tirmidhi": {
+   "n_qudsi": 47,
+   "share_classified_quran": 0.106
+  },
+  "Sunan_Ibn-Maja": {
+   "n_qudsi": 28,
+   "share_classified_quran": 0.25
+  }
+ },
+ "qudsi_threshold_sensitivity": {
+  "0.3": 0.53,
+  "0.4": 0.388,
+  "0.5": 0.244,
+  "0.6": 0.153,
+  "0.7": 0.089
+ },
+ "qudsi_note": "Qudsi detection = matn containing قال/يقول الله; text after the formula. Quran-trained model is fitted on quotes (in-sample for Q), so Qudsi share is an out-of-collection estimate only for the hadith side.",
+ "ablation_lr_balanced_acc": {
+  "without_conj": 0.758,
+  "without_pron": 0.762,
+  "without_rel": 0.728,
+  "without_divine": 0.751,
+  "without_neg": 0.754,
+  "without_prep": 0.73
+ },
+ "decision_separation": "Robust",
+ "decision_qudsi": "Preliminary"
+}

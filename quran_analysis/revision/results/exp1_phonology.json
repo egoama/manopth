@@ -1,0 +1,83 @@
+{
+ "runs5": {
+  "quotes_dedup_rate": 9.09,
+  "hadith_dedup_rate": 26.27,
+  "quran_uthmani_rate": 5.82,
+  "ratio_hadith_over_quotes": 2.89,
+  "ci95_cluster": [
+   2.53,
+   3.29
+  ],
+  "clusters_quotes": 1267,
+  "clusters_hadith": 41071
+ },
+ "runs5_length_matched_40": {
+  "ratio": 2.44,
+  "ci95_cluster": [
+   2.05,
+   2.94
+  ],
+  "windows_quotes": 829,
+  "windows_hadith": 175457
+ },
+ "other_rhythm_features": {
+  "share_mutaharrik": {
+   "quotes": 0.6208,
+   "hadith": 0.66,
+   "quran_uthmani": 0.6075,
+   "diff_hadith_minus_quotes": 0.0392,
+   "ci95": [
+    0.0372,
+    0.0411
+   ],
+   "cohen_d": 1.219
+  },
+  "mean_run_of_harakat": {
+   "quotes": 1.7522,
+   "hadith": 2.0102,
+   "quran_uthmani": 1.7416,
+   "diff_hadith_minus_quotes": 0.258,
+   "ci95": [
+    0.2437,
+    0.2729
+   ],
+   "cohen_d": 0.994
+  },
+  "adjacent_sakin_per100": {
+   "quotes": 1.873,
+   "hadith": 0.8148,
+   "quran_uthmani": 3.4777,
+   "diff_hadith_minus_quotes": -1.0583,
+   "ci95": [
+    -1.1648,
+    -0.9512
+   ],
+   "cohen_d": -0.688
+  }
+ },
+ "engine_validation_meter_id": {
+  "meters": 8,
+  "test_lines": 4000,
+  "accuracy": 0.308,
+  "majority_baseline": 0.283,
+  "accuracy_with_10pct_symbol_noise": 0.133,
+  "interpretation": "High accuracy of meter identification from engine output (an external label) indicates the 1/0 encoding preserves metrical structure; it is indirect validation, not a gold-standard symbol error rate."
+ },
+ "gold_author_annotated": {
+  "items": 6,
+  "exact_match": 6,
+  "symbol_edit_distance_total": 0,
+  "symbols_total": 110,
+  "details": [],
+  "caveat": "annotated by the same analyst; not an independent gold standard"
+ },
+ "incremental_value": {
+  "n_quotes": 432,
+  "n_hadith": 3000,
+  "auc_lexical": 0.815,
+  "auc_prosodic_only": 0.815,
+  "auc_lexical_plus_prosodic": 0.877,
+  "note": "GroupKFold: hadith grouped by collection; quotes grouped into 50 buckets of distinct deduplicated quotes. Prosodic features add information if lexical+prosodic AUC exceeds lexical alone."
+ },
+ "decision": "Robust"
+}

@@ -1,0 +1,103 @@
+{
+ "quran_json": {
+  "path": "$DATA/data/package/dist/quran.json",
+  "sha256": "d8a8adff387f60ce3ff7dbe3238dd9b27120bfe29d8fcb07ad2e89cad37cefd4",
+  "bytes": 1466095,
+  "version": "quran-json 3.1.2 (npm, Tanzil Uthmani text)",
+  "surahs": 114,
+  "verses": 6236,
+  "words_whitespace": 77429
+ },
+ "morphology": {
+  "path": "$DATA/data/morph.txt",
+  "sha256": "742bfac59941b2cb09736d5b7aae694af50792261fb8450cbf6afafcc340645f",
+  "bytes": 6322866,
+  "version": "Quranic Arabic Corpus v0.4 (mirror: github.com/mustafa0x/quran-morphology)",
+  "segments": 130030,
+  "words": 77429,
+  "distinct_lemmas": 4776,
+  "distinct_roots": 1651
+ },
+ "apcd": {
+  "path": "$DATA/ext/apcd_x/APCD_plus_porse_all.csv",
+  "sha256": "3af23ef4ed27e874c790315826acca93817534646cc16d88df99668983dfdddd",
+  "bytes": 201950869
+ },
+ "hadith_Sunan_Ibn-Maja": {
+  "path": "$DATA/ext/hadith/Sunan_Ibn-Maja/sunan_ibn-maja_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "88b2fec03dbaff0b6d8e36d9b4b3989d1526a0aa8f81a8cdd56e1de95a7d5f68",
+  "bytes": 7990237,
+  "rows": 4332,
+  "duplicate_ids": 0,
+  "duplicate_texts": 3
+ },
+ "hadith_Maliks_Muwataa": {
+  "path": "$DATA/ext/hadith/Maliks_Muwataa/maliks_muwataa_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "d306930f056bb0a74745a4453fbef04cc80765213554b052a29427e24702ece0",
+  "bytes": 12187025,
+  "rows": 1594,
+  "duplicate_ids": 0,
+  "duplicate_texts": 0
+ },
+ "hadith_Sahih_Al-Bukhari": {
+  "path": "$DATA/ext/hadith/Sahih_Al-Bukhari/sahih_al-bukhari_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "b03f661876fc4089520800b9231b57a1564baff734344ea8914494b86e2eb708",
+  "bytes": 47158870,
+  "rows": 7008,
+  "duplicate_ids": 0,
+  "duplicate_texts": 3
+ },
+ "hadith_Sunan_Abu-Dawud": {
+  "path": "$DATA/ext/hadith/Sunan_Abu-Dawud/sunan_abu-dawud_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "68918ef593d5154d38c1d00bad3ae8237510cb35eeb3ebf22b4a1f9fa3b2799f",
+  "bytes": 23674773,
+  "rows": 4590,
+  "duplicate_ids": 0,
+  "duplicate_texts": 1
+ },
+ "hadith_Musnad_Ahmad_Ibn-Hanbal": {
+  "path": "$DATA/ext/hadith/Musnad_Ahmad_Ibn-Hanbal/musnad_ahmad_ibn-hanbal_ahadith_mushakkala.utf8.csv",
+  "sha256": "41553fee47fe582a8d0b60fbea1f71b867df44d40adac94dcfe742571a8bce24",
+  "bytes": 28688776,
+  "rows": 26363,
+  "duplicate_ids": 0,
+  "duplicate_texts": 52
+ },
+ "hadith_Sahih_Muslim": {
+  "path": "$DATA/ext/hadith/Sahih_Muslim/sahih_muslim_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "79232c8d7c27fef161d8f33ca169f9754741cfe14957dde2ac76893374998943",
+  "bytes": 18741232,
+  "rows": 5362,
+  "duplicate_ids": 0,
+  "duplicate_texts": 1
+ },
+ "hadith_Sunan_Al-Nasai": {
+  "path": "$DATA/ext/hadith/Sunan_Al-Nasai/sunan_al-nasai_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "21d677b02a39722f039f9a79f06706e71a0a09a18cc1aa71df6f90d994bf11c2",
+  "bytes": 9064720,
+  "rows": 5662,
+  "duplicate_ids": 0,
+  "duplicate_texts": 4
+ },
+ "hadith_Sunan_Al-Tirmidhi": {
+  "path": "$DATA/ext/hadith/Sunan_Al-Tirmidhi/sunan_al-tirmidhi_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "136b4467116a59dd81b9633306960898d6f8fd34c3a3aa3579d2d0ba130b3ce9",
+  "bytes": 28500904,
+  "rows": 3891,
+  "duplicate_ids": 0,
+  "duplicate_texts": 1
+ },
+ "hadith_Sunan_Al-Darimi": {
+  "path": "$DATA/ext/hadith/Sunan_Al-Darimi/sunan_al-darimi_ahadith_mushakkala_mufassala.utf8.csv",
+  "sha256": "bb995abb07a513cf76743e9580787e80c7ce5bd08dd6108c13e01d936a048327",
+  "bytes": 3004407,
+  "rows": 3367,
+  "duplicate_ids": 0,
+  "duplicate_texts": 2
+ },
+ "quran_meta_hafs": {
+  "path": "$DATA/ext/qmeta/package/dist/HafsLists-DF8skTd1.js",
+  "sha256": "4955ba398d2aaefb70fb9c7cac419ef443de65306cea0f66b1119bb2665c98ca",
+  "bytes": 19598
+ }
+}

@@ -1,0 +1,45 @@
+family,experiment,metric,original_result,revised_result,effect_size,ci95,p_raw,p_holm_family,p_bh_family,p_holm_global,p_bh_global,status,source_file,note
+phonology,E1,runs>=5 harakat rate ratio Hadith/Quran-quotes,3.18 (7.29 vs 22.77),2.89 (9.09 vs 26.27),rate ratio,"[2.53, 3.29]",,,,,,Corrected,revision/results/exp1_phonology.json,dedup + cluster bootstrap; conditional on engine validity
+phonology,E1,"same, length-matched 40-symbol windows",—,2.44,rate ratio,"[2.05, 2.94]",,,,,,Robust,revision/results/exp1_phonology.json,
+phonology,E1,share_mutaharrik,61.8% vs 65.0% (share),0.6208 vs 0.66,d=1.219,"[0.0372, 0.0411]",,,,,,Robust,revision/results/exp1_phonology.json,
+phonology,E1,mean_run_of_harakat,—,1.7522 vs 2.0102,d=0.994,"[0.2437, 0.2729]",,,,,,Robust,revision/results/exp1_phonology.json,
+phonology,E1,adjacent_sakin_per100,—,1.873 vs 0.8148,d=-0.688,"[-1.1648, -0.9512]",,,,,,Robust,revision/results/exp1_phonology.json,
+phonology,E1,"engine validation (meter id, balanced acc)",—,0.467,chance 0.2,,,,,,,Preliminary,revision/results/exp1b_engine_validation.json,below pre-set 0.5 threshold
+phonology,E1,AUC lexical vs lexical+prosodic,—,0.815 -> 0.877,+0.062 AUC,,,,,,,Preliminary,revision/results/exp1_phonology.json,grouped CV; no CI
+structure,E2,cohesion diff changed-same ending (tfidf),0.043 vs 0.053 p=0.0005,0.0546 vs 0.0624,std diff -0.074; OLS -0.0166,"[-0.0232, -0.0101]",0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp2_fasila_topic.json,effect very small; no incremental predictive value
+structure,E2,cohesion diff changed-same ending (root),—,0.0582 vs 0.0614,std diff -0.035; OLS -0.0124,"[-0.0176, -0.0072]",0.0003999200159968006,0.0026,0.000509,0.0088,0.00102,Robust,revision/results/exp2_fasila_topic.json,effect very small; no incremental predictive value
+structure,E2,cohesion diff changed-same ending (lsa),—,0.1082 vs 0.1173,std diff -0.057; OLS -0.0246,"[-0.0341, -0.0151]",0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp2_fasila_topic.json,effect very small; no incremental predictive value
+structure,E3,pairs favouring own vs swapped ending (k=3),38 vs 5 verses p=2.5e-7,22 vs 3 pairs,own match 0.8 vs freq null 0.363,"[0.682, 0.882]",0.00015652179718017578,0.00219,0.000311,0.00485,0.0006,Robust,revision/results/exp3_mutashabih.json,robust for k=1..7
+structure,E6a,DFA alpha verse_length|scales_4-64_order1,0.702 / 0.922 (20 perms),0.702,null mean 0.651,null p99 0.682,0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha verse_length|scales_8-128_order1,0.702 / 0.922 (20 perms),0.754,null mean 0.715,null p99 0.744,0.001799640071985603,0.0054,0.0021,0.0324,0.00349,Robust,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha verse_length|scales_4-64_order2,0.702 / 0.922 (20 perms),0.744,null mean 0.67,null p99 0.706,0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha verse_length|scales_16-256_order2,0.702 / 0.922 (20 perms),0.738,null mean 0.708,null p99 0.74,0.013997200559888023,0.028,0.0151,0.14,0.0192,Preliminary,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha nun_rhyme|scales_4-64_order1,0.702 / 0.922 (20 perms),0.922,null mean 0.788,null p99 0.807,0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha nun_rhyme|scales_8-128_order1,0.702 / 0.922 (20 perms),1.013,null mean 0.924,null p99 0.94,0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha nun_rhyme|scales_4-64_order2,0.702 / 0.922 (20 perms),0.906,null mean 0.749,null p99 0.775,0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp6_structure.json,
+structure,E6a,DFA alpha nun_rhyme|scales_16-256_order2,0.702 / 0.922 (20 perms),1.046,null mean 0.965,null p99 0.984,0.0001999600079984003,0.0026,0.000311,0.006,0.0006,Robust,revision/results/exp6_structure.json,
+structure,E6b,mushaf order smoother than type-preserving random,p=0.0008,0.0003999200159968006,,,0.0003999200159968006,0.0026,0.000509,0.0088,0.00102,Robust,revision/results/exp6_structure.json,holds leaving out any single feature
+structure,E6b,chronological order smoother than type-preserving random,p=0.13,0.14137172565486902,,,0.14137172565486902,0.141,0.141,0.848,0.167,Not supported,revision/results/exp6_structure.json,
+lexical,E4,"near-synonym فؤاد/قلب (balanced acc, grouped by surah)",see DEEP_AR,0.675,baseline Meccan-only 0.846,,0.006644518272425249,0.0266,0.0106,0.0731,0.00953,Preliminary,revision/results/exp4_synonyms.json,
+lexical,E4,"near-synonym حلف/أقسم (balanced acc, grouped by surah)",see DEEP_AR,0.5,baseline Meccan-only 0.909,,0.7408637873754153,0.764,0.741,1,0.764,Not supported,revision/results/exp4_synonyms.json,
+lexical,E4,"near-synonym إنسان/بشر (balanced acc, grouped by surah)",see DEEP_AR,0.842,baseline Meccan-only 0.518,,0.0033222591362126247,0.0266,0.00664,0.0498,0.00498,Robust,revision/results/exp4_synonyms.json,
+lexical,E4,near-synonym مطر/غيث,5/5 vs 0/3,—,,,,,,,,Not evaluated,revision/results/exp4_synonyms.json,too few verses
+lexical,E4,"near-synonym نظر/رأى (balanced acc, grouped by surah)",see DEEP_AR,0.784,baseline Meccan-only 0.513,,0.0033222591362126247,0.0266,0.00664,0.0498,0.00498,Robust,revision/results/exp4_synonyms.json,
+lexical,E4,"near-synonym خوف/خشية (balanced acc, grouped by surah)",see DEEP_AR,0.658,baseline Meccan-only 0.52,,0.0033222591362126247,0.0266,0.00664,0.0498,0.00498,Robust,revision/results/exp4_synonyms.json,
+lexical,E4,"near-synonym جاء/أتى (balanced acc, grouped by surah)",see DEEP_AR,0.699,baseline Meccan-only 0.489,,0.0033222591362126247,0.0266,0.00664,0.0498,0.00498,Robust,revision/results/exp4_synonyms.json,
+lexical,E4,"near-synonym عام/سنة (balanced acc, grouped by surah)",see DEEP_AR,0.5,baseline Meccan-only 0.333,,0.38205980066445183,0.764,0.437,1,0.407,Not supported,revision/results/exp4_synonyms.json,
+lexical,E4,"near-synonym ريح(مفرد)/رياح(جمع) (balanced acc, grouped by surah)",see DEEP_AR,0.7,baseline Meccan-only 0.561,,0.016611295681063124,0.0498,0.0221,0.15,0.0219,Robust,revision/results/exp4_synonyms.json,
+lexical,E4,fu'ad only in Meccan surahs,"14/14, p=3.7e-7 (Fisher vs qalb)",15/15 verses; P by word share 0.0006,,,,,,,,Reproduced,revision/results/exp4_synonyms.json,prior descriptive report (Avcı 2020); contextual classifier does not beat Meccan-only baseline
+stylometry,E5,"Quran quotes vs Hadith (LR, leave-one-collection-out, balanced acc)",81.5% vs 50% baseline,0.767,macro-F1 0.491,"[0.734, 0.796]",,,,,,Corrected,revision/results/exp5_stylometry.json,original had imbalance + quote leakage
+stylometry,E5,Hadith Qudsi classified as Quran,6.5%,0.244 pooled; range by collection 0.08-0.33,vs 0.18 for ordinary hadith,,,,,,,Preliminary,revision/results/exp5_stylometry.json,threshold-sensitive (0.09-0.53)
+semantic,E6d,divine-name ending predicted from content (grouped),"43.6% acc, p=0.003",0.255,chance 0.2,,0.06312292358803986,0.0631,0.0631,0.442,0.0772,Not supported,revision/results/exp6d_divine_names.json,repeated refrains leaked in original
+semantic,orig,Moses narrative tailoring,"77.6%, p=8.6e-9",not re-evaluated,,,8.6e-9,3.44e-08,3.44e-08,2.75e-07,1.42e-07,Not evaluated,semantic/semantic_results.json,verse dependence not modelled
+semantic,orig,surah endings more positive,+0.093 p=0.0026,not re-evaluated,,,0.0026,0.0052,0.00347,0.0416,0.00477,Preliminary,semantic/semantic_results.json,surah-level sign-flip; lexicon-based
+semantic,orig,opponents use emphasis more,50% vs 12%,not re-evaluated,,,0.00053,0.00159,0.00106,0.0106,0.00125,Preliminary,semantic/semantic_results.json,n=82
+letters,orig,Zamakhshari halves (frequency-weighted null),p=0.025 uniform,0.0018,,,0.0018,0.0072,0.0036,0.0324,0.00349,Preliminary,letters/deeper_letters_results.json,post-hoc pattern; Kashshaf passage not re-verified from an edition
+letters,orig,Massey single order,—,0.00117,,,0.00117,0.00585,0.00351,0.0222,0.00257,Reproduced,letters/deeper_letters_results.json,replication of Massey 1996
+letters,orig,initials followed by Book mention,26/29 vs 22/85,26/29,,,1.275146444285302e-09,7.65e-09,7.65e-09,4.21e-08,4.21e-08,Robust,letters/deeper_letters_results.json,classical observation; lexicon-dependent
+letters,orig,initial-letter enrichment in own surah,—,0.545,null 0.494,,0.0277,0.0831,0.0416,0.222,0.0352,Preliminary,letters/letters_results.json,
+letters,orig,two pangram verses,true,obs 2 vs null 1.28,,,0.343,0.628,0.343,1,0.377,Not supported,letters/nulls_results.json,true but expected by chance
+letters,orig,Fatiha missing 7 letters,true,null mean 5.74,,,0.314,0.628,0.343,1,0.357,Not supported,letters/nulls_results.json,true but expected by chance
+numerical,E6c,equal-count opposite pairs (consistent procedure),6/74 vs 4.8 expected,2/63 vs null 4.15,,"[1, 8]",0.942,0.942,0.942,1,0.942,Not supported,revision/results/exp6c_pairs.json,list has 70 pairs; جن/انس equality is a normalization artefact

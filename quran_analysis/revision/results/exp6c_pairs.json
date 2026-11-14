@@ -1,0 +1,53 @@
+{
+ "ALL": {
+  "pairs_listed": 70,
+  "pairs_with_both_nonzero": 63,
+  "observed_equal": 2,
+  "equal_pairs": [
+   [
+    "صيف",
+    "شتاء",
+    1
+   ],
+   [
+    "جن",
+    "انس",
+    23
+   ]
+  ],
+  "null_mean": 4.15,
+  "null_95_interval": [
+   1,
+   8
+  ],
+  "p_ge_observed": 0.942
+ },
+ "S": {
+  "pairs_listed": 70,
+  "pairs_with_both_nonzero": 61,
+  "observed_equal": 3,
+  "equal_pairs": [
+   [
+    "صيف",
+    "شتاء",
+    1
+   ],
+   [
+    "مسلم",
+    "مشرك",
+    2
+   ],
+   [
+    "جن",
+    "انس",
+    23
+   ]
+  ],
+  "null_mean": 5.28,
+  "null_95_interval": [
+   2,
+   9
+  ],
+  "p_ge_observed": 0.929
+ }
+}

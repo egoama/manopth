@@ -1,0 +1,117 @@
+{
+ "candidate_pairs": 193,
+ "cross_surah": 159,
+ "analysed_pairs_diff_endings": 30,
+ "same_surah_pairs": 34,
+ "by_neighbourhood": {
+  "1": {
+   "pairs_favour_own": 23,
+   "pairs_favour_swapped": 0,
+   "pair_sign_p": 2.384185791015625e-07,
+   "verse_own_only": 40,
+   "verse_swapped_only": 4,
+   "both": 5,
+   "neither": 11,
+   "own_match_rate": 0.75,
+   "own_match_ci95": [
+    0.628,
+    0.842
+   ],
+   "frequency_null_match_rate": 0.31
+  },
+  "2": {
+   "pairs_favour_own": 22,
+   "pairs_favour_swapped": 2,
+   "pair_sign_p": 3.5881996154785156e-05,
+   "verse_own_only": 38,
+   "verse_swapped_only": 5,
+   "both": 9,
+   "neither": 8,
+   "own_match_rate": 0.783,
+   "own_match_ci95": [
+    0.664,
+    0.869
+   ],
+   "frequency_null_match_rate": 0.352
+  },
+  "3": {
+   "pairs_favour_own": 22,
+   "pairs_favour_swapped": 3,
+   "pair_sign_p": 0.00015652179718017578,
+   "verse_own_only": 38,
+   "verse_swapped_only": 5,
+   "both": 10,
+   "neither": 7,
+   "own_match_rate": 0.8,
+   "own_match_ci95": [
+    0.682,
+    0.882
+   ],
+   "frequency_null_match_rate": 0.363
+  },
+  "5": {
+   "pairs_favour_own": 20,
+   "pairs_favour_swapped": 3,
+   "pair_sign_p": 0.00048828125,
+   "verse_own_only": 35,
+   "verse_swapped_only": 4,
+   "both": 14,
+   "neither": 7,
+   "own_match_rate": 0.817,
+   "own_match_ci95": [
+    0.701,
+    0.894
+   ],
+   "frequency_null_match_rate": 0.384
+  },
+  "7": {
+   "pairs_favour_own": 20,
+   "pairs_favour_swapped": 3,
+   "pair_sign_p": 0.00048828125,
+   "verse_own_only": 33,
+   "verse_swapped_only": 4,
+   "both": 16,
+   "neither": 7,
+   "own_match_rate": 0.817,
+   "own_match_ci95": [
+    0.701,
+    0.894
+   ],
+   "frequency_null_match_rate": 0.403
+  }
+ },
+ "counterexamples_k3": [
+  [
+   "2:39",
+   "خلدون",
+   "5:86",
+   "الجحيم"
+  ],
+  [
+   "7:59",
+   "عظيم",
+   "23:23",
+   "تتقون"
+  ],
+  [
+   "10:1",
+   "الحكيم",
+   "12:1",
+   "المبين"
+  ],
+  [
+   "10:1",
+   "الحكيم",
+   "15:1",
+   "مبين"
+  ],
+  [
+   "38:2",
+   "وشقاق",
+   "85:19",
+   "تكذيب"
+  ]
+ ],
+ "decision": "Robust",
+ "not_done": "Controls with alternative grammatical endings require expert-constructed variants; not performed."
+}

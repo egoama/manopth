@@ -1,0 +1,93 @@
+{
+ "6a_dfa": {
+  "verse_length|scales_4-64_order1": {
+   "alpha": 0.702,
+   "null_mean": 0.651,
+   "null_p99": 0.682,
+   "p": 0.0001999600079984003
+  },
+  "verse_length|scales_8-128_order1": {
+   "alpha": 0.754,
+   "null_mean": 0.715,
+   "null_p99": 0.744,
+   "p": 0.001799640071985603
+  },
+  "verse_length|scales_4-64_order2": {
+   "alpha": 0.744,
+   "null_mean": 0.67,
+   "null_p99": 0.706,
+   "p": 0.0001999600079984003
+  },
+  "verse_length|scales_16-256_order2": {
+   "alpha": 0.738,
+   "null_mean": 0.708,
+   "null_p99": 0.74,
+   "p": 0.013997200559888023
+  },
+  "nun_rhyme|scales_4-64_order1": {
+   "alpha": 0.922,
+   "null_mean": 0.788,
+   "null_p99": 0.807,
+   "p": 0.0001999600079984003
+  },
+  "nun_rhyme|scales_8-128_order1": {
+   "alpha": 1.013,
+   "null_mean": 0.924,
+   "null_p99": 0.94,
+   "p": 0.0001999600079984003
+  },
+  "nun_rhyme|scales_4-64_order2": {
+   "alpha": 0.906,
+   "null_mean": 0.749,
+   "null_p99": 0.775,
+   "p": 0.0001999600079984003
+  },
+  "nun_rhyme|scales_16-256_order2": {
+   "alpha": 1.046,
+   "null_mean": 0.965,
+   "null_p99": 0.984,
+   "p": 0.0001999600079984003
+  }
+ },
+ "6a_decision": "Preliminary",
+ "6b_order_sensitivity": {
+  "all": {
+   "mushaf_p_type_preserving": 0.0003999200159968006,
+   "chronological_p_type_preserving": 0.14137172565486902
+  },
+  "without_share_mutaharrik": {
+   "mushaf_p_type_preserving": 0.001799640071985603,
+   "chronological_p_type_preserving": 0.1271745650869826
+  },
+  "without_rhyme_entropy": {
+   "mushaf_p_type_preserving": 0.0013997200559888023,
+   "chronological_p_type_preserving": 0.0629874025194961
+  },
+  "without_alladhi_rate": {
+   "mushaf_p_type_preserving": 0.0009998000399920016,
+   "chronological_p_type_preserving": 0.05378924215156969
+  },
+  "without_2nd_person_share": {
+   "mushaf_p_type_preserving": 0.0003999200159968006,
+   "chronological_p_type_preserving": 0.3665266946610678
+  },
+  "without_nun_rhyme_share": {
+   "mushaf_p_type_preserving": 0.003999200159968006,
+   "chronological_p_type_preserving": 0.5020995800839833
+  },
+  "without_impv_rate": {
+   "mushaf_p_type_preserving": 0.0003999200159968006,
+   "chronological_p_type_preserving": 0.07898420315936813
+  },
+  "without_cond_rate": {
+   "mushaf_p_type_preserving": 0.0003999200159968006,
+   "chronological_p_type_preserving": 0.14637072585482905
+  },
+  "without_emph_rate": {
+   "mushaf_p_type_preserving": 0.0013997200559888023,
+   "chronological_p_type_preserving": 0.10657868426314737
+  }
+ },
+ "6b_note": "Permutations preserve the Meccan/Medinan label at each position. Chronology = Egyptian standard order (quran-meta 7.0.0); it is itself partly reconstructed from traditional reports and stylistic criteria.",
+ "6c_note": "See exp6c_pairs.py for the frequency-preserving null of the 74-pair test."
+}

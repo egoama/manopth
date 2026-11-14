@@ -1,0 +1,37 @@
+{
+ "issue_A": {
+  "pooled_concatenated_quotes": 7.29,
+  "pooled_concatenated_prose": 23.47,
+  "per_unit_quotes": 7.29,
+  "per_unit_prose_20000": 23.6,
+  "ratio_of_pooled_rates": 3.22,
+  "ratio_of_per_unit_rates": 3.24,
+  "runs_created_across_unit_boundaries_quotes": 0,
+  "runs_created_across_unit_boundaries_prose": 0,
+  "diagnosis": "The table rates (7.29, 22.77) come from pooled concatenated strings (truncated to 200k symbols, prose[:40000]); the 3.18 ratio comes from a different per-unit aggregation on prose[:20000]. Two different estimators on different samples, not an arithmetic error."
+ },
+ "issue_B": {
+  "verses_with_kept_endings": 192,
+  "counts": {
+   "عليم حكيم": 29,
+   "سميع عليم": 32,
+   "عزيز حكيم": 47,
+   "غفور رحيم": 71,
+   "عزيز رحيم": 13
+  },
+  "dropped_empty_feature_verses": [
+   "26:220",
+   "36:5"
+  ],
+  "diagnosis": "192 verses carry one of the five endings; 2 were dropped because no content lemma remained after removing the last 3 words and divine names (very short verses). Not duplicates."
+ },
+ "issue_C": {
+  "test_set_quran_chunks": 360,
+  "test_set_hadith_chunks": 750,
+  "majority_baseline": 0.676,
+  "note": "Original accuracy 0.815 is pooled accuracy on an imbalanced test set (majority 0.676), compared in the report to 50%. Quran chunks were built by concatenating quotes then randomly split -> identical quoted verses (quoted many times across collections) appear in both train and test (leakage). Revised in experiments/exp5_stylometry.py.",
+  "distinct_quotes": 1346,
+  "quote_instances": 2716,
+  "instances_that_are_repeats": 1370
+ }
+}

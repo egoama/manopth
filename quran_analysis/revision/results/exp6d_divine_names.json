@@ -1,0 +1,16 @@
+{
+ "n_verses_dedup": 177,
+ "classes": {
+  "عليم حكيم": 29,
+  "سميع عليم": 31,
+  "عزيز حكيم": 44,
+  "غفور رحيم": 69,
+  "عزيز رحيم": 4
+ },
+ "balanced_acc_grouped": 0.255,
+ "chance_balanced": 0.2,
+ "perm_null_mean": 0.2,
+ "p": 0.06312292358803986,
+ "original_reported": "acc 0.436 (pooled, leave-one-out, not grouped)",
+ "decision": "Not supported"
+}

@@ -1,0 +1,204 @@
+{
+ "pairs": [
+  {
+   "pair": "فؤاد/قلب",
+   "n": [
+    14,
+    123
+   ],
+   "meccan_share": [
+    1.0,
+    0.31
+   ],
+   "balanced_acc": 0.675,
+   "baseline_meccan_only": 0.846,
+   "baseline_length_only": 0.698,
+   "perm_null_mean": 0.523,
+   "p_raw": 0.006644518272425249,
+   "surahs": 50,
+   "p_holm": 0.0266,
+   "p_bh": 0.0106,
+   "status": "Preliminary"
+  },
+  {
+   "pair": "حلف/أقسم",
+   "n": [
+    11,
+    22
+   ],
+   "meccan_share": [
+    0.0,
+    0.82
+   ],
+   "balanced_acc": 0.5,
+   "baseline_meccan_only": 0.909,
+   "baseline_length_only": 0.5,
+   "perm_null_mean": 0.523,
+   "p_raw": 0.7408637873754153,
+   "surahs": 21,
+   "p_holm": 0.7641,
+   "p_bh": 0.7409,
+   "status": "Not supported"
+  },
+  {
+   "pair": "إنسان/بشر",
+   "n": [
+    69,
+    37
+   ],
+   "meccan_share": [
+    0.86,
+    0.89
+   ],
+   "balanced_acc": 0.842,
+   "baseline_meccan_only": 0.518,
+   "baseline_length_only": 0.625,
+   "perm_null_mean": 0.489,
+   "p_raw": 0.0033222591362126247,
+   "surahs": 55,
+   "p_holm": 0.0266,
+   "p_bh": 0.0066,
+   "status": "Robust"
+  },
+  {
+   "pair": "مطر/غيث",
+   "n": [
+    4,
+    3
+   ],
+   "meccan_share": [
+    0.75,
+    0.67
+   ],
+   "status": "Not evaluated (too few verses/surahs)"
+  },
+  {
+   "pair": "نظر/رأى",
+   "n": [
+    72,
+    243
+   ],
+   "meccan_share": [
+    0.79,
+    0.77
+   ],
+   "balanced_acc": 0.784,
+   "baseline_meccan_only": 0.513,
+   "baseline_length_only": 0.482,
+   "perm_null_mean": 0.497,
+   "p_raw": 0.0033222591362126247,
+   "surahs": 78,
+   "p_holm": 0.0266,
+   "p_bh": 0.0066,
+   "status": "Robust"
+  },
+  {
+   "pair": "خوف/خشية",
+   "n": [
+    97,
+    37
+   ],
+   "meccan_share": [
+    0.61,
+    0.57
+   ],
+   "balanced_acc": 0.658,
+   "baseline_meccan_only": 0.52,
+   "baseline_length_only": 0.522,
+   "perm_null_mean": 0.493,
+   "p_raw": 0.0033222591362126247,
+   "surahs": 52,
+   "p_holm": 0.0266,
+   "p_bh": 0.0066,
+   "status": "Robust"
+  },
+  {
+   "pair": "جاء/أتى",
+   "n": [
+    238,
+    215
+   ],
+   "meccan_share": [
+    0.76,
+    0.75
+   ],
+   "balanced_acc": 0.699,
+   "baseline_meccan_only": 0.489,
+   "baseline_length_only": 0.551,
+   "perm_null_mean": 0.497,
+   "p_raw": 0.0033222591362126247,
+   "surahs": 72,
+   "p_holm": 0.0266,
+   "p_bh": 0.0066,
+   "status": "Robust"
+  },
+  {
+   "pair": "عام/سنة",
+   "n": [
+    6,
+    6
+   ],
+   "meccan_share": [
+    0.33,
+    0.5
+   ],
+   "balanced_acc": 0.5,
+   "baseline_meccan_only": 0.333,
+   "baseline_length_only": 0.5,
+   "perm_null_mean": 0.407,
+   "p_raw": 0.38205980066445183,
+   "surahs": 9,
+   "p_holm": 0.7641,
+   "p_bh": 0.4366,
+   "status": "Not supported"
+  },
+  {
+   "pair": "ريح(مفرد)/رياح(جمع)",
+   "n": [
+    18,
+    10
+   ],
+   "meccan_share": [
+    0.78,
+    0.9
+   ],
+   "balanced_acc": 0.7,
+   "baseline_meccan_only": 0.561,
+   "baseline_length_only": 0.661,
+   "perm_null_mean": 0.464,
+   "p_raw": 0.016611295681063124,
+   "surahs": 26,
+   "p_holm": 0.0498,
+   "p_bh": 0.0221,
+   "status": "Robust"
+  }
+ ],
+ "fuad": {
+  "verses": [
+   "6:110",
+   "6:113",
+   "11:120",
+   "14:37",
+   "14:43",
+   "16:78",
+   "17:36",
+   "23:78",
+   "25:32",
+   "28:10",
+   "32:9",
+   "46:26",
+   "53:11",
+   "67:23",
+   "104:7"
+  ],
+  "n_verses": 15,
+  "all_in_meccan_surahs": true,
+  "meccan_word_share": 0.613,
+  "P_all_meccan_if_random_by_words": 0.0006433956634556415,
+  "with_sam_basar_formula": 7,
+  "qalb_meccan_share_in_sam_basar_contexts": 0.44,
+  "verse_level_exceptions_note": "Verse-level Medinan exceptions listed in the Egyptian mushaf headers (from memory, unverified) do not include any of these verses.",
+  "prior_literature": "Avcı 2020 (Dinî Araştırmalar) reports fuʾād/afʾida occurrences in Meccan suras descriptively (citation incomplete, not verified).",
+  "qalb_sam_basar_n": 9
+ }
+}

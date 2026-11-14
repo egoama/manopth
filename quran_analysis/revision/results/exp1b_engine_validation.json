@@ -1,0 +1,52 @@
+{
+ "meters": [
+  "الخفيف",
+  "الكامل",
+  "الطويل",
+  "البسيط",
+  "الرجز"
+ ],
+ "per_class_test": 300,
+ "balanced_accuracy": 0.467,
+ "chance": 0.2,
+ "balanced_accuracy_10pct_noise": 0.304,
+ "balanced_accuracy_30pct_noise": 0.223,
+ "confusion": [
+  [
+   150,
+   74,
+   8,
+   34,
+   34
+  ],
+  [
+   30,
+   169,
+   14,
+   56,
+   31
+  ],
+  [
+   39,
+   80,
+   99,
+   82,
+   0
+  ],
+  [
+   24,
+   53,
+   57,
+   149,
+   17
+  ],
+  [
+   58,
+   71,
+   2,
+   35,
+   134
+  ]
+ ],
+ "decision": "not supportive"
+}
