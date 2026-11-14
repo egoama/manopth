@@ -1,0 +1,45 @@
+{
+ "engine": {
+  "auc_lexical": 0.811,
+  "auc_prosodic": 0.821,
+  "auc_combined": 0.88,
+  "per_fold_delta_combined_minus_lexical": [
+   0.088,
+   0.086,
+   0.043,
+   0.057
+  ],
+  "delta_ci95_bootstrap": [
+   0.051,
+   0.086
+  ],
+  "folds_with_positive_delta": 4,
+  "n_folds": 4,
+  "n": [
+   432,
+   3000
+  ]
+ },
+ "independent_transcriber": {
+  "auc_lexical": 0.811,
+  "auc_prosodic": 0.812,
+  "auc_combined": 0.876,
+  "per_fold_delta_combined_minus_lexical": [
+   0.085,
+   0.078,
+   0.041,
+   0.054
+  ],
+  "delta_ci95_bootstrap": [
+   0.047,
+   0.082
+  ],
+  "folds_with_positive_delta": 4,
+  "n_folds": 4,
+  "n": [
+   432,
+   3000
+  ]
+ },
+ "decision": "Robust"
+}

@@ -1,0 +1,121 @@
+{
+ "natural_prevalence": {
+  "n": 39092,
+  "prevalence_quran": 0.0111,
+  "accuracy": 0.821,
+  "balanced_accuracy": 0.767,
+  "precision_quran": 0.043,
+  "recall_quran": 0.711,
+  "precision_hadith": 0.996,
+  "recall_hadith(specificity)": 0.822,
+  "macro_f1": 0.491,
+  "weighted_f1": 0.892,
+  "mcc": 0.144,
+  "roc_auc": 0.836,
+  "pr_auc_quran": 0.241,
+  "confusion_[Q,H]x[Q,H]": [
+   [
+    307,
+    125
+   ],
+   [
+    6864,
+    31796
+   ]
+  ]
+ },
+ "balanced_subsamples_1000": {
+  "prevalence_quran": {
+   "mean": 0.5,
+   "ci95": [
+    0.5,
+    0.5
+   ]
+  },
+  "accuracy": {
+   "mean": 0.767,
+   "ci95": [
+    0.748,
+    0.785
+   ]
+  },
+  "balanced_accuracy": {
+   "mean": 0.767,
+   "ci95": [
+    0.748,
+    0.785
+   ]
+  },
+  "precision_quran": {
+   "mean": 0.801,
+   "ci95": [
+    0.767,
+    0.834
+   ]
+  },
+  "recall_quran": {
+   "mean": 0.711,
+   "ci95": [
+    0.711,
+    0.711
+   ]
+  },
+  "precision_hadith": {
+   "mean": 0.74,
+   "ci95": [
+    0.731,
+    0.748
+   ]
+  },
+  "recall_hadith(specificity)": {
+   "mean": 0.823,
+   "ci95": [
+    0.785,
+    0.859
+   ]
+  },
+  "macro_f1": {
+   "mean": 0.766,
+   "ci95": [
+    0.747,
+    0.784
+   ]
+  },
+  "weighted_f1": {
+   "mean": 0.766,
+   "ci95": [
+    0.747,
+    0.784
+   ]
+  },
+  "mcc": {
+   "mean": 0.537,
+   "ci95": [
+    0.497,
+    0.576
+   ]
+  },
+  "roc_auc": {
+   "mean": 0.836,
+   "ci95": [
+    0.821,
+    0.85
+   ]
+  },
+  "pr_auc_quran": {
+   "mean": 0.859,
+   "ci95": [
+    0.842,
+    0.875
+   ]
+  }
+ },
+ "macro_f1_audit": {
+  "f1_quran": 0.081,
+  "f1_hadith": 0.901,
+  "macro_f1_from_cm": 0.491,
+  "reported_in_revision": 0.491,
+  "consistent": true
+ },
+ "interpretation": "Discrimination (ROC-AUC, balanced accuracy) is moderate; practical classification at natural prevalence is poor for the Quran class (low precision) because Quran quotes are ~1% of units."
+}

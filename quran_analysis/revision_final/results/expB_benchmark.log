@@ -1,0 +1,182 @@
+/home/user/manopth/quran_analysis/revision_final/experiments/expB_benchmark.py:43: SyntaxWarning: invalid escape sequence '\S'
+  PHEN={'shadda':'ّ','tanwin':'[ًࣰٌٍ-ࣲ]','wasl':'ٱ','madda':'آ|ٓ','dagger':'[ٰۥۦ]','lafz_jalala':'لل[َّ]*ه','tanwin_fath_final':'[ًࣰ]\S*$'}
+{
+ "overall": {
+  "items": 320,
+  "exact_match": 0.772,
+  "symbol_error_rate": 0.0072,
+  "runs5_agreement_items": 0.975,
+  "runs5_engine_total": 138,
+  "runs5_ref_total": 146,
+  "mutaharrik_share_engine": 0.633,
+  "mutaharrik_share_ref": 0.6357
+ },
+ "by_source": {
+  "hadith_matn": {
+   "items": 80,
+   "exact_match": 0.85,
+   "symbol_error_rate": 0.0045,
+   "runs5_agreement_items": 0.988,
+   "runs5_engine_total": 93,
+   "runs5_ref_total": 94,
+   "mutaharrik_share_engine": 0.6634,
+   "mutaharrik_share_ref": 0.6649
+  },
+  "poetry": {
+   "items": 60,
+   "exact_match": 0.9,
+   "symbol_error_rate": 0.0026,
+   "runs5_agreement_items": 1.0,
+   "runs5_engine_total": 5,
+   "runs5_ref_total": 5,
+   "mutaharrik_share_engine": 0.6376,
+   "mutaharrik_share_ref": 0.6372
+  },
+  "quran_quote_hadith_orth": {
+   "items": 80,
+   "exact_match": 0.75,
+   "symbol_error_rate": 0.0086,
+   "runs5_agreement_items": 0.925,
+   "runs5_engine_total": 23,
+   "runs5_ref_total": 29,
+   "mutaharrik_share_engine": 0.6246,
+   "mutaharrik_share_ref": 0.6283
+  },
+  "quran_uthmani": {
+   "items": 100,
+   "exact_match": 0.65,
+   "symbol_error_rate": 0.0115,
+   "runs5_agreement_items": 0.99,
+   "runs5_engine_total": 17,
+   "runs5_ref_total": 18,
+   "mutaharrik_share_engine": 0.6127,
+   "mutaharrik_share_ref": 0.6174
+  }
+ },
+ "by_phenomenon": {
+  "shadda": {
+   "items": 291,
+   "exact_match": 0.777,
+   "symbol_error_rate": 0.0069,
+   "runs5_agreement_items": 0.976,
+   "runs5_engine_total": 124,
+   "runs5_ref_total": 131,
+   "mutaharrik_share_engine": 0.6351,
+   "mutaharrik_share_ref": 0.6375
+  },
+  "tanwin": {
+   "items": 172,
+   "exact_match": 0.849,
+   "symbol_error_rate": 0.0044,
+   "runs5_agreement_items": 0.988,
+   "runs5_engine_total": 96,
+   "runs5_ref_total": 98,
+   "mutaharrik_share_engine": 0.6389,
+   "mutaharrik_share_ref": 0.6401
+  },
+  "wasl": {
+   "items": 67,
+   "exact_match": 0.612,
+   "symbol_error_rate": 0.0112,
+   "runs5_agreement_items": 0.985,
+   "runs5_engine_total": 15,
+   "runs5_ref_total": 16,
+   "mutaharrik_share_engine": 0.611,
+   "mutaharrik_share_ref": 0.6156
+  },
+  "madda": {
+   "items": 51,
+   "exact_match": 0.373,
+   "symbol_error_rate": 0.0185,
+   "runs5_agreement_items": 0.98,
+   "runs5_engine_total": 15,
+   "runs5_ref_total": 16,
+   "mutaharrik_share_engine": 0.6096,
+   "mutaharrik_share_ref": 0.6178
+  },
+  "dagger": {
+   "items": 75,
+   "exact_match": 0.64,
+   "symbol_error_rate": 0.0113,
+   "runs5_agreement_items": 0.987,
+   "runs5_engine_total": 15,
+   "runs5_ref_total": 16,
+   "mutaharrik_share_engine": 0.6101,
+   "mutaharrik_share_ref": 0.6149
+  },
+  "lafz_jalala": {
+   "items": 55,
+   "exact_match": 0.691,
+   "symbol_error_rate": 0.0098,
+   "runs5_agreement_items": 0.927,
+   "runs5_engine_total": 28,
+   "runs5_ref_total": 32,
+   "mutaharrik_share_engine": 0.6367,
+   "mutaharrik_share_ref": 0.6401
+  },
+  "tanwin_fath_final": {
+   "items": 9,
+   "exact_match": 1.0,
+   "symbol_error_rate": 0.0,
+   "runs5_agreement_items": 1.0,
+   "runs5_engine_total": 14,
+   "runs5_ref_total": 14,
+   "mutaharrik_share_engine": 0.6622,
+   "mutaharrik_share_ref": 0.6622
+  }
+ },
+ "without_any_phenomenon": {
+  "items": 8,
+  "exact_match": 0.75,
+  "symbol_error_rate": 0.0112,
+  "runs5_agreement_items": 1.0,
+  "runs5_engine_total": 0,
+  "runs5_ref_total": 0,
+  "mutaharrik_share_engine": 0.5988,
+  "mutaharrik_share_ref": 0.6059
+ },
+ "main_ratio_sensitivity": {
+  "engine|pause=sakin": {
+   "quotes": 9.09,
+   "hadith": 26.27,
+   "ratio": 2.89
+  },
+  "engine|pause=ishba": {
+   "quotes": 9.05,
+   "hadith": 26.28,
+   "ratio": 2.9
+  },
+  "engine|pause=none": {
+   "quotes": 9.15,
+   "hadith": 26.37,
+   "ratio": 2.88
+  },
+  "independent|pause=sakin": {
+   "quotes": 9.69,
+   "hadith": 26.67,
+   "ratio": 2.75
+  },
+  "independent|pause=ishba": {
+   "quotes": 9.64,
+   "hadith": 26.68,
+   "ratio": 2.77
+  },
+  "independent|pause=none": {
+   "quotes": 9.74,
+   "hadith": 26.76,
+   "ratio": 2.75
+  }
+ }
+}
+quran_quote_hadith_orth |     حَتَّى يَتَبَيَّنَ لَكُمْ الْخَيْطُ الْأَبْيَضُ مِنْ الْ | E=1010111011110101010111010101010 | R=101011101111101010101111010101010
+quran_uthmani | فَٱعۡلَمۡ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱللَّهُ وَٱسۡتَغۡفِرۡ | E=10101011010110110101011010101101111010110110101101101011011111011101101010 | R=101010110110110110101011010101101111010110110101101101011011111011101101010
+quran_uthmani | وَمَن لَّمۡ يُؤۡمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعۡتَ | E=11010101010101111011011010101010101011011100 | R=110101010101011110110110110101010101011011100
+hadith_matn | النَّجْمَ بِمَكَّةَ فَسَجَدَ فِيهَا وَسَجَدَ مَنْ مَعَهُ غَي | E=010111011111110101111101111011010110 | R=1010111011111110101111101111011010110
+quran_quote_hadith_orth |   الَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا | E=011011101011011010110101010110110101011010111010 | R=1011011101011011010110101010110110101011010111010
+quran_quote_hadith_orth |   ادْعُوا رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً   | E=01010110110110110110 | R=101010110110110110110
+quran_uthmani | وَرَبُّكَ يَخۡلُقُ مَا يَشَآءُ وَيَخۡتَارُۗ مَا كَانَ لَهُم | E=11011101110110111010110101111011111010101011110101010101100 | R=110111011101110111010110101111011111010101011110101010101100
+quran_uthmani | قَالَ إِنَّمَآ أَشۡكُواْ بَثِّي وَحُزۡنِيٓ إِلَى ٱللَّهِ وَ | E=101101101010101011010110101110111101011010101100 | R=1011011101010101011010110101110111101011010101100
+quran_uthmani | وَلِلَّهِ ٱلۡأَسۡمَآءُ ٱلۡحُسۡنَىٰ فَٱدۡعُوهُ بِهَاۖ وَذَرُ | E=1101010101010101010101110111011011011011010100110110101101010101100 | R=11010101011010101010101110111011011011011010100110110101101010101100
+poetry | يَوَدُّ بَهَاءُ الصُّبْح لَوْ أَنَّهُ لَهَا مُحَيّاً وَغُرُّ | E=110111010100101011110110010110101001010110010 | R=1101110101001010111101100101101010010101100010
+quran_quote_hadith_orth |   قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِنْ الْجِنّ | E=101011110110110111111010100 | R=1010111101101101111110110100
+hadith_matn | الْأَنْصَارُ وَمُزَيْنَةُ وَجُهَيْنَةُ وَغِفَارٌ وَأَشْجَعُ  | E=0101011110111110111110101101111010110110100 | R=10101011110111110111110101101111010110110100

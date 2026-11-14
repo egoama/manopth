@@ -1,0 +1,72 @@
+{
+ "items": 30,
+ "gold_symbols": 366,
+ "engine_exact": 20,
+ "independent_exact": 29,
+ "engine_SER": 0.0273,
+ "independent_SER": 0.0027,
+ "failures": [
+  {
+   "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ",
+   "gold": "10101101101101010",
+   "engine": "0101101101101010",
+   "ind": "10101101101101010"
+  },
+  {
+   "text": "مِنْ ٱلْكِتَابِ",
+   "gold": "1101100",
+   "engine": "101100",
+   "ind": "1101100"
+  },
+  {
+   "text": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَالَمِينَ",
+   "gold": "10101101011010101100",
+   "engine": "0101101011010101100",
+   "ind": "10101101011010101100"
+  },
+  {
+   "text": "عَنْ الْيَمِينِ",
+   "gold": "1101100",
+   "engine": "101100",
+   "ind": "1101100"
+  },
+  {
+   "text": "مِنْ الْبَيْتِ",
+   "gold": "110100",
+   "engine": "10100",
+   "ind": "110100"
+  },
+  {
+   "text": "اسْتَغْفِرْ لِي",
+   "gold": "10101010",
+   "engine": "0101010",
+   "ind": "10101010"
+  },
+  {
+   "text": "فِي ٱلۡأٓخِرِينَ",
+   "gold": "10101100",
+   "engine": "1001100",
+   "ind": "10101100"
+  },
+  {
+   "text": "ٱنظُرۡ كَيۡفَ",
+   "gold": "1010100",
+   "engine": "010100",
+   "ind": "1010100"
+  },
+  {
+   "text": "مِنْ حَيْثُ أَمَرَكُمْ اللَّهُ",
+   "gold": "10101111110100",
+   "engine": "1010111110100",
+   "ind": "10101111110100"
+  },
+  {
+   "text": "سَيَعۡلَمُونَ غَدٗا مَّنِ ٱلۡكَذَّابُ",
+   "gold": "110110111011010100",
+   "engine": "11011011011010100",
+   "ind": "11011011011010100"
+  }
+ ],
+ "revision_note": "12 gold strings were corrected after re-derivation revealed analyst errors in the first draft (documented in git history); this illustrates why analyst-derived gold is not a substitute for independent annotation.",
+ "caveat": "Gold derived by the analyst from PHONOLOGICAL_SPEC.md; no independent annotator. Items were chosen to cover junction phenomena (wasl, idgham, madda, dagger alif), so this set over-represents hard cases."
+}

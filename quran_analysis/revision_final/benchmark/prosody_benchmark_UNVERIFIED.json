@@ -1,0 +1,2562 @@
+[
+{
+"source": "quran_uthmani",
+"text": "وَيَسۡتَجِيبُ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَيَزِيدُهُم مِّن فَضۡلِهِۦۚ وَٱلۡكَٰفِرُونَ لَهُمۡ عَذَابٞ شَدِيدٞ",
+"pause": "sakin",
+"engine": "11011010110110110111101001101111011010101101010110111011001100",
+"reference_independent_unverified": "11011010110110110111101001101111011010101101010110111011001100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "سَيَعۡلَمُونَ غَدٗا مَّنِ ٱلۡكَذَّابُ ٱلۡأَشِرُ",
+"pause": "sakin",
+"engine": "110110110110101010110",
+"reference_independent_unverified": "110110110110101010110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَمَن لَّمۡ يُؤۡمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعۡتَدۡنَا لِلۡكَٰفِرِينَ سَعِيرٗا",
+"pause": "sakin",
+"engine": "11010101010101111011011010101010101011011100",
+"reference_independent_unverified": "110101010101011110110110110101010101011011100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+"pause": "sakin",
+"engine": "1101101101110110",
+"reference_independent_unverified": "1101101101110110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "أَوۡ زِدۡ عَلَيۡهِ وَرَتِّلِ ٱلۡقُرۡءَانَ تَرۡتِيلًا",
+"pause": "sakin",
+"engine": "1010110111011010101101010",
+"reference_independent_unverified": "1010110111011010101101010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ذَٰلِكَ عَٰلِمُ ٱلۡغَيۡبِ وَٱلشَّهَٰدَةِ ٱلۡعَزِيزُ ٱلرَّحِيمُ",
+"pause": "sakin",
+"engine": "10111011010110110110110101100",
+"reference_independent_unverified": "10111011010110110110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعۡبَانٞ مُّبِينٞ",
+"pause": "sakin",
+"engine": "110101101111011101001100",
+"reference_independent_unverified": "110101101111011101001100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ٱلَّذِينَ يُكَذِّبُونَ بِيَوۡمِ ٱلدِّينِ",
+"pause": "sakin",
+"engine": "01101110110111010100",
+"reference_independent_unverified": "101101110110111010100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَإِذَا رَأَوۡكَ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَٰذَا ٱلَّذِي بَعَثَ ٱللَّهُ رَسُولًا",
+"pause": "sakin",
+"engine": "1110110110101110111010111011010110111010111010",
+"reference_independent_unverified": "1110110110101110111010111011010110111010111010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَقَالَ ٱلرَّسُولُ يَٰرَبِّ إِنَّ قَوۡمِي ٱتَّخَذُواْ هَٰذَا ٱلۡقُرۡءَانَ مَهۡجُورٗا",
+"pause": "sakin",
+"engine": "110101101101011011010111010101010110100",
+"reference_independent_unverified": "110101101101011011010111010101010110100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "مَآ أَغۡنَىٰ عَنۡهُم مَّا كَانُواْ يُمَتَّعُونَ",
+"pause": "sakin",
+"engine": "10101010101010101101100",
+"reference_independent_unverified": "110101010101010101101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "مَتَٰعٞ قَلِيلٞ وَلَهُمۡ عَذَابٌ أَلِيمٞ",
+"pause": "sakin",
+"engine": "110011001110110101100",
+"reference_independent_unverified": "110011001110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَأَنَّهُۥ خَلَقَ ٱلزَّوۡجَيۡنِ ٱلذَّكَرَ وَٱلۡأُنثَىٰ",
+"pause": "sakin",
+"engine": "1101101110101010111101010",
+"reference_independent_unverified": "1101101110101010111101010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "يَـٰٓإِبۡرَٰهِيمُ أَعۡرِضۡ عَنۡ هَٰذَآۖ إِنَّهُۥ قَدۡ جَآءَ أَمۡرُ رَبِّكَۖ وَإِنَّهُمۡ ءَاتِيهِمۡ عَذَابٌ غَيۡرُ مَرۡدُودٖ",
+"pause": "sakin",
+"engine": "10010101011010101010101101010110110111101101010101101010110100",
+"reference_independent_unverified": "1001010101101010101101011010110110110111101101010101101010110100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "فَيَوۡمَئِذٖ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٞ",
+"pause": "sakin",
+"engine": "1101101011011110110110",
+"reference_independent_unverified": "1101101011011110110110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "فَأَنجَيۡنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحۡمَةٖ مِّنَّا وَقَطَعۡنَا دَابِرَ ٱلَّذِينَ كَذَّبُواْ بِـَٔايَٰتِنَاۖ وَمَا كَانُواْ مُؤۡمِنِينَ",
+"pause": "sakin",
+"engine": "11010101101101111011010101011101010110110110110110101101101010101100",
+"reference_independent_unverified": "11010101101101111011010101011101010110110110110110101101101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "يَوۡمَئِذٖ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتٗا لِّيُرَوۡاْ أَعۡمَٰلَهُمۡ",
+"pause": "sakin",
+"engine": "10110101101011010011101010110",
+"reference_independent_unverified": "10110101101011010011101010110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "فَمَا تَنفَعُهُمۡ شَفَٰعَةُ ٱلشَّـٰفِعِينَ",
+"pause": "sakin",
+"engine": "1101011101101101001100",
+"reference_independent_unverified": "1101011101101101001100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+"pause": "sakin",
+"engine": "1101010101101101010",
+"reference_independent_unverified": "111010101011011101010",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَأَقۡبَلَ بَعۡضُهُمۡ عَلَىٰ بَعۡضٖ يَتَسَآءَلُونَ",
+"pause": "sakin",
+"engine": "110111011011010011101100",
+"reference_independent_unverified": "1101110110110100111101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "ٱشۡتَرَوۡاْ بِـَٔايَٰتِ ٱللَّهِ ثَمَنٗا قَلِيلٗا فَصَدُّواْ عَن سَبِيلِهِۦٓۚ إِنَّهُمۡ سَآءَ مَا كَانُواْ يَعۡمَلُونَ",
+"pause": "sakin",
+"engine": "011011010101011101100110101011011010110101101010101100",
+"reference_independent_unverified": "10110110101010111011001101010110110101101101101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "أَمۡ يُرِيدُونَ كَيۡدٗاۖ فَٱلَّذِينَ كَفَرُواْ هُمُ ٱلۡمَكِيدُونَ",
+"pause": "sakin",
+"engine": "101101011001011011110110110100",
+"reference_independent_unverified": "101101011001011011110110110100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "فَكَيۡفَ كَانَ عَذَابِي وَنُذُرِ",
+"pause": "sakin",
+"engine": "1101101110101110",
+"reference_independent_unverified": "1101101110101110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "قَالَ فَإِنَّكَ مِنَ ٱلۡمُنظَرِينَ",
+"pause": "sakin",
+"engine": "10111011110101100",
+"reference_independent_unverified": "10111011110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "۞وَلَقَدۡ جَآءَكُم مُّوسَىٰ بِٱلۡبَيِّنَٰتِ ثُمَّ ٱتَّخَذۡتُمُ ٱلۡعِجۡلَ مِنۢ بَعۡدِهِۦ وَأَنتُمۡ ظَٰلِمُونَ",
+"pause": "sakin",
+"engine": "1110101101010101011011010110110101101011011010101100",
+"reference_independent_unverified": "11101101101010101011011010110110101101011011010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "مَا خَلَقۡنَٰهُمَآ إِلَّا بِٱلۡحَقِّ وَلَٰكِنَّ أَكۡثَرَهُمۡ لَا يَعۡلَمُونَ",
+"pause": "sakin",
+"engine": "101101011010101010111010110111010101100",
+"reference_independent_unverified": "1011010111010101010111010110111010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَأَوۡرَثَكُمۡ أَرۡضَهُمۡ وَدِيَٰرَهُمۡ وَأَمۡوَٰلَهُمۡ وَأَرۡضٗا لَّمۡ تَطَـُٔوهَاۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٗا",
+"pause": "sakin",
+"engine": "110111010110111011011010110110010111010110101011101011001100",
+"reference_independent_unverified": "110111010110111011011010110110010111010110101011101011001100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَلِمَنۡ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ",
+"pause": "sakin",
+"engine": "1110101110110110101100",
+"reference_independent_unverified": "1110101110110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "إِنۡ هَٰذَآ إِلَّا خُلُقُ ٱلۡأَوَّلِينَ",
+"pause": "sakin",
+"engine": "10101010101110101100",
+"reference_independent_unverified": "101011010101110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "إِنَّ هَٰذَا ٱلۡقُرۡءَانَ يَقُصُّ عَلَىٰ بَنِيٓ إِسۡرَـٰٓءِيلَ أَكۡثَرَ ٱلَّذِي هُمۡ فِيهِ يَخۡتَلِفُونَ",
+"pause": "sakin",
+"engine": "10110101010111011101101010010110110110101011011100",
+"reference_independent_unverified": "10110101010111011101101010010110110110101011011100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ذِي قُوَّةٍ عِندَ ذِي ٱلۡعَرۡشِ مَكِينٖ",
+"pause": "sakin",
+"engine": "1010110101101011100",
+"reference_independent_unverified": "1010110101101011100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَكُلَّ شَيۡءٍ أَحۡصَيۡنَٰهُ كِتَٰبٗا",
+"pause": "sakin",
+"engine": "1101101010101011100",
+"reference_independent_unverified": "1101101010101011100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "كَذَٰلِكَ حَقَّتۡ كَلِمَتُ رَبِّكَ عَلَى ٱلَّذِينَ فَسَقُوٓاْ أَنَّهُمۡ لَا يُؤۡمِنُونَ",
+"pause": "sakin",
+"engine": "11011101011111011110110111101011010101100",
+"reference_independent_unverified": "11011101011111011110110111101011010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَلِلَّذِينَ كَفَرُواْ بِرَبِّهِمۡ عَذَابُ جَهَنَّمَۖ وَبِئۡسَ ٱلۡمَصِيرُ",
+"pause": "sakin",
+"engine": "11011011110110110110111011110101100",
+"reference_independent_unverified": "11011011110110110110111011110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ٱلَّذِي يَرَىٰكَ حِينَ تَقُومُ",
+"pause": "sakin",
+"engine": "011011011011100",
+"reference_independent_unverified": "1011011011011100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَأُخۡرَىٰ تُحِبُّونَهَاۖ نَصۡرٞ مِّنَ ٱللَّهِ وَفَتۡحٞ قَرِيبٞۗ وَبَشِّرِ ٱلۡمُؤۡمِنِينَ",
+"pause": "sakin",
+"engine": "110101101011010011010111001100110110101100",
+"reference_independent_unverified": "110101101011010011010111001100110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "قَالُواْ لَن نَّبۡرَحَ عَلَيۡهِ عَٰكِفِينَ حَتَّىٰ يَرۡجِعَ إِلَيۡنَا مُوسَىٰ",
+"pause": "sakin",
+"engine": "1010101011110110110110101011110101010",
+"reference_independent_unverified": "1010101011110110110110101011110101010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "أَن دَعَوۡاْ لِلرَّحۡمَٰنِ وَلَدٗا",
+"pause": "sakin",
+"engine": "101101010101110",
+"reference_independent_unverified": "101101010101110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَمَآ أَنتَ بِهَٰدِ ٱلۡعُمۡيِ عَن ضَلَٰلَتِهِمۡۖ إِن تُسۡمِعُ إِلَّا مَن يُؤۡمِنُ بِـَٔايَٰتِنَا فَهُم مُّسۡلِمُونَ",
+"pause": "sakin",
+"engine": "11010111010101101101110101011101010101111010110110101100",
+"reference_independent_unverified": "111010111010101101101110101011101010101111010110110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "فَأَخۡرَجَ لَهُمۡ عِجۡلٗا جَسَدٗا لَّهُۥ خُوَارٞ فَقَالُواْ هَٰذَآ إِلَٰهُكُمۡ وَإِلَٰهُ مُوسَىٰ فَنَسِيَ",
+"pause": "sakin",
+"engine": "1101111010011011011001101010101101101110110101110",
+"reference_independent_unverified": "11011110100110110110011010101101101101110110101110",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "مُهۡطِعِينَ مُقۡنِعِي رُءُوسِهِمۡ لَا يَرۡتَدُّ إِلَيۡهِمۡ طَرۡفُهُمۡۖ وَأَفۡـِٔدَتُهُمۡ هَوَآءٞ",
+"pause": "sakin",
+"engine": "1011011011011011010101011101010110110111101100",
+"reference_independent_unverified": "10110110110110110101010111010101101101111011100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "سُنَّةَ مَن قَدۡ أَرۡسَلۡنَا قَبۡلَكَ مِن رُّسُلِنَاۖ وَلَا تَجِدُ لِسُنَّتِنَا تَحۡوِيلًا",
+"pause": "sakin",
+"engine": "10111010101010101110111101101111101110101010",
+"reference_independent_unverified": "10111010101010101110111101101111101110101010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "لَا يَرۡقُبُونَ فِي مُؤۡمِنٍ إِلّٗا وَلَا ذِمَّةٗۚ وَأُوْلَـٰٓئِكَ هُمُ ٱلۡمُعۡتَدُونَ",
+"pause": "sakin",
+"engine": "101011011010110100110101011010011110101100",
+"reference_independent_unverified": "101011011010110100110101011010011110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَإِنۡ أَدۡرِي لَعَلَّهُۥ فِتۡنَةٞ لَّكُمۡ وَمَتَٰعٌ إِلَىٰ حِينٖ",
+"pause": "sakin",
+"engine": "11010101101101010110111010110100",
+"reference_independent_unverified": "11010101101101010110111010110100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "حَٰفِظُواْ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلۡوُسۡطَىٰ وَقُومُواْ لِلَّهِ قَٰنِتِينَ",
+"pause": "sakin",
+"engine": "1011011011101101101010101101010101101100",
+"reference_independent_unverified": "1011011011101101101010101101010101101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَكَمۡ أَهۡلَكۡنَا مِنَ ٱلۡقُرُونِ مِنۢ بَعۡدِ نُوحٖۗ وَكَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِۦ خَبِيرَۢا بَصِيرٗا",
+"pause": "sakin",
+"engine": "11010101011011011010110011101101111101110110110101100",
+"reference_independent_unverified": "11010101011011011010110011101101111101110110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَمَا عَلَّمۡنَٰهُ ٱلشِّعۡرَ وَمَا يَنۢبَغِي لَهُۥٓۚ إِنۡ هُوَ إِلَّا ذِكۡرٞ وَقُرۡءَانٞ مُّبِينٞ",
+"pause": "sakin",
+"engine": "1101010101010111010110110101110101001101001100",
+"reference_independent_unverified": "1101010101010111010110110101110101001101001100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ذَٰلِكَ بِأَنَّ ٱللَّهَ مَوۡلَى ٱلَّذِينَ ءَامَنُواْ وَأَنَّ ٱلۡكَٰفِرِينَ لَا مَوۡلَىٰ لَهُمۡ",
+"pause": "sakin",
+"engine": "101111010101101011011011011010101101101010110",
+"reference_independent_unverified": "101111010101101011011011011010101101101010110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤۡتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلۡأٓخِرَةِ هُمۡ يُوقِنُونَ",
+"pause": "sakin",
+"engine": "01101110101011011101010110111010011110101100",
+"reference_independent_unverified": "1011011101010110111010101101110101011110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "۞ٱللَّهُ ٱلَّذِي سَخَّرَ لَكُمُ ٱلۡبَحۡرَ لِتَجۡرِيَ ٱلۡفُلۡكُ فِيهِ بِأَمۡرِهِۦ وَلِتَبۡتَغُواْ مِن فَضۡلِهِۦ وَلَعَلَّكُمۡ تَشۡكُرُونَ",
+"pause": "sakin",
+"engine": "0101011010111110101110110101101110110111011010101101110110101100",
+"reference_independent_unverified": "10101011010111110101110110101101110110111011010101101110110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَرَبُّكَ يَخۡلُقُ مَا يَشَآءُ وَيَخۡتَارُۗ مَا كَانَ لَهُمُ ٱلۡخِيَرَةُۚ سُبۡحَٰنَ ٱللَّهِ وَتَعَٰلَىٰ عَمَّا يُشۡرِكُونَ",
+"pause": "sakin",
+"engine": "11011101110110111010110101111011111010101011110101010101100",
+"reference_independent_unverified": "110111011101110111010110101111011111010101011110101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَٱجۡعَل لِّي لِسَانَ صِدۡقٖ فِي ٱلۡأٓخِرِينَ",
+"pause": "sakin",
+"engine": "10101011011001001100",
+"reference_independent_unverified": "101010110110010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "يَمۡحَقُ ٱللَّهُ ٱلرِّبَوٰاْ وَيُرۡبِي ٱلصَّدَقَٰتِۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+"pause": "sakin",
+"engine": "1011010101101101011101101011011011011010101100",
+"reference_independent_unverified": "1011010101101101011101101011011011011010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "إِلَّا عِبَادَكَ مِنۡهُمُ ٱلۡمُخۡلَصِينَ",
+"pause": "sakin",
+"engine": "10101101110110101100",
+"reference_independent_unverified": "10101101110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَقُل لِّلَّذِينَ لَا يُؤۡمِنُونَ ٱعۡمَلُواْ عَلَىٰ مَكَانَتِكُمۡ إِنَّا عَٰمِلُونَ",
+"pause": "sakin",
+"engine": "11010110110101101011011011011101010101100",
+"reference_independent_unverified": "11010110110101101011011011011101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "إِنَّ نَاشِئَةَ ٱلَّيۡلِ هِيَ أَشَدُّ وَطۡـٔٗا وَأَقۡوَمُ قِيلًا",
+"pause": "sakin",
+"engine": "101101110101111101100110111010",
+"reference_independent_unverified": "101101110101111101100110111010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "كُلُّ ذَٰلِكَ كَانَ سَيِّئُهُۥ عِندَ رَبِّكَ مَكۡرُوهٗا",
+"pause": "sakin",
+"engine": "1011011101101110101101110100",
+"reference_independent_unverified": "1011011101101110101101110100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "۞وَمَآ أَنزَلۡنَا عَلَىٰ قَوۡمِهِۦ مِنۢ بَعۡدِهِۦ مِن جُندٖ مِّنَ ٱلسَّمَآءِ وَمَا كُنَّا مُنزِلِينَ",
+"pause": "sakin",
+"engine": "1101010101101011010101101010011011011101010101100",
+"reference_independent_unverified": "111010101011010110101011010100110111011101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَقَالَ ٱلۡمَلَأُ ٱلَّذِينَ كَفَرُواْ مِن قَوۡمِهِۦ لَئِنِ ٱتَّبَعۡتُمۡ شُعَيۡبًا إِنَّكُمۡ إِذٗا لَّخَٰسِرُونَ",
+"pause": "sakin",
+"engine": "1101011101101111010101101110110101101010110101101100",
+"reference_independent_unverified": "1101011101101111010101101110110101101010110101101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَبَٰرَكۡنَا عَلَيۡهِ وَعَلَىٰٓ إِسۡحَٰقَۚ وَمِن ذُرِّيَّتِهِمَا مُحۡسِنٞ وَظَالِمٞ لِّنَفۡسِهِۦ مُبِينٞ",
+"pause": "sakin",
+"engine": "110101011011110101011101010111101010110101101101100",
+"reference_independent_unverified": "110101011011110101011101010111101010110101101101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلۡمَوۡتُ قَالَ رَبِّ ٱرۡجِعُونِ",
+"pause": "sakin",
+"engine": "101011010111111010110110101100",
+"reference_independent_unverified": "1010110110111111010110110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَأَقِيمُواْ ٱلصَّلَوٰةَ وَءَاتُواْ ٱلزَّكَوٰةَ وَأَطِيعُواْ ٱلرَّسُولَ لَعَلَّكُمۡ تُرۡحَمُونَ",
+"pause": "sakin",
+"engine": "11101011011101011011110101101110110101100",
+"reference_independent_unverified": "11101011011101011011110101101110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ",
+"pause": "sakin",
+"engine": "1101010111010",
+"reference_independent_unverified": "1101010111010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَمِن قَوۡمِ مُوسَىٰٓ أُمَّةٞ يَهۡدُونَ بِٱلۡحَقِّ وَبِهِۦ يَعۡدِلُونَ",
+"pause": "sakin",
+"engine": "1101011010101010101101011110101100",
+"reference_independent_unverified": "1101011010101010101101011110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَلِلَّهِ ٱلۡأَسۡمَآءُ ٱلۡحُسۡنَىٰ فَٱدۡعُوهُ بِهَاۖ وَذَرُواْ ٱلَّذِينَ يُلۡحِدُونَ فِيٓ أَسۡمَـٰٓئِهِۦۚ سَيُجۡزَوۡنَ مَا كَانُواْ يَعۡمَلُونَ",
+"pause": "sakin",
+"engine": "1101010101010101010101110111011011011011010100110110101101010101100",
+"reference_independent_unverified": "11010101011010101010101110111011011011011010100110110101101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "ءَأَنتُمۡ تَخۡلُقُونَهُۥٓ أَمۡ نَحۡنُ ٱلۡخَٰلِقُونَ",
+"pause": "sakin",
+"engine": "1101010110110101010101100",
+"reference_independent_unverified": "1101010110110101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "قُلۡ أَرَءَيۡتُمۡ إِنۡ أَصۡبَحَ مَآؤُكُمۡ غَوۡرٗا فَمَن يَأۡتِيكُم بِمَآءٖ مَّعِينِۭ",
+"pause": "sakin",
+"engine": "101110101010111011010011010101011001100",
+"reference_independent_unverified": "10111010101011110110100110101010111001100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَقَالُوٓاْ ءَأَٰلِهَتُنَا خَيۡرٌ أَمۡ هُوَۚ مَا ضَرَبُوهُ لَكَ إِلَّا جَدَلَۢاۚ بَلۡ هُمۡ قَوۡمٌ خَصِمُونَ",
+"pause": "sakin",
+"engine": "110101101111010101011101110111101011101010101011100",
+"reference_independent_unverified": "110101101111010101011101110111101011101010101011100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "قَالَ إِنَّمَآ أَشۡكُواْ بَثِّي وَحُزۡنِيٓ إِلَى ٱللَّهِ وَأَعۡلَمُ مِنَ ٱللَّهِ مَا لَا تَعۡلَمُونَ",
+"pause": "sakin",
+"engine": "101101101010101011010110101110111101011010101100",
+"reference_independent_unverified": "1011011101010101011010110101110111101011010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "يَوۡمَ تَشۡهَدُ عَلَيۡهِمۡ أَلۡسِنَتُهُمۡ وَأَيۡدِيهِمۡ وَأَرۡجُلُهُم بِمَا كَانُواْ يَعۡمَلُونَ",
+"pause": "sakin",
+"engine": "1011011110101011110110101011011101101010101100",
+"reference_independent_unverified": "1011011110101011110110101011011101101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "لِيُبَيِّنَ لَهُمُ ٱلَّذِي يَخۡتَلِفُونَ فِيهِ وَلِيَعۡلَمَ ٱلَّذِينَ كَفَرُوٓاْ أَنَّهُمۡ كَانُواْ كَٰذِبِينَ",
+"pause": "sakin",
+"engine": "11101111101101011101101111011011011110101101010101100",
+"reference_independent_unverified": "11101111101101011101101111011011011110101101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "قَالَ رَبِّ بِمَآ أَنۡعَمۡتَ عَلَيَّ فَلَنۡ أَكُونَ ظَهِيرٗا لِّلۡمُجۡرِمِينَ",
+"pause": "sakin",
+"engine": "1011011101010111011101101110010101100",
+"reference_independent_unverified": "10110111101010111011101101110010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "فَٱعۡلَمۡ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱللَّهُ وَٱسۡتَغۡفِرۡ لِذَنۢبِكَ وَلِلۡمُؤۡمِنِينَ وَٱلۡمُؤۡمِنَٰتِۗ وَٱللَّهُ يَعۡلَمُ مُتَقَلَّبَكُمۡ وَمَثۡوَىٰكُمۡ",
+"pause": "sakin",
+"engine": "10101011010110110101011010101101111010110110101101101011011111011101101010",
+"reference_independent_unverified": "101010110110110110101011010101101111010110110101101101011011111011101101010",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "فَمَا بَكَتۡ عَلَيۡهِمُ ٱلسَّمَآءُ وَٱلۡأَرۡضُ وَمَا كَانُواْ مُنظَرِينَ",
+"pause": "sakin",
+"engine": "1101101101101101101011101010101100",
+"reference_independent_unverified": "11011011011011101101011101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَإِنَّ رَبَّكَ لَيَعۡلَمُ مَا تُكِنُّ صُدُورُهُمۡ وَمَا يُعۡلِنُونَ",
+"pause": "sakin",
+"engine": "1101101111011101101110110110101100",
+"reference_independent_unverified": "1101101111011101101110110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "رَبِّ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِ وَمَا بَيۡنَهُمَآۖ إِن كُنتُم مُّوقِنِينَ",
+"pause": "sakin",
+"engine": "101011010110101110101110101010101100",
+"reference_independent_unverified": "1010110101101011101011110101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "فِي بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرۡفَعَ وَيُذۡكَرَ فِيهَا ٱسۡمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلۡغُدُوِّ وَٱلۡأٓصَالِ",
+"pause": "sakin",
+"engine": "10110101110101101011110111010110110111101010101101100100",
+"reference_independent_unverified": "101101011101011010111101110101101101111010101011011010100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "أَمۡ خَلَقُواْ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۚ بَل لَّا يُوقِنُونَ",
+"pause": "sakin",
+"engine": "101110110101101011010101100",
+"reference_independent_unverified": "101110110101101011010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "إِلَّا قِيلٗا سَلَٰمٗا سَلَٰمٗا",
+"pause": "sakin",
+"engine": "101010011001100",
+"reference_independent_unverified": "101010011001100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "رَبَّنَا لَا تَجۡعَلۡنَا فِتۡنَةٗ لِّلَّذِينَ كَفَرُواْ وَٱغۡفِرۡ لَنَا رَبَّنَآۖ إِنَّكَ أَنتَ ٱلۡعَزِيزُ ٱلۡحَكِيمُ",
+"pause": "sakin",
+"engine": "10110101010101010101101111010101101011010111010110101100",
+"reference_independent_unverified": "101101010101010101011011110101011010111010111010110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "يُؤۡفَكُ عَنۡهُ مَنۡ أُفِكَ",
+"pause": "sakin",
+"engine": "101110110110",
+"reference_independent_unverified": "101110110110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "قَالَ رَبِّ إِنِّي لَآ أَمۡلِكُ إِلَّا نَفۡسِي وَأَخِيۖ فَٱفۡرُقۡ بَيۡنَنَا وَبَيۡنَ ٱلۡقَوۡمِ ٱلۡفَٰسِقِينَ",
+"pause": "sakin",
+"engine": "1011011010101011101010101110101010110110101010101100",
+"reference_independent_unverified": "10110110101101011101010101110101010110110101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "قَالُواْ فَمَا جَزَـٰٓؤُهُۥٓ إِن كُنتُمۡ كَٰذِبِينَ",
+"pause": "sakin",
+"engine": "10101101100110101010101100",
+"reference_independent_unverified": "10101101100110101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "أَعِندَهُۥ عِلۡمُ ٱلۡغَيۡبِ فَهُوَ يَرَىٰٓ",
+"pause": "sakin",
+"engine": "1101101010101111110",
+"reference_independent_unverified": "1101101010101111110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَكَانَ لَهُۥ ثَمَرٞ فَقَالَ لِصَٰحِبِهِۦ وَهُوَ يُحَاوِرُهُۥٓ أَنَا۠ أَكۡثَرُ مِنكَ مَالٗا وَأَعَزُّ نَفَرٗا",
+"pause": "sakin",
+"engine": "110111011011011101110111110111011010111011011101110",
+"reference_independent_unverified": "110111011011011101110111110111011010111011011101110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "فَأَمَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَهُمۡ فِي رَوۡضَةٖ يُحۡبَرُونَ",
+"pause": "sakin",
+"engine": "11010110110110111101001101110101010101100",
+"reference_independent_unverified": "11010110110110111101001101110101010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ذَٰلِكَ جَزَآءُ أَعۡدَآءِ ٱللَّهِ ٱلنَّارُۖ لَهُمۡ فِيهَا دَارُ ٱلۡخُلۡدِ جَزَآءَۢ بِمَا كَانُواْ بِـَٔايَٰتِنَا يَجۡحَدُونَ",
+"pause": "sakin",
+"engine": "101111011010101010101110101010101011101110101011010110101100",
+"reference_independent_unverified": "101111101101101010101011101010101010111101110101011010110101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "ثُمَّ صَدَقۡنَٰهُمُ ٱلۡوَعۡدَ فَأَنجَيۡنَٰهُمۡ وَمَن نَّشَآءُ وَأَهۡلَكۡنَا ٱلۡمُسۡرِفِينَ",
+"pause": "sakin",
+"engine": "1011101011010111010101011011011101010101100",
+"reference_independent_unverified": "10111010110101110101010110111011101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَمَآ أَدۡرَىٰكَ مَا سَقَرُ",
+"pause": "sakin",
+"engine": "1101010110110",
+"reference_independent_unverified": "11101010110110",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ لَهُم مَّغۡفِرَةٞ وَأَجۡرٌ عَظِيمٞ",
+"pause": "sakin",
+"engine": "1110101011011011011110100110111010110110101100",
+"reference_independent_unverified": "1110101011011011011110100110111010110110101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "ٱنظُرۡ كَيۡفَ كَذَبُواْ عَلَىٰٓ أَنفُسِهِمۡۚ وَضَلَّ عَنۡهُم مَّا كَانُواْ يَفۡتَرُونَ",
+"pause": "sakin",
+"engine": "010101111011010111011011010101010101100",
+"reference_independent_unverified": "1010101111011010111011011010101010101100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+"pause": "sakin",
+"engine": "11010110110110110",
+"reference_independent_unverified": "11010110110110110",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "۞فَخَلَفَ مِنۢ بَعۡدِهِمۡ خَلۡفٌ أَضَاعُواْ ٱلصَّلَوٰةَ وَٱتَّبَعُواْ ٱلشَّهَوَٰتِۖ فَسَوۡفَ يَلۡقَوۡنَ غَيًّا",
+"pause": "sakin",
+"engine": "111110101101010110101101101110111011101101011010",
+"reference_independent_unverified": "111110101101010110101101101110111011101101011010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "رِّزۡقٗا لِّلۡعِبَادِۖ وَأَحۡيَيۡنَا بِهِۦ بَلۡدَةٗ مَّيۡتٗاۚ كَذَٰلِكَ ٱلۡخُرُوجُ",
+"pause": "sakin",
+"engine": "0100101101110101011010101001101101100",
+"reference_independent_unverified": "0100101101110101011010101001101101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "لَّقَدۡ كُنتَ فِي غَفۡلَةٖ مِّنۡ هَٰذَا فَكَشَفۡنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلۡيَوۡمَ حَدِيدٞ",
+"pause": "sakin",
+"engine": "0110101101010101010111010101110111111101011100",
+"reference_independent_unverified": "01101011010101010101110101011110111111101011100",
+"agree": false
+},
+{
+"source": "quran_uthmani",
+"text": "وَإِذَا ذُكِّرُواْ لَا يَذۡكُرُونَ",
+"pause": "sakin",
+"engine": "11101011010101100",
+"reference_independent_unverified": "11101011010101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "فَيُعَذِّبُهُ ٱللَّهُ ٱلۡعَذَابَ ٱلۡأَكۡبَرَ",
+"pause": "sakin",
+"engine": "111011101010110101010",
+"reference_independent_unverified": "111011101010110101010",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَغَدَوۡاْ عَلَىٰ حَرۡدٖ قَٰدِرِينَ",
+"pause": "sakin",
+"engine": "1110110100101100",
+"reference_independent_unverified": "1110110100101100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "وَقَالُواْ يَـٰٓأَيُّهَا ٱلَّذِي نُزِّلَ عَلَيۡهِ ٱلذِّكۡرُ إِنَّكَ لَمَجۡنُونٞ",
+"pause": "sakin",
+"engine": "11010100101101101011110101011011110100",
+"reference_independent_unverified": "11010100101101101011110101011011110100",
+"agree": true
+},
+{
+"source": "quran_uthmani",
+"text": "۞مُنِيبِينَ إِلَيۡهِ وَٱتَّقُوهُ وَأَقِيمُواْ ٱلصَّلَوٰةَ وَلَا تَكُونُواْ مِنَ ٱلۡمُشۡرِكِينَ",
+"pause": "sakin",
+"engine": "1101011101101101111010110111011010110101100",
+"reference_independent_unverified": "1101011101101101111010110111011010110101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَالَّذِي تَوَلَّى كِبْرَهُ    مِنْهُمْ لَهُ عَذَابٌ عَظِيمٌ  ",
+"pause": "sakin",
+"engine": "100110110101011101011110101100",
+"reference_independent_unverified": "100110110101011101011110101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  يُخَوِّفُ اللَّهُ بِهِ عِبَادَهُ  ",
+"pause": "sakin",
+"engine": "1101101011111010",
+"reference_independent_unverified": "1101101011111010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَا تُحَرِّمُوا طَيِّبَاتِ مَا أَحَلَّ اللَّهُ لَكُمْ  ",
+"pause": "sakin",
+"engine": "101101101011011011010101110",
+"reference_independent_unverified": "101101101011011011010101110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  هَلْ أَتَّبِعُكَ عَلَى أَنْ    تُعَلِّمَنِي    مِمَّا عُلِّمْتَ    رَشَدًا   ",
+"pause": "sakin",
+"engine": "101011111101011011101010101011110",
+"reference_independent_unverified": "101011111101011011101010101011110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَاسْتَغْفِرْ لِذَنْبِكَ وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ  ",
+"pause": "sakin",
+"engine": "100101011011110101101100101100",
+"reference_independent_unverified": "100101011011110101101100101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  مَا جَعَلَ اللَّهُ لِرَجُلٍ مِنْ قَلْبَيْنِ فِي جَوْفِهِ  ",
+"pause": "sakin",
+"engine": "101110101111101010101101010",
+"reference_independent_unverified": "101110101111101010101101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَإِنْ جَاءُوكَ فَاحْكُمْ بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ  ",
+"pause": "sakin",
+"engine": "1101010110010101101010101010",
+"reference_independent_unverified": "1101010110010101101010101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ  ",
+"pause": "sakin",
+"engine": "110110110110101101101100",
+"reference_independent_unverified": "110110110110101101101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  ادْعُوا رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً  ",
+"pause": "sakin",
+"engine": "01010110110110110110",
+"reference_independent_unverified": "101010110110110110110",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمْ اللَّهُ  ",
+"pause": "sakin",
+"engine": "10101011010111110100",
+"reference_independent_unverified": "101010110101111110100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَمَنْ يَقْتُلْ مُؤْمِنًا مُتَعَمِّدًا فَجَزَاؤُهُ جَهَنَّمُ  ",
+"pause": "sakin",
+"engine": "110101010110111011011101111010",
+"reference_independent_unverified": "110101010110111011011101111010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَإِنْ مِنْكُمْ إِلَّا وَارِدُهَا كَانَ عَلَى رَبِّكَ حَتْمًا مَقْضِيًّا  ",
+"pause": "sakin",
+"engine": "1101010101010111010111010111010101010",
+"reference_independent_unverified": "1101010101010111010111010111010101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَلَقَدْ يَسَّرْنَا الْقُرْآنَ لِلذِّكْرِ فَهَلْ مِنْ    مُدَّكِرٍ   ",
+"pause": "sakin",
+"engine": "111010101010101101011101010110",
+"reference_independent_unverified": "111010101010101101011101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  إِنْ كَانَ بِكُمْ أَذًى مِنْ مَطَرٍ أَوْ كُنْتُمْ مَرْضَى  ",
+"pause": "sakin",
+"engine": "101011101101011101010101010",
+"reference_independent_unverified": "101011101101011101010101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَإِنْ تُخَالِطُوهُمْ فَإِخْوَانُكُمْ وَاللَّهُ يَعْلَمُ الْمُفْسِدَ مِنْ الْمُصْلِحِ  ",
+"pause": "sakin",
+"engine": "1101101101011010110100101101101011101010",
+"reference_independent_unverified": "11011011010110101101001011011010111101010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَالَّذِينَ يَرْمُونَ أَزْوَاجَهُمْ وَلَمْ يَكُنْ لَهُمْ شُهَدَاءُ إِلَّا أَنْفُسُهُمْ    فَقَرَأَ حَتَّى بَلَغَ    مِنْ الصَّادِقِينَ  ",
+"pause": "sakin",
+"engine": "10011011010110101101101101101110110101011101111101011110101100",
+"reference_independent_unverified": "100110110101101011011011011011101101010111011111010111110101100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَيْسَ لَكَ مِنْ الْأَمْرِ شَيْءٌ أَوْ يَتُوبَ عَلَيْهِمْ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَالِمُونَ  ",
+"pause": "sakin",
+"engine": "1011110101101010110111010101101110110110101100",
+"reference_independent_unverified": "10111110101101010110111010101101110110110101100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  قُلْ لَا أَجِدُ فِيمَا أُوحِيَ إِلَيَّ مُحَرَّمًا  ",
+"pause": "sakin",
+"engine": "1010111101010111101110110",
+"reference_independent_unverified": "1010111101010111101110110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  أَتَقْتُلُونَ رَجُلًا أَنْ يَقُولَ    رَبِّيَ اللَّهُ وَقَدْ جَاءَكُمْ بِالْبَيِّنَاتِ مِنْ رَبِّكُمْ  ",
+"pause": "sakin",
+"engine": "110110111101011011011010111010110101011011010110",
+"reference_independent_unverified": "110110111101011011011010111010110101011011010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَمَا    أَوْجَفْتُمْ    عَلَيْهِ مِنْ خَيْلٍ وَلَا    رِكَابٍ   ",
+"pause": "sakin",
+"engine": "11010101011011010101101100",
+"reference_independent_unverified": "11010101011011010101101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَى جُيُوبِهِنَّ  ",
+"pause": "sakin",
+"engine": "101010111111011101101100",
+"reference_independent_unverified": "101010111111011101101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَلْيَدْعُ    نَادِيَهُ    سَنَدْعُ    الزَّبَانِيَةَ   ",
+"pause": "sakin",
+"engine": "101011011111010110110",
+"reference_independent_unverified": "101011011111010110110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فِيهِ رِجَالٌ يُحِبُّونَ أَنْ يَتَطَهَّرُوا وَاللَّهُ يُحِبُّ الْمُطَّهِّرِينَ  ",
+"pause": "sakin",
+"engine": "101110101101011011101101001011101010101100",
+"reference_independent_unverified": "101110101101011011101101001011101010101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  مَا وَدَّعَكَ رَبُّكَ وَمَا    قَلَى   ",
+"pause": "sakin",
+"engine": "10101111011110110",
+"reference_independent_unverified": "10101111011110110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  الَّذِينَ يَقُولُونَ رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا    قُرَّةَ    أَعْيُنٍ  ",
+"pause": "sakin",
+"engine": "011011101011011010110101010110110101011010111010",
+"reference_independent_unverified": "1011011101011011010110101010110110101011010111010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ    ",
+"pause": "sakin",
+"engine": "1101010101111011111010",
+"reference_independent_unverified": "1101010101111011111010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  خُذْ الْعَفْوَ وَأْمُرْ بِالْعُرْفِ  ",
+"pause": "sakin",
+"engine": "10101101010100",
+"reference_independent_unverified": "110101101010100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَرُوحٌ    وَرَيْحَانٌ وَجَنَّةُ نَعِيمٍ  ",
+"pause": "sakin",
+"engine": "110101101010110111100",
+"reference_independent_unverified": "110101101010110111100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَكَذَلِكَ أَخْذُ رَبِّكَ إِذَا أَخَذَ الْقُرَى وَهِيَ ظَالِمَةٌ  ",
+"pause": "sakin",
+"engine": "111111011011110111011011110110",
+"reference_independent_unverified": "111111011011110111011011110110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  قُلْ أُوحِيَ إِلَيَّ أَنَّهُ اسْتَمَعَ نَفَرٌ مِنْ الْجِنِّ  ",
+"pause": "sakin",
+"engine": "101011110110110111111010100",
+"reference_independent_unverified": "1010111101101101111110110100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَمَنْ تَطَوَّعَ خَيْرًا فَإِنَّ اللَّهَ شَاكِرٌ عَلِيمٌ  ",
+"pause": "sakin",
+"engine": "11011011101011010101101101100",
+"reference_independent_unverified": "11011011101011010101101101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  نَرْفَعُ دَرَجَاتٍ مَنْ نَشَاءُ  ",
+"pause": "sakin",
+"engine": "1011111010101100",
+"reference_independent_unverified": "1011111010101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَقَدْ جِئْتَ شَيْئًا    إِمْرًا   ",
+"pause": "sakin",
+"engine": "11010110101010",
+"reference_independent_unverified": "11010110101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَإِذَا جَاءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ اللَّهُ    فَقَرَأَ ",
+"pause": "sakin",
+"engine": "1110101011010111010110111101011110",
+"reference_independent_unverified": "1110101011010111010110111101011110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  سَلَامٌ قَوْلًا مِنْ رَبٍّ رَحِيمٍ  ",
+"pause": "sakin",
+"engine": "1101010101010101100",
+"reference_independent_unverified": "1101010101010101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَإِنْ مِنْ    أَهْلِ الْكِتَابِ    إِلَّا لَيُؤْمِنَنَّ بِهِ قَبْلَ مَوْتِهِ  ",
+"pause": "sakin",
+"engine": "110101010110110101101101111011010",
+"reference_independent_unverified": "110101010110110101101101111011010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَإِنْ كُنْتَ فِي شَكٍّ مِمَّا أَنْزَلْنَا إِلَيْكَ فَاسْأَلْ الَّذِينَ يَقْرَءُونَ الْكِتَابَ مِنْ قَبْلِكَ  ",
+"pause": "sakin",
+"engine": "1101011010101010101010110110010110110110101101101010",
+"reference_independent_unverified": "11010110101010101010101101100110110110110101101101010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  طَلَّقْتُمُوهُنَّ مِنْ قَبْلِ أَنْ    تَمَسُّوهُنَّ    فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا  ",
+"pause": "sakin",
+"engine": "10101101011010110110101011101101101011010110101010110",
+"reference_independent_unverified": "10101101011010110110101011101101101011010110101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ  ",
+"pause": "sakin",
+"engine": "1101011101011010101101101110",
+"reference_independent_unverified": "1101011101011010101101101110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  إِنَّا فَتَحْنَا لَكَ فَتْحًا مُبِينًا لِيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ  ",
+"pause": "sakin",
+"engine": "1010110101110101101011011110101101101110101111011010",
+"reference_independent_unverified": "1010110101110101101011011110101101101110101111011010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  أَتَّبِعُكَ عَلَى أَنْ تُعَلِّمَنِي مِمَّا عُلِّمْتَ رُشْدًا  ",
+"pause": "sakin",
+"engine": "1011111101011011101010101011010",
+"reference_independent_unverified": "1011111101011011101010101011010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ  ",
+"pause": "sakin",
+"engine": "01011010111010110",
+"reference_independent_unverified": "101011010111010110",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَجَّهْتُ    وَجْهِيَ لِلَّذِي فَطَرَ السَّمَوَاتِ وَالْأَرْضَ حَنِيفًا  ",
+"pause": "sakin",
+"engine": "1010110111011011101110110010111010",
+"reference_independent_unverified": "1010110111011011101110110010111010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لِكُلِّ امْرِئٍ مِنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ  ",
+"pause": "sakin",
+"engine": "110101101010101110101010100",
+"reference_independent_unverified": "110101101010101110101010100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  إِنَّكَ لَا تُسْمِعُ الْمَوْتَى  ",
+"pause": "sakin",
+"engine": "101110101101010",
+"reference_independent_unverified": "101110101101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  سَيُهْزَمُ الْجَمْعُ وَيُوَلُّونَ    الدُّبُرَ   ",
+"pause": "sakin",
+"engine": "11011010111101010110",
+"reference_independent_unverified": "11011010111101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَيْسَ لَكَ مِنْ الْأَمْرِ شَيْءٌ أَوْ يَتُوبَ عَلَيْهِمْ  ",
+"pause": "sakin",
+"engine": "1011110101101010110111010",
+"reference_independent_unverified": "10111110101101010110111010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  ثُمَّ طَلَّقْتُمُوهُنَّ مِنْ قَبْلِ أَنْ    تَمَسُّوهُنَّ    فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ    تَعْتَدُّونَهَا   ",
+"pause": "sakin",
+"engine": "10110101101011010110110101011101101101011010110101010110",
+"reference_independent_unverified": "10110101101011010110110101011101101101011010110101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَكَانَ وَرَاءَهُمْ مَلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا  ",
+"pause": "sakin",
+"engine": "1101110110111010111011101101010",
+"reference_independent_unverified": "1101110110111010111011101101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ  ",
+"pause": "sakin",
+"engine": "1011101010111101010",
+"reference_independent_unverified": "1011101010111101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَمَنْ تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَهُ وَأَنْ تَصُومُوا خَيْرٌ لَكُمْ  ",
+"pause": "sakin",
+"engine": "110110111010111101011110110101010110",
+"reference_independent_unverified": "110110111010111101011110110101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَمَنْ تَعَجَّلَ فِي يَوْمَيْنِ فَلَا إِثْمَ عَلَيْهِ وَمَنْ تَأَخَّرَ فَلَا إِثْمَ عَلَيْهِ  ",
+"pause": "sakin",
+"engine": "1101101110101011101011101110110111101011100",
+"reference_independent_unverified": "1101101110101011101011101110110111101011100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَكِنَّا    هُوَ اللَّهُ رَبِّي  ",
+"pause": "sakin",
+"engine": "110101101011010",
+"reference_independent_unverified": "110101101011010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَمَا كَانَ لِنَبِيٍّ أَنْ    يَغُلَّ   ",
+"pause": "sakin",
+"engine": "110101111010101100",
+"reference_independent_unverified": "110101111010101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَأَمَّا إِنْ كَانَ مِنْ الْمُقَرَّبِينَ    فَرَوْحٌ    وَرَيْحَانٌ وَجَنَّةُ نَعِيمٍ  ",
+"pause": "sakin",
+"engine": "1101010101101101101110101101010110111100",
+"reference_independent_unverified": "11010101011101101101110101101010110111100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "    وَمَنْ يَفْعَلْ ذَلِكَ يَلْقَ    أَثَامًا   ",
+"pause": "sakin",
+"engine": "110101011110111010",
+"reference_independent_unverified": "110101011110111010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  أَنْ تَقْصُرُوا مِنْ الصَّلَاةِ إِنْ خِفْتُمْ أَنْ يَفْتِنَكُمْ  ",
+"pause": "sakin",
+"engine": "101011010110110101010101110",
+"reference_independent_unverified": "1010110110110110101010101110",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ  ",
+"pause": "sakin",
+"engine": "101011011011111011101101010110",
+"reference_independent_unverified": "101011011011111011101101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  إِذْ قَالَ اللَّهُ يَا    عِيسَى    إِنِّي مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنْ الَّذِينَ كَفَرُوا  ",
+"pause": "sakin",
+"engine": "10101010110101010101110101110111110111101111011011110",
+"reference_independent_unverified": "101010101101010101011101011101111101111011111011011110",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَلَمَّا ضُرِبَ    ابْنُ مَرْيَمَ    مَثَلًا إِذَا قَوْمُكَ مِنْهُ يَصِدُّونَ  ",
+"pause": "sakin",
+"engine": "1101011101101111101101011101110100",
+"reference_independent_unverified": "1101011101101111101101011101110100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ  ",
+"pause": "sakin",
+"engine": "1111011101101010110",
+"reference_independent_unverified": "1111011101101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنْ النَّعِيمِ  ",
+"pause": "sakin",
+"engine": "1011101101101110101100",
+"reference_independent_unverified": "10111011011011101101100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  فَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُ وَمَنْ يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُ  ",
+"pause": "sakin",
+"engine": "110101010101101101010111110101010101101101010110",
+"reference_independent_unverified": "110101010101101101010111110101010101101101010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَقُلْ رَبِّ أَدْخِلْنِي مُدْخَلَ صِدْقٍ وَأَخْرِجْنِي مُخْرَجَ صِدْقٍ وَاجْعَلْ لِي مِنْ لَدُنْكَ سُلْطَانًا نَصِيرًا  ",
+"pause": "sakin",
+"engine": "11010110101010111010110101010111010100101010110110101011010",
+"reference_independent_unverified": "11010110101010111010110101010111010100101010110110101011010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَلَقَدْ أَرْسَلْنَا رُسُلًا مِنْ قَبْلِكَ وَجَعَلْنَا لَهُمْ أَزْوَاجًا وَذُرِّيَّةً  ",
+"pause": "sakin",
+"engine": "1110101010111010101111101011010101011010110",
+"reference_independent_unverified": "1110101010111010101111101011010101011010110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  يَوْمَ يُكْشَفُ عَنْ سَاقٍ  ",
+"pause": "sakin",
+"engine": "101101110100",
+"reference_independent_unverified": "101101110100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "    حَتَّى يَتَبَيَّنَ لَكُمْ الْخَيْطُ الْأَبْيَضُ مِنْ الْخَيْطِ الْأَسْوَدِ  ",
+"pause": "sakin",
+"engine": "1010111011110101010111010101010",
+"reference_independent_unverified": "101011101111101010101111010101010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  نِسَاؤُكُمْ    حَرْثٌ    لَكُمْ فَأْتُوا    حَرْثَكُمْ    أَنَّى شِئْتُمْ  ",
+"pause": "sakin",
+"engine": "110110101011010101011010101010",
+"reference_independent_unverified": "110110101011010101011010101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  كُلُّ أُمَّةٍ    تُدْعَى إِلَى كِتَابِهَا  ",
+"pause": "sakin",
+"engine": "101101101010110110110",
+"reference_independent_unverified": "101101101010110110110",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  إِنْ تَرَكَ خَيْرًا الْوَصِيَّةُ  ",
+"pause": "sakin",
+"engine": "10111101011010",
+"reference_independent_unverified": "101111011011010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  يَتَفَيَّأُ    ظِلَالُهُ عَنْ الْيَمِينِ وَالشَّمَائِلِ سُجَّدًا لِلَّهِ وَهُمْ دَاخِرُونَ  ",
+"pause": "sakin",
+"engine": "11101111011101101100110111011010101110101100",
+"reference_independent_unverified": "111011110111101101100110111011010101110101100",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  ادْعُ إِلَى سَبِيلِ رَبِّكَ بِالْحِكْمَةِ    ",
+"pause": "sakin",
+"engine": "0111011011011101010",
+"reference_independent_unverified": "10111011011011101010",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  اتَّقُوا اللَّهَ وَلْتَنْظُرْ نَفْسٌ مَا قَدَّمَتْ لِغَدٍ  ",
+"pause": "sakin",
+"engine": "011010110101010101010110110",
+"reference_independent_unverified": "1011010110101010101010110110",
+"agree": false
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  قَدْ بَلَّغْتَ مِنْ    لَدُنِّي    عُذْرًا  ",
+"pause": "sakin",
+"engine": "101010110110101010",
+"reference_independent_unverified": "101010110110101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  لَا تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ  ",
+"pause": "sakin",
+"engine": "1011010111101111011111011101010111101010",
+"reference_independent_unverified": "1011010111101111011111011101010111101010",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  أَلَا تُحِبُّونَ أَنْ يَغْفِرَ اللَّهُ لَكُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ  ",
+"pause": "sakin",
+"engine": "1101101011010110101110100101110101100",
+"reference_independent_unverified": "1101101011010110101110100101110101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَقُلْ لِلْمُؤْمِنَاتِ    يَغْضُضْنَ    مِنْ أَبْصَارِهِنَّ  ",
+"pause": "sakin",
+"engine": "11010101101101011010101100",
+"reference_independent_unverified": "11010101101101011010101100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَمِنْهُمْ مَنْ يَلْمِزُكَ فِي    الصَّدَقَاتِ   ",
+"pause": "sakin",
+"engine": "1101010101111011100",
+"reference_independent_unverified": "1101010101111011100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  مِنْ بَعْدِ وَصِيَّةٍ تُوصُونَ بِهَا أَوْ دَيْنٍ  ",
+"pause": "sakin",
+"engine": "101011101101010111010100",
+"reference_independent_unverified": "101011101101010111010100",
+"agree": true
+},
+{
+"source": "quran_quote_hadith_orth",
+"text": "  وَهُوَ الَّذِي كَفَّ أَيْدِيَهُمْ عَنْكُمْ وَأَيْدِيَكُمْ عَنْهُمْ بِبَطْنِ    مَكَّةَ    مِنْ بَعْدِ أَنْ    أَظْفَرَكُمْ    عَلَيْهِمْ  ",
+"pause": "sakin",
+"engine": "111011010110111010101101110101011011011101011010111011010",
+"reference_independent_unverified": "111011010110111010101101110101011011011101011010111011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ إِنَّ صَوْمَ يَوْمِ عَرَفَةَ يُكَفِّرُ الْعَامَ الَّذِي قَبْلَهُ",
+"pause": "sakin",
+"engine": "1101101101101111111011010101101010",
+"reference_independent_unverified": "1101101101101111111011010101101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "لَيْسَ مِنَّا مَنْ ضَرَبَ الْخُدُودَ وَشَقَّ الْجُيُوبَ وَدَعَا بِدَعْوَى الْجَاهِلِيَّةِ",
+"pause": "sakin",
+"engine": "101101010111011011101011011110110101011010",
+"reference_independent_unverified": "101101010111011011101011011110110101011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "كَانَ إِذَا سَجَدَ رُئِيَ بَيَاضُ إِبْطَيْهِ حَدَّثَنَا عَبْدُ الرَّزَّاقِ أَخْبَرَنَا",
+"pause": "sakin",
+"engine": "101110111111110110101101110101010101101110",
+"reference_independent_unverified": "101110111111110110101101110101010101101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِذَا اشْتَرَى أَحَدُكُمْ الْجَارِيَةَ فَلْيَقُلْ اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ",
+"pause": "sakin",
+"engine": "11011011110101111011010101101010111101101100",
+"reference_independent_unverified": "1101101111101011110111010101101010111101101100",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "الْأَنْصَارُ وَمُزَيْنَةُ وَجُهَيْنَةُ وَغِفَارٌ وَأَشْجَعُ وَمَنْ كَانَ مِنْ بَنِي عَبْدِ",
+"pause": "sakin",
+"engine": "0101011110111110111110101101111010110110100",
+"reference_independent_unverified": "10101011110111110111110101101111010110110100",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ أَفْضَلُ مَا غَيَّرْتُمْ بِهِ الشَّمَطَ الْحِنَّاءُ وَالْكَتَمُ",
+"pause": "sakin",
+"engine": "101101110101010110111010101100110",
+"reference_independent_unverified": "101101110101010110111010101100110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "عَنْ الْجَرِّ وَالْمُزَفَّتِ وَالنَّقِيرِ وَكَانَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ",
+"pause": "sakin",
+"engine": "1010110011011100110111011101010110101011100",
+"reference_independent_unverified": "11010110011011100110111011101010110101011100",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "النَّجْمَ بِمَكَّةَ فَسَجَدَ فِيهَا وَسَجَدَ مَنْ مَعَهُ غَيْرَ شَيْخٍ أَخَذَ",
+"pause": "sakin",
+"engine": "010111011111110101111101111011010110",
+"reference_independent_unverified": "1010111011111110101111101111011010110",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "وَأَبِي فَأَضَعُ ثَوْبِي فَأَقُولُ إِنَّمَا هُوَ زَوْجِي وَأَبِي فَلَمَّا دُفِنَ",
+"pause": "sakin",
+"engine": "1110111110101110110110111010111011010110",
+"reference_independent_unverified": "1110111110101110110110111010111011010110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "لَا يَسْرِقُ حِينَ يَسْرِقُ وَهُوَ مُؤْمِنٌ وَلَا يَشْرَبُ الْخَمْرَ حِينَ",
+"pause": "sakin",
+"engine": "10101110110111111011011010110101100",
+"reference_independent_unverified": "10101110110111111011011010110101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "عَنْ ذَلِكَ فَسَأَلَ عَاصِمٌ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+"pause": "sakin",
+"engine": "10111111110110110101011010101110111010",
+"reference_independent_unverified": "10111111110110110101011010101110111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يُحِبُّ أَنْ يَنْهَضَ إِلَى عَدُوِّهِ عِنْدَ زَوَالِ الشَّمْسِ",
+"pause": "sakin",
+"engine": "11011010111101101110111010100",
+"reference_independent_unverified": "11011010111101101110111010100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فَقَالَ إِنَّ اللَّهَ عَزَّ وَجَلَّ قَدْ أَوْجَبَ لَهَا بِهَا الْجَنَّةَ",
+"pause": "sakin",
+"engine": "1101101010110111011010111101101010",
+"reference_independent_unverified": "1101101010110111011010111101101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِنَّ اللَّهَ جَعَلَ الْحَقَّ عَلَى لِسَانِ عُمَرَ وَقَلْبِهِ",
+"pause": "sakin",
+"engine": "10101011110101110110111111010",
+"reference_independent_unverified": "10101011110101110110111111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "لَكِنَّ وَاللَّهِ فُلَانًا مَا هُوَ كَذَلِكَ لَقَدْ أَعْطَيْتُهُ مِنْ عَشَرَةٍ",
+"pause": "sakin",
+"engine": "11011001011101010111111110101011101110",
+"reference_independent_unverified": "11011001011101010111111110101011101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ الْخَيْلُ لِثَلَاثَةٍ لِرَجُلٍ أَجْرٌ وَلِرَجُلٍ سِتْرٌ وَعَلَى رَجُلٍ وِزْرٌ",
+"pause": "sakin",
+"engine": "10101011110110111101010111110101011101110100",
+"reference_independent_unverified": "10101011110110111101010111110101011101110100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ وَيْلٌ لِلْعَرَبِ مِنْ شَرٍّ قَدْ اقْتَرَبَ أَفْلَحَ مَنْ كَفَّ",
+"pause": "sakin",
+"engine": "10110101011110101010111101110100",
+"reference_independent_unverified": "101101010111101010110111101110100",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "أَمَرَ رَجُلًا إِذَا أَخَذَ مَضْجَعَهُ أَنْ يَقُولَ اللَّهُمَّ أَسْلَمْتُ نَفْسِي",
+"pause": "sakin",
+"engine": "111111011011110111101101010101101011010",
+"reference_independent_unverified": "111111011011110111101101010101101011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "مَا مِنْكُمْ أَحَدٌ إِلَّا يُعْرَضُ عَلَيْهِ مَقْعَدُهُ بِالْغَدَاةِ وَالْعَشِيِّ إِنْ",
+"pause": "sakin",
+"engine": "101010111010101011110110111101101100110110",
+"reference_independent_unverified": "101010111010101011110110111101101100110110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "احْتَجَمَ وَهُوَ مُحْرِمٌ مِنْ وَثْيٍ كَانَ بِوَرِكِهِ أَوْ ظَهْرِهِ",
+"pause": "sakin",
+"engine": "01111111011010101010111111101010",
+"reference_independent_unverified": "101111111011010101010111111101010",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "بِأَرْضِ جُهَيْنَةَ وَأَنَا غُلَامٌ شَابٌّ أَنْ لَا تَسْتَمْتِعُوا مِنْ الْمَيْتَةِ",
+"pause": "sakin",
+"engine": "1101110111110110101001010101010110101010",
+"reference_independent_unverified": "11011101111101101010010101010101101101010",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "يَكْرَهُ أَنْ يَأْتِيَ أَهْلَهُ طُرُوقًا أَوْ قَالَ كَانَ يَكْرَهُ أَنْ",
+"pause": "sakin",
+"engine": "101110101110111101010101101101110",
+"reference_independent_unverified": "101110101110111101010101101101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ أَجِبْ عَنِّي اللَّهُمَّ أَيِّدْهُ بِرُوحِ الْقُدُسِ قَالَ نَعَمْ",
+"pause": "sakin",
+"engine": "11011101010101011010111010111101110",
+"reference_independent_unverified": "11011101010101011010111010111101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "سُئِلَ عَمَّنْ ذَبَحَ قَبْلَ أَنْ يَحْلِقَ أَوْ حَلَقَ قَبْلَ أَنْ",
+"pause": "sakin",
+"engine": "11110101111011010111011110110",
+"reference_independent_unverified": "11110101111011010111011110110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ الصَّوْمُ جُنَّةٌ مِنْ عَذَابِ اللَّهِ كَجُنَّةِ أَحَدِكُمْ مِنْ الْقِتَالِ",
+"pause": "sakin",
+"engine": "110101011011010110101011101111110101100",
+"reference_independent_unverified": "1101010110110101101010111011111101101100",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ أَسْوَدُ وَرُبَّمَا ذَكَرَ شَرِيكٌ عَنْ عَاصِمٍ عَنْ عَبْدِ اللَّهِ",
+"pause": "sakin",
+"engine": "1011011110110111110101010110101010100",
+"reference_independent_unverified": "1011011110110111110101010110101010100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ لَا تَتَمَنَّوْا الْمَوْتَ لَتَمَنَّيْتُهُ وَقَالَ إِنَّ الْعَبْدَ لَيُؤْجَرُ فِي",
+"pause": "sakin",
+"engine": "11011011101010111101011110110101011101110",
+"reference_independent_unverified": "110110111011010111101011110110101011101110",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "إِذَا أَرَادَ النَّوْمَ جَمَعَ يَدَيْهِ فَيَنْفُثُ فِيهِمَا ثُمَّ يَقْرَأُ قُلْ",
+"pause": "sakin",
+"engine": "1101101010111111011101110110101101110",
+"reference_independent_unverified": "1101101010111111011101110110101101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ السَّخِيُّ قَرِيبٌ مِنْ اللَّهِ قَرِيبٌ مِنْ الْجَنَّةِ قَرِيبٌ مِنْ",
+"pause": "sakin",
+"engine": "101011011101010101110101010111101010",
+"reference_independent_unverified": "10101101110101101011101011010111101010",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "تُسَلِّمُ عَلَيْهَا فَأَخْبَرَتْهَا ذَلِكَ فَقَالَتْ اجْلِسِي فَكُلِي مَا صَنَعْتِ وَصَلِّي",
+"pause": "sakin",
+"engine": "11011110101101101011111010110111010110111010",
+"reference_independent_unverified": "110111101011011010111110110110111010110111010",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "فَرُّوجُ حَرِيرٍ فَلَبِسَهُ ثُمَّ صَلَّى فِيهِ ثُمَّ انْصَرَفَ فَنَزَعَهُ نَزْعًا",
+"pause": "sakin",
+"engine": "10101110101111110110101011010111111111010",
+"reference_independent_unverified": "10101110101111110110101011010111111111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَنَّهُ قَالَ خَيْرُكُمْ قَرْنِي ثُمَّ الَّذِينَ يَلُونَهُمْ قَالَ أَبُو هُرَيْرَةَ",
+"pause": "sakin",
+"engine": "10111011011010101010110111011010111011010",
+"reference_independent_unverified": "10111011011010101010110111011010111011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فَجَاءَ رَجُلٌ كَأَنَّهُ بَدَوِيٌّ فَقَالَ يَا نَبِيَّ اللَّهِ مَا تَرَى",
+"pause": "sakin",
+"engine": "11011110110111110101101101101010110110",
+"reference_independent_unverified": "11011110110111110101101101101010110110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فِي سَفَرٍ فَسَمِعَ صَوْتَ رَجُلٍ يُؤَذِّنُ فَقَالَ مِثْلَ قَوْلِهِ ثُمَّ",
+"pause": "sakin",
+"engine": "101110111110111101101111011011011100",
+"reference_independent_unverified": "101110111110111101101111011011011100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ قَالَ النَّبِيُّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بَيْنَا أَنَا نَائِمٌ",
+"pause": "sakin",
+"engine": "10110101101101010111011101110101101010",
+"reference_independent_unverified": "10110101101101010111011101110101101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَنَّهُ قَالَ إِنَّ أَكْذَبُ أَوْ مِنْ أَكْذَبِ النَّاسِ الصَّبَّاغِينَ وَالصَّوَّاغِينَ",
+"pause": "sakin",
+"engine": "10111011011011101010110101010101011001010100",
+"reference_independent_unverified": "10111011011011101010110101010101011001010100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "كُنَّ حِزْبَيْنِ فَحِزْبٌ فِيهِ عَائِشَةُ وَحَفْصَةُ وَصَفِيَّةُ وَسَوْدَةُ وَالْحِزْبُ الْآخَرُ",
+"pause": "sakin",
+"engine": "101101011101010110111110111110111101110010101010",
+"reference_independent_unverified": "101101011101010110111110111110111101110010101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فَوَجَدَ النَّاسَ جُلُوسًا بِبَابِهِ لَمْ يُؤْذَنْ لِأَحَدٍ مِنْهُمْ قَالَ فَأُذِنَ",
+"pause": "sakin",
+"engine": "1111010111010110111010101111010101011110",
+"reference_independent_unverified": "1111010111010110111010101111010101011110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِلَى الْحُرَقَةِ مِنْ جُهَيْنَةَ قَالَ فَصَبَّحْنَا الْقَوْمَ فَهَزَمْنَاهُمْ قَالَ وَلَحِقْتُ",
+"pause": "sakin",
+"engine": "1101111101101110111010101011110101010111100",
+"reference_independent_unverified": "1101111101101110111010101011110101010111100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَنَّهُ قَالَ لَوْ كُنْتُ مُتَّخِذًا خَلِيلًا لَاتَّخَذْتُ أَبَا بَكْرٍ خَلِيلًا",
+"pause": "sakin",
+"engine": "101110110101101110110101001101110101011010",
+"reference_independent_unverified": "101110110101101110110101001101110101011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِنَّ الْغُلَامَ الَّذِي قَتَلَهُ الْخَضِرُ طُبِعَ كَافِرًا وَلَوْ عَاشَ لَأَرْهَقَ",
+"pause": "sakin",
+"engine": "101011010110111101111111011011010111010",
+"reference_independent_unverified": "101011010110111101111111011011010111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "تَوَضَّأَ فَغَسَلَ يَدَيْهِ ثُمَّ تَمَضْمَضَ وَاسْتَنْشَقَ مِنْ غَرْفَةٍ وَاحِدَةٍ وَغَسَلَ",
+"pause": "sakin",
+"engine": "110111111110110111011100101110101101011101110",
+"reference_independent_unverified": "110111111110110111011100101110101101011101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أُتِيَ بِعَجُزِ حِمَارِ وَحْشٍ وَهُوَ مُحْرِمٌ فَقَالَ إِنَّا مُحْرِمُونَ فَأَطْعِمُوهُ",
+"pause": "sakin",
+"engine": "11111111101101011110110110110101011011101100",
+"reference_independent_unverified": "11111111101101011110110110110101011011101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "لَمَّا بَعَثَ مُعَاذَ بْنَ جَبَلٍ إِلَى الْيَمَنِ قَالَ إِنَّكَ تَأْتِي",
+"pause": "sakin",
+"engine": "1010111110101111011011110110111010",
+"reference_independent_unverified": "1010111110101111011011110110111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ مَنْ أَكَلَ بِرَجُلٍ مُسْلِمٍ أَكْلَةً وَقَالَ مَرَّةً أُكْلَةً فَإِنَّ",
+"pause": "sakin",
+"engine": "10110111111101011010110110110110101101100",
+"reference_independent_unverified": "10110111111101011010110110110110101101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فِي مَسِيرٍ لَهُ قَالَ وَرُكْبَتِي تُصِيبُ أَوْ تَمَسُّ رُكْبَتَهُ فَسَمِعَ",
+"pause": "sakin",
+"engine": "1011010111011101101101101101101111110",
+"reference_independent_unverified": "1011010111011101101101101101101111110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَضُمُّ إِلَيْهِ حَسَنًا وَحُسَيْنًا يَقُولُ اللَّهُمَّ إِنِّي أُحِبُّهُمَا فَأَحِبَّهُمَا",
+"pause": "sakin",
+"engine": "11011101111011101011010101011010110111011101110",
+"reference_independent_unverified": "11011101111011101011010101011010110111011101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فَدَعَا حَجَّامًا فَأَمَرَهُ أَنْ يَحْجُمَهُ فَأَخْرَجَ مَحَاجِمَ لَهُ مِنْ قُرُونٍ",
+"pause": "sakin",
+"engine": "1110101010111111010111110111101111101100",
+"reference_independent_unverified": "1110101010111111010111110111101111101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "عَنْ بَيْعَتَيْنِ فِي بَيْعَةٍ وَعَنْ بَيْعٍ وَسَلَفٍ وَعَنْ رِبْحِ مَا",
+"pause": "sakin",
+"engine": "10101101101011011010101111011010110",
+"reference_independent_unverified": "10101101101011011010101111011010110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ أَفْطَرَ الْحَاجِمُ",
+"pause": "sakin",
+"engine": "101110101011010101110111011101101101010",
+"reference_independent_unverified": "101110101011010101110111011101101101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "كُنَّ يَخْرُجْنَ بِاللَّيْلِ إِذَا تَبَرَّزْنَ إِلَى الْمَنَاصِعِ وَهُوَ صَعِيدٌ أَفْيَحُ",
+"pause": "sakin",
+"engine": "101101011010111011010111011011111110101010",
+"reference_independent_unverified": "101101011010111011010111011011111110101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِذَا أَرَادَ أَنْ يَنَامَ تَوَسَّدَ يَمِينَهُ وَيَقُولُ اللَّهُمَّ قِنِي عَذَابَكَ",
+"pause": "sakin",
+"engine": "110110110110111011110111110101010111011010",
+"reference_independent_unverified": "110110110110111011110111110101010111011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَتَى سُبَاطَةَ قَوْمٍ فَبَالَ قَائِمًا فَذَهَبْتُ أَتَبَاعَدُ عَنْهُ فَقَدَّمَنِي حَتَّى",
+"pause": "sakin",
+"engine": "1101101110101101101101110111101110111011101010",
+"reference_independent_unverified": "1101101110101101101101110111101110111011101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَنَّهُ نَهَى أَنْ يُنْتَبَذَ الزَّبِيبُ وَالتَّمْرُ جَمِيعًا وَنَهَى أَنْ يُنْتَبَذَ",
+"pause": "sakin",
+"engine": "10111101010111011011001011101011101010110",
+"reference_independent_unverified": "10111101010111011011001011101011101010110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَرْبَعٌ قَبْلَ الظُّهْرِ بَعْدَ الزَّوَالِ تُحْسَبُ بِمِثْلِهِنَّ فِي صَلَاةِ السَّحَرِ",
+"pause": "sakin",
+"engine": "10110101010110101101101111011011011010110",
+"reference_independent_unverified": "10110101010110101101101111011011011010110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "وَاحْذَرْ قَالَ جَاءَ رَجُلٌ إِلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+"pause": "sakin",
+"engine": "10010101101111011011011010101110111010",
+"reference_independent_unverified": "10010101101111011011011010101110111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِنِّي أُحِبُّ أَنْ تَأْكُلَ فِي بَيْتِي وَتُصَلِّيَ فِيهِ قَالَ فَأَتَى",
+"pause": "sakin",
+"engine": "101011011010111010101110111011011110",
+"reference_independent_unverified": "101011011010111010101110111011011110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ إِنَّ كَذِبًا عَلَيَّ لَيْسَ كَكَذِبٍ عَلَى أَحَدٍ فَمَنْ كَذَبَ",
+"pause": "sakin",
+"engine": "110110111101101101111101101110110110",
+"reference_independent_unverified": "110110111101101101111101101110110110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "إِذَا قَدِمَ مِنْ سَفَرٍ بَدَأَ بِالْمَسْجِدِ فَسَبَّحَ فِيهِ رَكْعَتَيْنِ ثُمَّ",
+"pause": "sakin",
+"engine": "11011110111011110101111011101101101100",
+"reference_independent_unverified": "11011110111011110101111011101101101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "نَتَحَدَّثُ أَنَّ عِدَّةَ أَصْحَابِ بَدْرٍ عَلَى عِدَّةِ أَصْحَابِ طَالُوتَ الَّذِينَ",
+"pause": "sakin",
+"engine": "11101110110111010110101101011101011010101100",
+"reference_independent_unverified": "11101110110111010110101101011101011010101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَوْ قَالَتْ أَمْسَكَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ وَقَطَعْتُ",
+"pause": "sakin",
+"engine": "101010101111010101101010111011101111100",
+"reference_independent_unverified": "101010101111010101101010111011101111100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "لَا يَحْتَكِرُ إِلَّا الْأَخَاطُ وَكَانَ سَعِيدُ بْنُ الْمُسَيَّبِ يَحْتَكِرُ الزَّيْتَ",
+"pause": "sakin",
+"engine": "1010111101011011101110101011011101110100",
+"reference_independent_unverified": "1010111101011011101110101011011101110100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "الْحَجُّ كُلَّ عَامٍ فَقَالَ لَا بَلْ حَجَّةٌ فَمَنْ حَجَّ بَعْدَ",
+"pause": "sakin",
+"engine": "010110110101101101010110110101100",
+"reference_independent_unverified": "1010110110101101101010110110101100",
+"agree": false
+},
+{
+"source": "hadith_matn",
+"text": "إِنَّ أَشْكَرَ النَّاسِ لِلَّهِ عَزَّ وَجَلَّ أَشْكَرُهُمْ لِلنَّاسِ",
+"pause": "sakin",
+"engine": "1011011010110101101110110111010100",
+"reference_independent_unverified": "1011011010110101101110110111010100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ اللَّهُمَّ إِنَّمَا مُحَمَّدٌ بَشَرٌ يَغْضَبُ كَمَا يَغْضَبُ الْبَشَرُ وَإِنِّي",
+"pause": "sakin",
+"engine": "110101010110110110110111010111101011011111010",
+"reference_independent_unverified": "110101010110110110110111010111101011011111010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "قَالَ مُسَدَّدٌ خَطَبَ يَوْمَ الْفَتْحِ ثُمَّ اتَّفَقَا فَقَالَ أَلَا إِنَّ",
+"pause": "sakin",
+"engine": "1011101101111010101101011101101110100",
+"reference_independent_unverified": "1011101101111010101101011101101110100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يُصَلِّينَ مَعَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ الْفَجْرَ ثُمَّ يَرْجِعْنَ",
+"pause": "sakin",
+"engine": "11010111011011010101110111011010110110100",
+"reference_independent_unverified": "11010111011011010101110111011010110110100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فَاعْتَرَفَ بِالزِّنَا فَأَعْرَضَ عَنْهُ ثُمَّ اعْتَرَفَ فَأَعْرَضَ عَنْهُ حَتَّى شَهِدَ",
+"pause": "sakin",
+"engine": "10011110110110111011010111110111011010110",
+"reference_independent_unverified": "10011110110110111011010111110111011010110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "عَامَ حَجَّةِ الْوَدَاعِ فَأَهْلَلْتُ بِعُمْرَةٍ وَلَمْ أَكُنْ سُقْتُ الْهَدْيَ فَقَالَ",
+"pause": "sakin",
+"engine": "10110110110111010111011011011010101011100",
+"reference_independent_unverified": "10110110110111010111011011011010101011100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "مِنْ خَيْبَرَ أَسْرَى لَيْلَةً حَتَّى أَدْرَكَهُ الْكَرَى أَنَاخَ فَعَرَّسَ ثُمَّ",
+"pause": "sakin",
+"engine": "1010111010101101010101110110110111011100",
+"reference_independent_unverified": "1010111010101101010101110110110111011100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "كُلُّ مَوْلُودٍ يُولَدُ عَلَى الْفِطْرَةِ حَتَّى يُعْرِبَ عَنْهُ لِسَانُهُ فَإِذَا",
+"pause": "sakin",
+"engine": "1011010101011110101110101011101110111110",
+"reference_independent_unverified": "1011010101011110101110101011101110111110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَوْمَ النَّحْرِ عَلَى نَاقَةٍ لَهُ قَالَ فَجَعَلَ يَتَكَلَّمُ هَاهُنَا مَرَّةً",
+"pause": "sakin",
+"engine": "1010101110101101110111111110111011010110",
+"reference_independent_unverified": "1010101110101101110111111110111011010110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "أَنَّهُ كَانَ يَجْعَلُ فَصَّ خَاتَمِهِ مِمَّا يَلِي بَطْنَ كَفِّهِ",
+"pause": "sakin",
+"engine": "101110110111011011110101101011010",
+"reference_independent_unverified": "101110110111011011110101101011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "مَنْ صَلَّى عَلَى جِنَازَةٍ فَلَهُ قِيرَاطٌ وَمَنْ شَهِدَهَا حَتَّى تُدْفَنَ",
+"pause": "sakin",
+"engine": "1010101101101101111010101101111010101010",
+"reference_independent_unverified": "1010101101101101111010101101111010101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ إِذَا اخْتَلَفَ الْبَيِّعَانِ وَلَيْسَ بَيْنَهُمَا بَيِّنَةٌ فَهُوَ مَا يَقُولُ",
+"pause": "sakin",
+"engine": "110111011101011011101101110101110111101100",
+"reference_independent_unverified": "110111011101011011101101110101110111101100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "كَبَّرَ عَلَى جَنَازَةٍ فَرَفَعَ يَدَيْهِ فِي أَوَّلِ تَكْبِيرَةٍ وَوَضَعَ الْيُمْنَى",
+"pause": "sakin",
+"engine": "1011110110110111111011010111010110111101010",
+"reference_independent_unverified": "1011110110110111111011010111010110111101010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "شَيْئًا مِنْ تَمْرٍ فَجَعَلْتُهُ فِي مِكْتَلٍ لَنَا فَعَلَّقْنَاهُ فِي سَقْفِ",
+"pause": "sakin",
+"engine": "101010101011101110101101101101010110100",
+"reference_independent_unverified": "101010101011101110101101101101010110100",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "يَقُولُ يُحِلُّهَا وَيَحُلُّ بِهِ رَجُلٌ مِنْ قُرَيْشٍ لَوْ وُزِنَتْ ذُنُوبُهُ",
+"pause": "sakin",
+"engine": "110111011011101111110101101010111011010",
+"reference_independent_unverified": "110111011011101111110101101010111011010",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "فِي الْمُحْرِمِ إِذَا اشْتَكَى رَأْسَهُ وَعَيْنَيْهِ أَنْ يُضَمِّدَهُمَا بِصَبِرٍ",
+"pause": "sakin",
+"engine": "101011110110101111010110110111101110",
+"reference_independent_unverified": "101011110110101111010110110111101110",
+"agree": true
+},
+{
+"source": "hadith_matn",
+"text": "وَهُوَ ابْنُ ثَلَاثٍ وَسِتِّينَ وَأَبُو بَكْرٍ وَهُوَ ابْنُ ثَلَاثٍ وَسِتِّينَ",
+"pause": "sakin",
+"engine": "1110111010110101111010101110111010110100",
+"reference_independent_unverified": "1110111010110101111010101110111010110100",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "سَخِرْتُ بِكُلِّ مَشَّاءٍ بِهَجْرٍ فَبَاءَ بِخَيْبَةٍ وَمَرِيرِ خَسْرِ",
+"pause": "ishba",
+"engine": "11011101101010110101101110110111011010",
+"reference_independent_unverified": "11011101101010110101101110110111011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "تِمْثَالُهُ مِنْ مَعْدَنٍ وَمِثَالُهُ فِي كُلِّ قَلْبِ",
+"pause": "ishba",
+"engine": "1010111010110111011101011010",
+"reference_independent_unverified": "1010111010110111011101011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "مُضْمَّرٌ أَحْشَاؤُهَا كَأَنَّهَا لَمْ تَغْدَ قَطْ",
+"pause": "ishba",
+"engine": "10011010101101101101010110",
+"reference_independent_unverified": "10011010101101101101010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "حَمَّلَنِي مِنْ وَجْدِهِ لَوْعَةً لَوْ نَهَضَ الدَّهْرُ بِهَا خَفَّضَا",
+"pause": "ishba",
+"engine": "1011101010111011010111010111010110",
+"reference_independent_unverified": "1011101010111011010111010111010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَفَّيْتِ يُوسُفَ حَقَّهُ فِي قَوْمِهِ مِنْ لُطْفِ مَنْزِلَةٍ وَرِفْعَةِ شَانِ",
+"pause": "ishba",
+"engine": "101011011101110101110101101110110111010",
+"reference_independent_unverified": "101011011101110101110101101110110111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "هُوَ يَوْمُ شَكٍّ عَلِيْ يُ وَشَرُّهُ مُذْ كَانَ يُحْذَرْ",
+"pause": "ishba",
+"engine": "111011010110111011101011010",
+"reference_independent_unverified": "111011010110111011101011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "سَلِّمْ أُمُورَكَ لِلَّذِي أَنْشَاكَ مِنْ عَدَمٍ وَعَالَكْ",
+"pause": "ishba",
+"engine": "101011011101101010110111011010",
+"reference_independent_unverified": "101011011101101010110111011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "دُرٌّ يُسَلْسِلُهُ فِيمَا يَفُوهُ بِهِ فَالْقَلْبُ مُبْتَهِجٌ وَالْعَقْلُ مُغْتَنِمُ",
+"pause": "ishba",
+"engine": "10101101111010110111100101101110100101101110",
+"reference_independent_unverified": "10101101111010110111100101101110100101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "هَذَا وَرُبَّتَ لَذَّةٍ بِاشَرْتُهَا فِي ظِلِّ أَخْضَرَ بِالْعَرَارِ مُنَمْنَمِ",
+"pause": "ishba",
+"engine": "1101101110110110110101011011101101110110",
+"reference_independent_unverified": "1101101110110110110101011011101101110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَإِنْ تَعَوِّضَ قَوْمٌ مِنْ أَحِبَّتَهَمْ فَما تَعَوَّضْتُ إِلاَّ الْوَجْدَ وَالأَسَفا",
+"pause": "ishba",
+"engine": "11011011101010110111010110101101010110110",
+"reference_independent_unverified": "11011011101010110111010110101101010110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "إذْ حِلُّهُ مُخَصَّصٌ بِمَنْ حَضَرْ مُحْتَمَلٌ أَوْ بَلْ يَعُمُّ الْمُنْتَظَرْ",
+"pause": "ishba",
+"engine": "00101111011011011010111010101101010110",
+"reference_independent_unverified": "00101111011011011010111010101101010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "اُنْظُرْ إِلَى مَنْظَرٍ تَوَلَّتْ صَنْعَتَهُ مُزْنَةٌ صَنَاعُ",
+"pause": "ishba",
+"engine": "10101101011011010101111011011010",
+"reference_independent_unverified": "10101101011011010101111011011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "لَكِنْ قَنِعْتُ فَلَمْ أَرْغَبْ إِلَى أَحَدٍ وَالْحُرُّ يَحْمِلُ عَنْ إِخْوَانِهِ كَلَّهْ",
+"pause": "ishba",
+"engine": "1101101110101011011101001011011101010111010",
+"reference_independent_unverified": "1101101110101011011101001011011101010111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَلِلْجِنِّ طَرْدٌ عَنْ مَقَاعِدِ سَمْعِهَا بِكُلِّ شِهَابٍ لاَ يَمَلُّ مِنَ الطَّرْدِ",
+"pause": "ishba",
+"engine": "1101011010101101110110110111010111011101010",
+"reference_independent_unverified": "11010110101011011101101101110100111011101010",
+"agree": false
+},
+{
+"source": "poetry",
+"text": "رُبَّ قَوْلٍ يَرُدُّ لَهْفَةَ قَلْبٍ وَكَلامٍ تَجِفُّ مِنْهُ الْكِلامُ",
+"pause": "ishba",
+"engine": "101101011011011101011010110110101010",
+"reference_independent_unverified": "101101011011011101011010110110101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَيُكَيِّفُ السَّببَ الْخَفِيَّ لِمَنْ قَضَى بِسَعَادَةِ مِنْهُ إِلَيْهِ تُوَصَّلُ",
+"pause": "ishba",
+"engine": "1110110101011011101101110111011101110110",
+"reference_independent_unverified": "1110110101011011101101110111011101110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "بَرِئْتُ لِلَّهِ مِنْ حَوْلِي وَمِنْ حِيَلِي إِنْ نَامَ عَنِّي وَلِيٌّ فَهْوَ خَيْرُ وَلِي",
+"pause": "ishba",
+"engine": "110110101101010110111010101101011010101101110",
+"reference_independent_unverified": "110110101101010110111010101101011010101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "طُفْتُ الْبِلادَ وَجَرَّبْتُ الْعِبَادَ فَلَمْ أَرْكَنْ لِخِلٍّ وَلَمْ أَجْنَحْ إِلَى سَكَنِ",
+"pause": "ishba",
+"engine": "10101011101010110111010101101011010101101110",
+"reference_independent_unverified": "10101011101010110111010101101011010101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "مَلِكٌ مَدَّ لِلْفُنُونِ يَمِيناً عَلَّمَتْ كُلَّ مُحْسِنٍ إِحْسَانَهْ",
+"pause": "ishba",
+"engine": "11101011011011100101011010110110101010",
+"reference_independent_unverified": "11101011011011100101011010110110101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "إِلَيْكَ وَاللَّهُ يَرَى وَيَعْلَمُهْ إِنْ لَمْ يَعُقْنِي عَوْقُ أَمْرٍ يَحْتِمُهْ",
+"pause": "ishba",
+"engine": "1101100101110110110101011010101101010110",
+"reference_independent_unverified": "1101100101110110110101011010101101010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "فَحُجَّتُهُ مَطْلُولَةٌ وَهْيَ حَقَّةٌ وَمَنْطِقُهُ مُسْتَكْرَهٌ وَهْوَ قَاصِدُ",
+"pause": "ishba",
+"engine": "110111101011010110110110111101011010110110",
+"reference_independent_unverified": "110111101011010110110110111101011010110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "هَيْهَاتَ أَنْ تَنْسَاكَ مِصْرُ وَلَمْ تَكُنْ يَا سَعْدَهَا إِلاَّ مُصَدِّقَ فَأْلِهَا",
+"pause": "ishba",
+"engine": "10101101010110111011010101101011101110110",
+"reference_independent_unverified": "10101101010110111011010101101011101110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "ذَاكِرْهُ أَوْ جَاوِرْهُ مُخْتَبِرَاً تَرَ مِنْهُ بَحْرَاً مَا لَهُ شَطُّ",
+"pause": "ishba",
+"engine": "1010110101011011110111011011010111010",
+"reference_independent_unverified": "1010110101011011110111011011010111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "يَوَدُّ بَهَاءُ الصُّبْح لَوْ أَنَّهُ لَهَا مُحَيّاً وَغُرُّ الزَّهْر لَوْ أَنَّهَا عقْدُ",
+"pause": "ishba",
+"engine": "110111010100101011110110010110101001010110010",
+"reference_independent_unverified": "1101110101001010111101100101101010010101100010",
+"agree": false
+},
+{
+"source": "poetry",
+"text": "وَأَعَدْتَ سَكَّتَهُمْ كَأَنَّ وُجُوهَهَا زَهْرُ الرِّيَاضِ رَبَتْ بِصَوْبِ رَبَابِ",
+"pause": "ishba",
+"engine": "11101101110110111011010101101110110111010",
+"reference_independent_unverified": "11101101110110111011010101101110110111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "فَهْوَ الَّذِي فِي كَفِّهِ مِنْ رَبِّهِ وَضْعُ الدَّوَاءِ لِكُلِّ دَاءِ بَاطِنِ",
+"pause": "ishba",
+"engine": "101011010101110101110101101110110110110",
+"reference_independent_unverified": "101011010101110101110101101110110110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "مَا الْحُبُّ إِلاَّ نِعْمَةٌ وَأَمْنٌ لأَهْلِهِ وَرَحْمَةٌ وَيُمْنُ",
+"pause": "ishba",
+"engine": "101011011011011010101111011011010",
+"reference_independent_unverified": "1010110110110110100101111011011010",
+"agree": false
+},
+{
+"source": "poetry",
+"text": "ضَلِيْعُ عَزْمٍ ضَلِيْعُ حَزْمٍ لَهُ بِمَا حُمِّلَ اضْطِلاَعُ",
+"pause": "ishba",
+"engine": "1101101011011010111101011010110",
+"reference_independent_unverified": "1101101011011010111101011010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "لاَ تَسْتَمِدُّ مِدَادَاً غَيْرَ صِبْغَتِهَا فَسِرُّ ذِي الَّلبِّ فِيْهَا جِدُّ مُكْتَتَمِ",
+"pause": "ishba",
+"engine": "011011011101101011011101101101011010101101110",
+"reference_independent_unverified": "011011011101101011011101101101011010101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "أَمُوْضِحَ ثَغْرَ غَامِضِ كُلِّ عِلْمٍ إِذَا مَا عَنْهُ أُغْلِقَ كُلُّ بَابِ",
+"pause": "ishba",
+"engine": "11011101101110110101101010110111011010",
+"reference_independent_unverified": "11011101101110110101101010110111011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "تَوَدُّ كُلُّ فَتَاةٍ حِيْنَ تَسْمَعُهَا أَنِّي بِهَا دُوْنَ خَلْقِ اللَّهِ أَعْنِيْهَا",
+"pause": "ishba",
+"engine": "11011011101010110111010101101011010101101010",
+"reference_independent_unverified": "11011011101010110111010101101011010101101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "ولَقَدْ شَفَى مِنَّا قُدُومُكَ حَسْرَةً وَأَقَرَّ أَعْيُنَ وَالِدَيْكَ مَسَرَّةً",
+"pause": "ishba",
+"engine": "011011010101101110110111011011101101110110",
+"reference_independent_unverified": "011011010101101110110111011011101101110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَجَدْتُ شِفَاءَ هَمِيّ فِي سَمَاعٍ وَشُرْبِ مُدَامَةٍ مَعَ مَنْ أَوَدُّ",
+"pause": "ishba",
+"engine": "11011101110010110101101110110111011010",
+"reference_independent_unverified": "11011101110010110101101110110111011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَلَكِنْ لِكُلٍّ حَيْثُ جَلَّتْ سُعُودُهُ شَقَاءٌ يُوَافِيهِ أَّجَلَّ وَأَعْظَمَا",
+"pause": "ishba",
+"engine": "1110110101011010110111101011010101101110110",
+"reference_independent_unverified": "1110110101011010110111101011010101101110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَحَقِّ الَّذِي سَمَّاكَ بِاسْمِ مُحَمَّدٍ لَوَ أَنَّ الصِّبّا قَدْ عَادَ مِنْهُ بِرَيْعَانِ",
+"pause": "ishba",
+"engine": "1101011010101101110110111010100101011011101010",
+"reference_independent_unverified": "1101011010101101110110111010100101011011101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "أَيَدَ الْمَنُونِ قَدَحْتِ أَيَّ زِنَادِ وَأَطَرْتِ أَيَّةَ شُعْلَةٍ بِفُؤَادِي",
+"pause": "ishba",
+"engine": "111011011101101110111101101110110111010",
+"reference_independent_unverified": "111011011101101110111101101110110111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "يُهْدِي الْفُصُولَ مُوَشَّاةً مُدَبِّجَةً بِكُلِّ فَنٍّ مِنَ الإِبْدَاعِ تَتَّسِمُ",
+"pause": "ishba",
+"engine": "1010110111010101101110110110101110101101110",
+"reference_independent_unverified": "1010110111010101101110110110101110101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَمَا أَسْبَابُ أَدْوَائِهِمْ وَكُلُّهُمْ لَوْ نُفِيَتْ ضَيْغَمُ",
+"pause": "ishba",
+"engine": "11010101101011011011010111010110",
+"reference_independent_unverified": "11010101101011011011010111010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "مُتَصَوِّباً مُتَصَعِّداً مُتَمَهِّلاً مُتَسَرِّعاً مُتَسَلسِلاً مُتَعَثِّرا",
+"pause": "ishba",
+"engine": "1110101011101010111010101110101011101010111010",
+"reference_independent_unverified": "1110101011101010111010101110101011101010111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَأَضْفَتْ عَلَيْهِ الظِّلُّ كُلَّ غَمَامَةٍ تُنِيرُ لِمُسْتَجْلٍ وَتَسْخُو لِمُسْتَجْدِ",
+"pause": "ishba",
+"engine": "110101101010110111011011011101010110101101010",
+"reference_independent_unverified": "110101101010110111011011011101010110101101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "مَنِ الَّذِي إِنْ غَفَتْ عَنْ حَقِّهَا أُمَمٌ لَمْ يَطْعَمِ الْغَمْضَ عَنْ حَقٍّ لأَوْطَانِ",
+"pause": "ishba",
+"engine": "11011010110101011011101010110101101010101010",
+"reference_independent_unverified": "110110101101010110111010101101011010100101010",
+"agree": false
+},
+{
+"source": "poetry",
+"text": "خَلِيفَةٌ أُكْمِلَتْ فَضَائِلُهُ فَفَرْعُهُ طَيِّبٌ وَمَحْتِدُهُ",
+"pause": "ishba",
+"engine": "1101101011011011111011101101101110",
+"reference_independent_unverified": "1101101011011011111011101101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "رَمْزٌ يَدُلُّ عَلَى أَنَّ الْعُلُومَ إِذَا عَمَّتْ بِمِصْرَ نَزَتْ مِنْ وَهْدَةِ الْعَدَمِ",
+"pause": "ishba",
+"engine": "10101101110101011011101010110111010101101110",
+"reference_independent_unverified": "10101101110101011011101010110111010101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "مُخَسَّرٍ يَرْضَى بِسَعْي الأَخْسَرِ إِلَيْكَ أَشْكُو عَضَّ دَهْرٍ مِكْسَرِ",
+"pause": "ishba",
+"engine": "11011010101100101111011010101101010110",
+"reference_independent_unverified": "11011010101101101111011010101101010110",
+"agree": false
+},
+{
+"source": "poetry",
+"text": "يَفْتَرُّ مِسْكُ خِتامِهِ عَن مُسْكِرٍ عَطِرٍ وَسُكَّرْ",
+"pause": "ishba",
+"engine": "1010110110111010110111011010",
+"reference_independent_unverified": "1010110110111010110111011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَإِنْ يَكُ مِنْهُمْ فَهْوَ فَوْقَهُمُ عُلاً وَأَشْرَفُهُمْ وَالْكُلُّ ذُو شَرَفٍ كُثْرِ",
+"pause": "ishba",
+"engine": "11011101010110111101011011101001011011101010",
+"reference_independent_unverified": "11011101010110111101011011101001011011101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "قَدْ يُسْتحَبُّ الْعِقْدُ وَهْوَ مُفَصَّلٌ وَيَرُوعُ حِيْنَ يُنوَّعُ النُّوَّارُ",
+"pause": "ishba",
+"engine": "1010010101011011101101110110110110101010",
+"reference_independent_unverified": "1010010101011011101101110110110110101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "حَيَّاكَ رَبُّكَ مِنْ أِمَامٍ مُعْجِزٍ فِي عَبْقَرِيَّتِهِ وَمِنْ إِنْسَانِ",
+"pause": "ishba",
+"engine": "1010110111011010101101010110111110101010",
+"reference_independent_unverified": "1010110111011010101101010110111110101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "ثُلَّ عَرْشُ اللَّعِينِ أَسْرَعَ مِمَّا سُلِبَ الْعَرْشَ مِنْ يَدَيْ بِلْقِيسِ",
+"pause": "ishba",
+"engine": "1011010110110111010111010110110101010",
+"reference_independent_unverified": "1011010110110111010111010110110101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "إِذَا تَذَكَّرْتُ أَيَّامَاً بِهِمْ سَلَفَتْ تَحَدَّرَتْ بِغُرُوبِ الدَّمْعِ آمَاقِي",
+"pause": "ishba",
+"engine": "11011010110101101101110110110111010101101010",
+"reference_independent_unverified": "11011010110101101101110110110111010101101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "فَإِنْ عُدْتَ بِالإِخْلاَصِ عَادَ بِهِ أَخٌ وَإِنْ تَأْبَ إِلاَّ تَرْكَهُ فَهْوَ أَتْرَكُ",
+"pause": "ishba",
+"engine": "11010111001110111110110101101101110110110",
+"reference_independent_unverified": "11010111001110111110110101101101110110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "فَالدُّرُّ يَزْدادُ حُسْنَاً وَهْوَ مُنْتَظِمٌ وَلَيْسَ يَنْقُصُ قَدْرَاً غَيْرَ مُنْتَظِم",
+"pause": "ishba",
+"engine": "100101100110110101101110110110111011010110110",
+"reference_independent_unverified": "100101100110110101101110110110111011010110110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "غَزَالُ خَلاَءٍ تَصَدَّى لَهُ لِتُرْضِعَهُ دِرَّةً أَوْ عُلاَلاَ",
+"pause": "ishba",
+"engine": "1101101101101011110111101101010110",
+"reference_independent_unverified": "1101101101101011110111101101010110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "يَسْتَنُّ فِي عُرْضِ الْغَمَامِ كَأَنَّهُ لَهَبٌ تَرَدَّدَ فِي سَمَاءِ دُخَانِ",
+"pause": "ishba",
+"engine": "1010110101011011101111101101110110111010",
+"reference_independent_unverified": "1010110101011011101111101101110110111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "وَأَهْدَتْهُمْ إِلَيْهِ بِحُسْنِ عُقْبَى وَجَمْعٍ بَعْدَ شَتٍّ وَالْتِئَامِ",
+"pause": "ishba",
+"engine": "110101011011101101011010101101010011010",
+"reference_independent_unverified": "110101011011101101011010101101010011010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "اللَهُ يَعْلَمُ أَنِّي يَوْمَ بَيْنِهِمُ نَدِمْتُ إِذْ لَمْ أَمُتْ فِي إِثْرِهِمْ نَدَمَا",
+"pause": "ishba",
+"engine": "1110111010101101111101101011010101101110",
+"reference_independent_unverified": "11110111010101101111101101011010101101110",
+"agree": false
+},
+{
+"source": "poetry",
+"text": "وَلا تَكِلْنِي لِمَنْ يُعَذِّبُنِي فَإِنَّ نَفْسِي إِلَيْكَ مُفْتَقِرَهْ",
+"pause": "ishba",
+"engine": "10110101101101110110110101101101110",
+"reference_independent_unverified": "10110101101101110110110101101101110",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "نَرْجِسَةٌ لَمْ تَزَلْ مُحَدِّقَةً لَمْ تَكْتَحِلْ قَطُّ لَذَّةَ الغُمْضِ",
+"pause": "ishba",
+"engine": "101110101101101110101011010110111010",
+"reference_independent_unverified": "101110101101101110101011010110111010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "إِلْفَاً إِلَى إِلْفٍ بِسِرٍّ يُفْضِي ثُمَّ هَمَى كَالُّلؤْلُؤِ المُرْفَضِّ",
+"pause": "ishba",
+"engine": "10110110101011010101010111010010011101010",
+"reference_independent_unverified": "10110110101011010101010111010010011101010",
+"agree": true
+},
+{
+"source": "poetry",
+"text": "قَدْ كُنْتُ رَاعِيَ أَبْكَارٍ مُنَعَّمَةٍ فَاليَوْمَ أَصْبَحْتُ أَرْعَى جِلَّةً شُرُفَا",
+"pause": "ishba",
+"engine": "101011011101010110111010101101011010101101110",
+"reference_independent_unverified": "101011011101010110111010101101011010101101110",
+"agree": true
+}
+]
