@@ -1,0 +1,49 @@
+{
+ "pangram": {
+  "observed": 2,
+  "null_shuffled_letters_mean": 2.33,
+  "null_contiguous_windows_mean": 1.28,
+  "p_contiguous_ge_obs": 0.343,
+  "p_contiguous_le_obs": 0.857,
+  "pangram_verse_length_rank": [
+   [
+    "3:154",
+    289,
+    7
+   ],
+   [
+    "48:29",
+    246,
+    26
+   ]
+  ],
+  "longest_verse_letters": 547
+ },
+ "fatiha": {
+  "letters": 139,
+  "missing_observed": 7,
+  "missing_null_mean": 5.74,
+  "share_windows_missing_ge7": 0.314,
+  "missing_distribution": {
+   "0": 1,
+   "1": 49,
+   "2": 340,
+   "3": 1266,
+   "4": 2969,
+   "5": 4450,
+   "6": 4646,
+   "7": 3295,
+   "8": 1944,
+   "9": 799,
+   "10": 192,
+   "11": 41,
+   "12": 8
+  }
+ },
+ "nineteen_base_rate": {
+  "P(divisible by 19)": 0.0526,
+  "claims_tested": 4,
+  "hits": 2,
+  "P(>=2 of 4 by chance)": 0.0155
+ }
+}
